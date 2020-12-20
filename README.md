@@ -1,45 +1,96 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+# Art Of NHT
 
-Welcome USER_NAME,
+## Background
+Nick Hope Thompson is a talented amateur comic artist who has been drawing for fun for many years. He does not currently have an online presence. He has sold his art and has previously been commisioned to produce art and would like to increase his opportunities to work professionaly producing comic art. 
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+## Business Goals
+To increase sales of Nick's art.
 
-## Gitpod Reminders
+## Project Goals
+To showcase the artist's portfolio, increase the artist's profile within the comic art community and to provide a means for prospective clients to engage.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## UX
 
-`python3 -m http.server`
+### Project Strategy
+To define the overall project strategy, an initial project strategy meeting was held with the client.
 
-A blue button should appear to click: *Make Public*,
+#### Opportunities Matrix
+The following opportunities were identified and ranked using a score of 1 - 5 for importance and viability:
 
-Another blue button should appear to click: *Open Browser*.
+Opportunity | Importance |Viability
+------------| -----------|---------
+Create online presence|5|5
+Showcase portfolio|5|4
+Provide contact information|5|5
+Biography|4|5
+Link to artist page on comicartfans.com|3|3
+Subscribe|2|1
+Communicate pricing information|2|5
+Increase social media followers|2|3
+Create a blog|5|5
+Develop online sales capability|1|1
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+<img src="./assets/images/initialstrategy.png" style="margin: 15px;">
 
-A blue button should appear to click: *Make Public*,
+#### Initial Development Phase
+The opportunities matrix was used to help decide which items should be included for the initial development phase (phase 1):
+Item | Development Phase
+-----|------
+Create an online presence|1
+Showcase portfolio of work to potential customers|1
+Provide contact information to potential customers|1
+Biography|1
+Provide link to artist page on comicartfans.com|1
+Subscribe|1
+Increase social media followers|2
+Create a blog|2
+Develop online sales capability|3
 
-Another blue button should appear to click: *Open Browser*.
+### Project Scope
+#### User Objectives
+* The user is searching for an artist to commission work.
+* The user is searching for comic art to buy.
+* The user is browsing comic art sites for inspiration.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+#### User Demographics
+* The primary users of the site will be comic art fans. The demographics of comic art fans are quite wide - male and female from ages 5 up to 60 who have an appreciation for comic art.
+* A simple, colorful and attractive design would fit this demographic. As the demographic is particularly interested in art and design, the site needs to reflect this and an attractive, vibrant and modern design is of high importance.
 
-## Updates Since The Instructional Video
+#### Functional Requirements
+* The user needs to be able to see a portfolio of the artist's work.
+* The user requires contact information to enable them to contact the artist.
+* The user potentially requires pricing information. It was decided during the initial stategy meeting with the client that pricing information would not be disclosed on the website, but would be provided on request.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+#### Constraints
+* Developer skill set - the developer is currently unable to develop an online sales capability, but this may be considered for future development phases.
+* The client is reluctant to create a social media presence on facebook, instagram etc, but has an artist page on https://www.comicartfans.com/ which should be linked to.
+* The client has time constaints on the amount of work he can produce as he has a full time job. For this reason, we discussed and decided to incorporate a Subscribe button to the about page, which would allow the artist to produce art and then contact a mailing list of prospective buyers. 
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+#### Business rules
+* Copyright notices - all comic book characters are copyright of their respective owners. Copyright notice should appear on each page in the footer.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+#### Features
+The following key features have been identified and scored from 1 - 5 for importance and difficulty. The proposed development phase has also been indicated:
+Feature | Importance | Difficulty | Development Phase
+--------|------------|------------|------------------
+Navigation menu | 5 | 2 | 1
+Portfolio images | 5 | 3 | 1
+Contact information and links | 5 | 1 | 1
+Biography | 4 | 2 | 1
+Copyright notices | 5 | 1 | 1
+Link to comicartfans.com | 3 | 1 | 1
+Links to social media | 2 | 1 | 2
+Blog | 1 | 4 | 2
+Online Sales Engine | 1 | 5 | 3
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+### Wireframes
+A hand sketch was produced prior to the initial project strategy meeting with the client:
+[Hand Sketch](.//assets/wireframes/initialhandsketch.jpg)
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+Further wireframes showing different options for the Home and Gallery pages were produced using [balsamiq](https://balsamiq.com/index.html) and presented to the client.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+For the initial design, The home page will feature 2 large bright and colorful illustrations, a navigation menu, the NHT logo provided by the client and a link to https://www.comicartfans.com/. We decided to use two illustations as the artist's best and most colourful illustrations are portrait orientation and this would allow 2 images to be tiled side by side on a desktop view, with one of the images being removed or the images being tiled vertically on smaller devices. 
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+The Gallery will be initially presented as a section of the home page, to allow for simple linear navigation through the most important content on the site. The gallery will feature the artist's favourite pictures divided into the categories "Illustrations" and "Caricatures". The images will be tiled in 2 rows corresponding to the "Illustrations" and "Caricatures" categories, with 3 columns on a desktop view, 2 columns on a tablet view and 1 column on a mobile view.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
---------
-
-Happy coding!
+The Biography and Contact information will be presented on the About NHT page. A Subscribe button will also be provided. 
