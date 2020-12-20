@@ -34,8 +34,8 @@ Develop online sales capability|1|1
 
 #### Initial Development Phase
 The opportunities matrix was used to help decide which items should be included for the initial development phase (phase 1):
-Item | Development Phase
------|------
+Item|Development Phase
+----|-----------------
 Create an online presence|1
 Showcase portfolio of work to potential customers|1
 Provide contact information to potential customers|1
@@ -71,8 +71,8 @@ Develop online sales capability|3
 
 #### Features
 The following key features have been identified and scored from 1 - 5 for importance and difficulty. The proposed development phase has also been indicated:
-Feature | Importance | Difficulty | Development Phase
---------|------------|------------|------------------
+Feature|Importance|Difficulty|Development Phase
+-------|----------|----------|-----------------
 Navigation menu | 5 | 2 | 1
 Portfolio images | 5 | 3 | 1
 Contact information and links | 5 | 1 | 1
