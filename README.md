@@ -63,7 +63,7 @@ Develop online sales capability|3
 
 #### Constraints
 * Developer skill set - the developer is currently unable to develop an online sales capability, but this may be considered for future development phases.
-* The client is reluctant to create a social media presence on facebook, instagram etc, but has an artist page on https://www.comicartfans.com/ which should be linked to.
+* The client is reluctant to create a social media presence on facebook, instagram etc, but does have an artist page on https://www.comicartfans.com/ which should be linked to.
 * The client has time constaints on the amount of work he can produce as he has a full time job. For this reason, we discussed and decided to incorporate a Subscribe button to the about page, which would allow the artist to produce art and then contact a mailing list of prospective buyers. 
 
 #### Business rules
