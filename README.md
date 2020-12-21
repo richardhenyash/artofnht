@@ -110,7 +110,7 @@ The Biography and Contact information will be presented on the About NHT page. T
 ### Design Choices
 
 #### Fonts
-Varela Round has been chosen as the main font for the navigation menu, buttons, about text and copyright notice. The font has a clean, modern feel and has a soft rounded feel which ties in well with comic art.
+Varela Round has been chosen as the main font for the navigation menu, buttons, about text and copyright notice. The font is clean and modern and has a soft rounded feel which ties in well with comic art.
 
 #### Colours
 The colour pallete has been chosen based on the red of the Art Of NHT logo supplied by the client (#C93C1C). Complementary colours have been chosen.
