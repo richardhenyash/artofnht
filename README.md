@@ -92,12 +92,12 @@ Blog | 1 | 4 | 2
 Online Sales Capability | 1 | 5 | 3
 
 ### Site Map
-A [Site Map](.//assets/wireframes/sitemap.jpg) was produced for discussion prior to the initial project strategy meeting with the client.
+A [Site Map](./assets/wireframes/sitemap.jpg) was produced for discussion prior to the initial project strategy meeting with the client.
 
 ### Wireframes
-An initial [Hand Sketch](.//assets/wireframes/initialsketch.jpg) was produced for discussion prior to the initial project strategy meeting with the client.
+An [Initial Sketch](./assets/wireframes/initialsketch.jpg) was produced for discussion prior to the initial project strategy meeting with the client.
 
-Wireframes showing different options for the Home and Gallery pages were produced using [balsamiq](https://balsamiq.com/index.html) and presented to the client [Initial Wireframes](./assets/wireframes/rev0). The base case was selected for the Home and Gallery pages.
+[Initial Wireframes](./assets/wireframes/rev0) showing different options for the Home and Gallery pages were produced using [balsamiq](https://balsamiq.com/index.html) and presented to the client. The base case was selected for the Home and Gallery pages.
 
 The home page features two large bright and colorful illustrations, a navigation menu, the NHT logo provided by the client and a link to https://www.comicartfans.com/. We decided to use two illustations as the artist's most colourful illustrations are in portrait orientation and this would allow 2 images to be tiled side by side on a desktop view, with one of the images being removed or the images being tiled vertically on smaller devices. 
 
@@ -105,7 +105,7 @@ The Gallery is presented as a section of the home page, to allow for simple line
 
 The Biography and Contact information will be presented on the About NHT page. The about page will include a contact button which will open up a contact form which will have a Subscribe option.
 
-Further wireframes were then developed showing the Home, Gallery and About pages as viewed on Desktop, Tablet and Mobile devices [Responsive Design Wireframes](./assets/wireframes/rev1).
+[Responsive Design Wireframes](./assets/wireframes/rev1) were then developed showing the Home, Gallery and About pages as viewed on Desktop, Tablet and Mobile devices.
 
 ### Design Choices
 
