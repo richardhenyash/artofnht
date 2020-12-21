@@ -30,7 +30,7 @@ Increase social media followers|2|3
 Create a blog|5|5
 Develop online sales capability|1|1
 
-<img src="./assets/images/initialstrategy.png" style="margin: 15px;">
+<img src="./assets/wireframes/initialstrategy.png" style="margin: 15px;">
 
 #### Initial Development Phase
 The opportunities matrix was used to help decide which items should be included for the initial development phase (phase 1):
@@ -47,27 +47,34 @@ Create a blog|2
 Develop online sales capability|3
 
 ### Project Scope
-#### User Objectives
-* The user is searching for an artist to commission work.
-* The user is searching for comic art to buy.
-* The user is browsing comic art sites for inspiration.
-
 #### User Demographics
 * The primary users of the site will be comic art fans. The demographics of comic art fans are quite wide - male and female from ages 5 up to 60 who have an appreciation for comic art.
 * A simple, colorful and attractive design would fit this demographic. As the demographic is particularly interested in art and design, the site needs to reflect this and an attractive, vibrant and modern design is of high importance.
 
+#### User Requirements
+* Visually engaging
+* Simple to navigate
+* The key information should be layed out in a simple and clear way
+* Resonsive design is required as users may be viewing the site on Mobile, Tablet or Desktop.
+
+#### User Stories
+* As a user I am searching for an artist to commission some work.
+* As a user I am searching for comic art to buy.
+* As a user I want to contact the artist.
+* As a user I want to browse comic art sites for inspiration.
+
 #### Functional Requirements
-* The user needs to be able to see a portfolio of the artist's work.
+* The user needs to be able to view a portfolio of the artist's work.
 * The user requires contact information to enable them to contact the artist.
 * The user potentially requires pricing information. It was decided during the initial stategy meeting with the client that pricing information would not be disclosed on the website, but would be provided on request.
 
 #### Constraints
 * Developer skill set - the developer is currently unable to develop an online sales capability, but this may be considered for future development phases.
 * The client is reluctant to create a social media presence on facebook, instagram etc, but does have an artist page on https://www.comicartfans.com/ which should be linked to.
-* The client has time constaints on the amount of work he can produce as he has a full time job. For this reason, we discussed and decided to incorporate a Subscribe button to the about page, which would allow the artist to produce art and then contact a mailing list of prospective buyers. 
+* The client has time constaints on the amount of work he can produce as he has a full time job. For this reason, we discussed and decided to incorporate a Subscribe option, which would allow the artist to produce art and then contact a mailing list of prospective buyers. 
 
 #### Business rules
-* Copyright notices - all comic book characters are copyright of their respective owners. Copyright notice should appear on each page in the footer.
+* Copyright notices - all comic book characters are copyright of their respective owners. The copyright notice should appear on each page in the footer.
 
 #### Features
 The following key features have been identified and scored from 1 - 5 for importance and difficulty. The proposed development phase has also been indicated:
@@ -75,22 +82,31 @@ Feature|Importance|Difficulty|Development Phase
 -------|----------|----------|-----------------
 Navigation menu | 5 | 2 | 1
 Portfolio images | 5 | 3 | 1
-Contact information and links | 5 | 1 | 1
+Contact form | 5 | 1 | 1
 Biography | 4 | 2 | 1
+Subscribe feature| 4 | 2 | 1
 Copyright notices | 5 | 1 | 1
 Link to comicartfans.com | 3 | 1 | 1
 Links to social media | 2 | 1 | 2
 Blog | 1 | 4 | 2
-Online Sales Engine | 1 | 5 | 3
+Online Sales Capability | 1 | 5 | 3
+
+### Site Map
+A [Site Map](.//assets/wireframes/sitemap.jpg) was produced for discussion prior to the initial project strategy meeting with the client.
 
 ### Wireframes
-A hand sketch was produced prior to the initial project strategy meeting with the client:
-[Hand Sketch](.//assets/wireframes/initialhandsketch.jpg)
+An initial [Hand Sketch](.//assets/wireframes/initialsketch.jpg) was produced for discussion prior to the initial project strategy meeting with the client.
 
-Further wireframes showing different options for the Home and Gallery pages were produced using [balsamiq](https://balsamiq.com/index.html) and presented to the client.
+Wireframes showing different options for the Home and Gallery pages were produced using [balsamiq](https://balsamiq.com/index.html) and presented to the client [Initial Wireframes](./assets/wireframes/rev0). The base case was selected for the Home and Gallery pages.
 
-For the initial design, The home page will feature 2 large bright and colorful illustrations, a navigation menu, the NHT logo provided by the client and a link to https://www.comicartfans.com/. We decided to use two illustations as the artist's best and most colourful illustrations are portrait orientation and this would allow 2 images to be tiled side by side on a desktop view, with one of the images being removed or the images being tiled vertically on smaller devices. 
+The home page features two large bright and colorful illustrations, a navigation menu, the NHT logo provided by the client and a link to https://www.comicartfans.com/. We decided to use two illustations as the artist's most colourful illustrations are in portrait orientation and this would allow 2 images to be tiled side by side on a desktop view, with one of the images being removed or the images being tiled vertically on smaller devices. 
 
-The Gallery will be initially presented as a section of the home page, to allow for simple linear navigation through the most important content on the site. The gallery will feature the artist's favourite pictures divided into the categories "Illustrations" and "Caricatures". The images will be tiled in 2 rows corresponding to the "Illustrations" and "Caricatures" categories, with 3 columns on a desktop view, 2 columns on a tablet view and 1 column on a mobile view.
+The Gallery is presented as a section of the home page, to allow for simple linear navigation through the most important content on the site. The gallery will feature the artist's favourite pictures divided into the categories "Illustrations" and "Caricatures". The images will be tiled in 2 rows corresponding to the "Illustrations" and "Caricatures" categories, with 3 columns on a desktop view, 2 columns on a tablet view and 1 column on a mobile view.
 
-The Biography and Contact information will be presented on the About NHT page. A Subscribe button will also be provided. 
+The Biography and Contact information will be presented on the About NHT page. The about page will include a contact button which will open up a contact form which will have a Subscribe option.
+
+Further wireframes were then developed showing the Home, Gallery and About pages as viewed on Desktop, Tablet and Mobile devices [Responsive Design Wireframes](./assets/wireframes/rev1).
+
+### Design Choices
+#### Fonts
+#### Colours
