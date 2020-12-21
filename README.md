@@ -95,7 +95,7 @@ Online Sales Capability | 1 | 5 | 3
 A [Site Map](./assets/wireframes/sitemap.png) was produced for discussion prior to the initial project strategy meeting with the client.
 
 ### Wireframes
-An [Initial Sketch](./assets/wireframes/initial_hand_sketch.jpg) was produced for discussion prior to the initial project strategy meeting with the client.
+An [Initial Sketch](./assets/wireframes/rev0) was produced for discussion prior to the initial project strategy meeting with the client.
 
 [Initial Wireframes](./assets/wireframes/rev1) showing different options for the Home and Gallery pages were produced using [balsamiq](https://balsamiq.com/index.html) and presented to the client. The base case was selected for the Home and Gallery pages.
 
