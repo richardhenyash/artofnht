@@ -99,13 +99,13 @@ An [Initial Sketch](./assets/wireframes/rev0) was produced for discussion prior 
 
 [Initial Wireframes](./assets/wireframes/rev1) showing different options for the Home and Gallery pages were produced using [balsamiq](https://balsamiq.com/index.html) and presented to the client. The base case was selected for the Home and Gallery pages.
 
+[Responsive Design Wireframes](./assets/wireframes/rev2) were then developed based on the initial wireframes showing the Home, Gallery and About pages as viewed on desktop, tablet and mobile devices.
+
 The home page features two large bright and colorful illustrations, a navigation menu, the NHT logo provided by the client and a link to https://www.comicartfans.com/. We decided to use two illustations as the artist's most colourful illustrations are in portrait orientation and this would allow 2 images to be tiled side by side on a desktop view, with one of the images being removed or the images being tiled vertically on smaller devices. 
 
 The Gallery is presented as a section of the home page, to allow for simple linear navigation through the most important content on the site. The gallery will feature the artist's favourite pictures divided into the categories "Illustrations" and "Caricatures". The images will be tiled in 2 rows corresponding to the "Illustrations" and "Caricatures" categories, with 3 columns on a desktop view, 2 columns on a tablet view and 1 column on a mobile view.
 
-The Biography and Contact information will be presented on the About NHT page. The about page will include a contact button which will open up a contact form which will have a Subscribe option.
-
-[Responsive Design Wireframes](./assets/wireframes/rev2) were then developed showing the Home, Gallery and About pages as viewed on Desktop, Tablet and Mobile devices.
+The Biography and Contact information is presented on the About NHT page. The about page will include a contact button which will open up a contact form which will have a Subscribe option.
 
 ### Design Choices
 
