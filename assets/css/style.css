@@ -1,3 +1,65 @@
+/*----------------Main Body---------------*/
 body {
     font-family: 'Varela Round', sans-serif;
+}
+
+/*----------------Genral Styles---------------*/
+.padding-none {
+    padding: 0 0 0 0;
+}
+
+.margin-none {
+    margin: 0 0 0 0;
+}
+
+/*----------------Containers---------------*/
+.container-logo-nav {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 35px;
+    min-height: 120px;
+    background-color: #EDE9D0;
+}
+
+.container-logo-outer {
+    padding-top: 20px;
+}
+.container-logo {
+    background: url("/assets/images/nht_logo_300x300.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+}
+
+/*----------------Navigation Links---------------*/
+.nav-link {
+    text-transform: uppercase;
+    color: #2F4858;
+    font-size: large;
+}
+
+/*----------------Home Page Images---------------*/
+.image-home-left {
+    background: url("/assets/images/rogue_col_1200w.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 800px;
+}
+
+.image-home-left-small {
+    background: url("/assets/images/rogue_col_1200w.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 550px;
+}
+
+.image-home-right {
+    background: url("/assets/images/cyclops_col_1200w.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 800px;
 }
