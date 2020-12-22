@@ -33,11 +33,15 @@ body {
 }
 
 /*----------------Navigation Links---------------*/
-.nav-link {
+.nav-item a {
     text-transform: uppercase;
     color: #2F4858;
     font-size: large;
     padding: 0 0 0 0;
+}
+
+.nav-item a:hover {
+    color: #C93C1C;
 }
 
 /*----------------Home Page Images---------------*/
