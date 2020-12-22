@@ -1,7 +1,7 @@
 # Art Of NHT
 
 ## Background
-Nick Hope Thompson is a talented amateur comic artist who has been drawing for fun for many years. He does not currently have an online presence. He has sold his art and has previously been commisioned to produce art and would like to increase his opportunities to work professionaly producing comic art. 
+Nick Hope Thompson is a talented comic artist who has been drawing for fun and professionally for many years. He does not currently have an online presence. He has sold pieces of his comic art, has previously been commisioned to produce pieces and would like to increase his opportunities to work professionally producing comic art.
 
 ## Business Goals
 To increase sales of Nick's art.
