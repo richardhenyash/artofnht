@@ -15,14 +15,14 @@ body {
 /*----------------Containers---------------*/
 .container-logo-nav {
     padding-top: 10px;
-    padding-bottom: 20px;
-    padding-left: 35px;
+    padding-bottom: 10px;
+    padding-left: 20px;
     min-height: 120px;
     background-color: #EDE9D0;
 }
 
 .container-logo-outer {
-    padding-top: 20px;
+    padding-top: 10px;
 }
 .container-logo {
     background: url("../images/nht_logo_300x300.png");
