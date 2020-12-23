@@ -16,7 +16,6 @@
     <title>Art Of NHT</title>
 </head>
 <body>
-
     <!-- Header -->
     <header class="container-fluid container-logo-nav">
         <div class="row">
@@ -30,7 +29,7 @@
             </div>
             <div class="col-10">
                 <!-- Bootstrap navigation menu -->
-                <nav class="navbar navbar-expand-md">
+                <nav class="navbar navbar-expand-lg">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item active">
                             <a class="nav-link" href="index.html">Home</a>
@@ -49,20 +48,20 @@
             </div>
         </div>
     </header>
-
     <!-- Main image section -->
     <section class="container-fluid">
         <div class="row">
-            <!-- Bootstrap classes used to display 2 images on larger screens -->
-            <div class="col-6 d-none d-md-block padding-none margin-none">
-                <div class="image-home-left"></div>
+            <!-- Bootstrap classes used to display 2 fluid images on large screens -->
+            <div class="col-6 d-none d-lg-block padding-none margin-none text-center container-image">
+                <img src="assets/images/rogue_col_1200x1700.jpg" class="img-fluid" alt="Rouge colour illustration">
             </div>
-            <div class="col-6 d-none d-md-block padding-none margin-none">
-                <div class="image-home-right"></div>
+            <!-- Bootstrap classes used to display 2 fluid images on large screens -->
+            <div class="col-6 d-none d-lg-block padding-none margin-none text-center container-image">
+                <img src="assets/images/cyclops_col_1200x1700.jpg" class="img-fluid" alt="Cyclops colour illustration">
             </div>
-            <!-- Bootstrap classes used to display 1 smaller image on small screens -->
-             <div class="col-12 d-xs-block d-sm-block d-md-none padding-none margin-none">
-                <div class="image-home-left-small"></div>
+            <!-- Bootstrap classes used to display 1 fluid image on small and medium screens -->
+             <div class="col-12 d-xs-block d-sm-block d-md-block d-lg-none padding-none text-center margin-none container-image">
+                <img src="assets/images/rogue_col_1200x1700.jpg" class="img-fluid" alt="Rouge colour illustration">
             </div>
         </div>
     </section>

@@ -35,6 +35,10 @@ body {
     background-color: rgb(0,0,0,0.1)
 }
 
+.container-image {
+    background-color: #EDE9D0;
+}
+
 .container-footer {
     padding: 0 0 0 0;
 }
@@ -59,34 +63,6 @@ body {
 
 .nav-item a:hover {
     color: #C93C1C;
-}
-
-/*----------------Home Page Images---------------*/
-.image-home-left {
-    background: url("../images/rogue_col_1200w.jpg");
-    background-color: #EDE9D0;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 800px;
-}
-
-.image-home-left-small {
-    background: url("../images/rogue_col_1200w.jpg");
-    background-color: #EDE9D0;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 600px;
-}
-
-.image-home-right {
-    background: url("../images/cyclops_col_1200w.jpg");
-    background-color: #EDE9D0;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 800px;
 }
 
 /*----------------Footer---------------*/
