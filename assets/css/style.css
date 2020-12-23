@@ -3,7 +3,7 @@ body {
     font-family: 'Varela Round', sans-serif;
 }
 
-/*----------------Genral Styles---------------*/
+/*----------------General Styles---------------*/
 .padding-none {
     padding: 0 0 0 0;
 }
@@ -14,22 +14,39 @@ body {
 
 /*----------------Containers---------------*/
 .container-logo-nav {
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 15px;
+    padding-bottom: 5px;
     padding-left: 20px;
-    min-height: 120px;
+    min-height: 145px;
     background-color: #EDE9D0;
 }
 
 .container-logo-outer {
-    padding-top: 10px;
+    padding-top: 5px;
 }
 .container-logo {
-    background: url("../images/nht_logo_300x300.png");
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: #EDE9D0;
     width: 100px;
     height: 100px;
+    border-radius: 50px;
+}
+
+.container-logo:hover {
+    background-color: rgb(0,0,0,0.1)
+}
+
+.container-footer {
+    padding: 0 0 0 0;
+}
+
+.container-footer-links {
+    background-color: #EDE9D0;
+}
+
+.container-copyright {
+    background-color: #EDE9D0;
+    padding-bottom: 0;
+    margin-bottom: 0;
 }
 
 /*----------------Navigation Links---------------*/
@@ -47,6 +64,7 @@ body {
 /*----------------Home Page Images---------------*/
 .image-home-left {
     background: url("../images/rogue_col_1200w.jpg");
+    background-color: #EDE9D0;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -55,16 +73,39 @@ body {
 
 .image-home-left-small {
     background: url("../images/rogue_col_1200w.jpg");
+    background-color: #EDE9D0;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 550px;
+    min-height: 600px;
 }
 
 .image-home-right {
     background: url("../images/cyclops_col_1200w.jpg");
+    background-color: #EDE9D0;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 800px;
+}
+
+/*----------------Footer---------------*/
+
+.container-footer-links img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 150px;
+    padding: 10px 10px 5px 5px;
+}
+
+.container-footer-links img:hover {
+    background-color: rgb(0,0,0,0.05)
+}
+
+#copyright-notice {
+    font-size: x-small;
+    color: #2F4858;
+    text-align: center;
+    padding: 5px 5px 5px 5px;
 }
