@@ -97,21 +97,44 @@ body {
 #carousel-control-prev-3item {
     left: 0;
     margin-left: -5%;
+    padding-bottom: 3px;
+    align-items: flex-end;
 }
 
 #carousel-control-next-3item {
     right: 0;
     margin-right: -5%;
+    padding-bottom: 3px;
+    align-items: flex-end;
 }
+
+#carousel-control-prev-2item {
+    left: 0;
+    margin-left: -4%;
+    padding-bottom: 3px;
+    align-items: flex-end;
+}
+
+#carousel-control-next-2item {
+    right: 0;
+    margin-right: -4%;
+    padding-bottom: 3px;
+    align-items: flex-end;
+}
+
 
 #carousel-control-prev-1item {
     left: 0;
-    margin-left: -2.5%;
+    margin-left: -8px;
+    padding-bottom: 3px;
+    align-items: flex-end;
 }
 
 #carousel-control-next-1item {
     right: 0;
-    margin-right: -2.5%;
+    margin-right: -8px;
+    padding-bottom: 3px;
+    align-items: flex-end;
 }
 
 .carousel-control-prev i, .carousel-control-next i {
