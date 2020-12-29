@@ -114,3 +114,13 @@ Varela Round has been chosen as the main font for the navigation menu, buttons, 
 
 #### Colours
 The colour pallete has been chosen based on the red of the Art Of NHT logo supplied by the client (#C93C1C). Complementary colours have been chosen.
+
+## References
+Bootstrap documentation: https://getbootstrap.com/docs/4.5/getting-started/introduction/
+
+Additional help on bootstrap 4 multi-item carousel:
+https://medium.com/wdstack/bootstrap-4-custom-carousel-94a537364fde
+https://stackoverflow.com/questions/46249541/change-arrow-colors-in-bootstraps-carousel
+
+
+

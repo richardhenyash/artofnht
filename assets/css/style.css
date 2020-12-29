@@ -89,9 +89,42 @@ body {
     margin-bottom: -12px;
 }
 
-/*----------------Gallery Carousel---------------*/
+/*----------------Gallery Carousel and Controls---------------*/
 .carousel-item img {
     height: 600px;
+}
+
+#carousel-control-prev-3item {
+    left: 0;
+    margin-left: -5%;
+}
+
+#carousel-control-next-3item {
+    right: 0;
+    margin-right: -5%;
+}
+
+#carousel-control-prev-1item {
+    left: 0;
+    margin-left: -2.5%;
+}
+
+#carousel-control-next-1item {
+    right: 0;
+    margin-right: -2.5%;
+}
+
+.carousel-control-prev i, .carousel-control-next i {
+    font-size: 40px;
+    color: #DD9B88;
+}
+
+.fa-arrow-circle-left {
+     text-shadow: 0 0 5px #2F4858;
+}
+
+.fa-arrow-circle-right {
+     text-shadow: 0 0 5px #2F4858;
 }
 
 /*----------------Footer---------------*/
