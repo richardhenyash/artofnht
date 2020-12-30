@@ -13,6 +13,11 @@ body {
     margin: 0 0 0 0;
 }
 
+.margin-tb-none {
+    margin-top: none;
+    margin-bottom: none;
+}
+
 /*----------------Containers---------------*/
 .container-logo-nav {
     padding-top: 15px;
@@ -36,11 +41,19 @@ body {
     background-color: rgb(0,0,0,0.1)
 }
 
+.container-fluid {
+    background-color: #EDE9D0;
+}
+
 .container-heading {
     background-color: #EDE9D0;
 }
 
 .container-image {
+    background-color: #EDE9D0;
+}
+
+.container-blockdivider {
     background-color: #EDE9D0;
 }
 
@@ -86,7 +99,35 @@ body {
     text-align: center;
     color: #2F4858;
     font-size: large; 
-    margin-bottom: -12px;
+    margin-top: 5px;
+    margin-bottom: -13px;
+}
+
+/*-------------------Block Dividers----------------*/
+.blockdivider {
+    text-align: center;
+    border-top: 2px solid #C93C1C;
+    border-radius: 1px;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.blockdivider-short {
+    width: 50px;
+}
+
+.blockdivider-long {
+    width: 80%;
+}
+
+.blockdivider-spacing-top {
+    margin-top: 10px;    
+}
+
+.blockdivider-spacing-bottom {
+    margin-bottom: 10px;    
 }
 
 /*----------------Gallery Carousel and Controls---------------*/
@@ -122,7 +163,6 @@ body {
     align-items: flex-end;
 }
 
-
 #carousel-control-prev-1item {
     left: 0;
     margin-left: -8px;
@@ -139,14 +179,15 @@ body {
 
 .carousel-control-prev i, .carousel-control-next i {
     font-size: 40px;
-    color: #DD9B88;
+    /*color: #DD9B88;*/
+    color: #C93C1C;
 }
 
-.fa-arrow-circle-left {
+.fa-chevron-circle-left {
      text-shadow: 0 0 5px #2F4858;
 }
 
-.fa-arrow-circle-right {
+.fa-chevron-circle-right {
      text-shadow: 0 0 5px #2F4858;
 }
 

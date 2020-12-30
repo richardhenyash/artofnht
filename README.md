@@ -121,6 +121,9 @@ Bootstrap documentation: https://getbootstrap.com/docs/4.5/getting-started/intro
 Additional help on bootstrap 4 multi-item carousel:
 https://medium.com/wdstack/bootstrap-4-custom-carousel-94a537364fde
 https://stackoverflow.com/questions/46249541/change-arrow-colors-in-bootstraps-carousel
+https://stackoverflow.com/questions/47400874/bootstrap-4-change-position-of-carousel-controls/50352437
 
+Additional help on styling horizontal rulers:
+https://www.w3schools.com/howto/howto_css_style_hr.asp
 
 
