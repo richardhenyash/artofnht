@@ -60,24 +60,50 @@
         <div class="row">
             <!-- Bootstrap classes used to display 2 fluid images on large screens -->
             <div class="col-6 d-none d-lg-block text-center container-image">
-                <a href = "gallery.html">
-                    <img src="assets/images/rogue_col_1600x2250.jpg" class="img-fluid" alt="Rouge colour illustration">
-                </a>
+                <img data-toggle="modal" data-target="#imagemodal-roguecol" src="assets/images/rogue_col_1600x2250.jpg" class="img-fluid" alt="Rouge colour illustration">
             </div>
             <!-- Bootstrap classes used to display 2 fluid images on large screens -->
             <div class="col-6 d-none d-lg-block text-center container-image">
-                <a href = "gallery.html">
-                    <img src="assets/images/cyclops_col_1600x2250.jpg" class="img-fluid" alt="Cyclops colour illustration">
-                </a>
+                <img data-toggle="modal" data-target="#imagemodal-cyclopscol" src="assets/images/cyclops_col_1600x2250.jpg" class="img-fluid" alt="Cyclops colour illustration">
             </div>
             <!-- Bootstrap classes used to display 1 fluid image on small and medium screens -->
              <div class="col-12 d-xs-block d-sm-block d-md-block d-lg-none text-center container-image">
-                <a href = "gallery.html">
-                    <img src="assets/images/rogue_col_1200x1700.jpg" class="img-fluid" alt="Rouge colour illustration">
-                </a>
+                <img data-toggle="modal" data-target="#imagemodal-roguecol" src="assets/images/rogue_col_1200x1700.jpg" class="img-fluid" alt="Rouge colour illustration">
             </div>
         </div>
     </section>
+    <div class="modal fade" id="imagemodal-roguecol" tabindex="-1" aria-labelledby="imagemodal-roguecol-label" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h6 class="modal-title" id="imagemodal-roguecol-label">Rogue, Colour Illustration</h6>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img class="d-block w-100" src="assets/images/rogue_col_1200x1700.jpg"
+                        alt="Rogue, Colour Illustration">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="imagemodal-cyclopscol" tabindex="-1" aria-labelledby="imagemodal-cyclopscol-label" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h6 class="modal-title" id="imagemodal-cyclopscol-label">Cyclops, Colour Illustration</h6>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img class="d-block w-100" src="assets/images/cyclops_col_1200x1700.jpg"
+                        alt="Cyclops, Colour Illustration">
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="row">
         <div class="col-12 container-blockdivider">
             <hr class="blockdivider blockdivider-long blockdivider-spacing-top">

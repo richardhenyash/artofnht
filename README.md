@@ -125,7 +125,12 @@ https://stackoverflow.com/questions/46249541/change-arrow-colors-in-bootstraps-c
 https://stackoverflow.com/questions/47400874/bootstrap-4-change-position-of-carousel-controls/50352437
 https://stackoverflow.com/questions/39536075/how-to-change-the-carousel-active-indicator-color-bootstrap/39536141
 
+Additional help on modal image popups:
+https://getbootstrap.com/docs/4.5/components/modal/
+
 Additional help on styling horizontal rulers:
 https://www.w3schools.com/howto/howto_css_style_hr.asp
+
+
 
 

@@ -60,6 +60,7 @@ body {
 .container-carousel {
     background-color: #EDE9D0;
 }
+
 .container-footer {
     padding: 0 0 0 0;
 }
@@ -134,9 +135,18 @@ body {
     margin-bottom: 10px;    
 }
 
+/*----------------Home Page Images--------------*/
+.container-image img:hover {
+    opacity: 0.7;
+}
+
 /*----------------Gallery Carousel and Controls---------------*/
 .carousel-item img {
     height: 575px;
+}
+
+.carousel-item img:hover {
+    opacity: 0.7;
 }
 
 #carousel-control-prev-3item {
@@ -187,7 +197,7 @@ body {
 }
 
 .carousel-indicators {
-    bottom: -37px;
+    bottom: -39px;
 }
 
 .carousel-indicators li {
@@ -206,6 +216,13 @@ body {
 
 .fa-chevron-circle-right {
      text-shadow: 0 0 5px #2F4858;
+}
+
+/*----------------Modal image popup---------------*/
+.modal-title {
+    text-align: left;
+    color: black;
+    font-size: medium; 
 }
 
 /*----------------Footer---------------*/
