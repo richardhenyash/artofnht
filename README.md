@@ -118,10 +118,12 @@ The colour pallete has been chosen based on the red of the Art Of NHT logo suppl
 ## References
 Bootstrap documentation: https://getbootstrap.com/docs/4.5/getting-started/introduction/
 
-Additional help on bootstrap 4 multi-item carousel:
+Additional help on bootstrap carousel:
+https://www.w3schools.com/bootstrap/bootstrap_carousel.asp
 https://medium.com/wdstack/bootstrap-4-custom-carousel-94a537364fde
 https://stackoverflow.com/questions/46249541/change-arrow-colors-in-bootstraps-carousel
 https://stackoverflow.com/questions/47400874/bootstrap-4-change-position-of-carousel-controls/50352437
+https://stackoverflow.com/questions/39536075/how-to-change-the-carousel-active-indicator-color-bootstrap/39536141
 
 Additional help on styling horizontal rulers:
 https://www.w3schools.com/howto/howto_css_style_hr.asp

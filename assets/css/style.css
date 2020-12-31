@@ -126,6 +126,10 @@ body {
     margin-top: 10px;    
 }
 
+.blockdivider-spacing-extra-top {
+    margin-top: 30px;    
+}
+
 .blockdivider-spacing-bottom {
     margin-bottom: 10px;    
 }
@@ -138,49 +142,61 @@ body {
 #carousel-control-prev-3item {
     left: 0;
     margin-left: -5%;
-    padding-bottom: 3px;
+    padding-bottom: 4px;
     align-items: flex-end;
 }
 
 #carousel-control-next-3item {
     right: 0;
     margin-right: -5%;
-    padding-bottom: 3px;
+    padding-bottom: 4px;
     align-items: flex-end;
 }
 
 #carousel-control-prev-2item {
     left: 0;
     margin-left: -4%;
-    padding-bottom: 3px;
+    padding-bottom: 4px;
     align-items: flex-end;
 }
 
 #carousel-control-next-2item {
     right: 0;
     margin-right: -4%;
-    padding-bottom: 3px;
+    padding-bottom: 4px;
     align-items: flex-end;
 }
 
 #carousel-control-prev-1item {
     left: 0;
-    margin-left: -8px;
-    padding-bottom: 3px;
+    margin-left: 0;
+    padding-bottom:4px;
     align-items: flex-end;
 }
 
 #carousel-control-next-1item {
     right: 0;
-    margin-right: -8px;
-    padding-bottom: 3px;
+    margin-right: 0;
+    padding-bottom: 4px;
     align-items: flex-end;
 }
 
 .carousel-control-prev i, .carousel-control-next i {
-    font-size: 40px;
-    /*color: #DD9B88;*/
-    color: #C93C1C;
+    font-size: 35px;
+    color: #FF7D54;
+}
+
+.carousel-indicators {
+    bottom: -38px;
+}
+
+.carousel-indicators li {
+    background-color: #FF7D54;
+    height: 3px;
+}
+
+.carousel-indicators .active {
+    height: 4px;
 }
 
 .fa-chevron-circle-left {
