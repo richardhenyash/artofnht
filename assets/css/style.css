@@ -136,13 +136,17 @@ body {
 }
 
 /*----------------Home Page Images--------------*/
+.container-image img {
+    border-radius: 5px;
+}
 .container-image img:hover {
     opacity: 0.7;
 }
 
 /*----------------Gallery Carousel and Controls---------------*/
 .carousel-item img {
-    height: 575px;
+    height: 500px;
+    border-radius: 5px;
 }
 
 .carousel-item img:hover {
