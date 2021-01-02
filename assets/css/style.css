@@ -25,20 +25,21 @@ body {
     padding-left: 20px;
     min-height: 145px;
     background-color: #222831;
+
 }
 
 .container-logo-outer {
     padding-top: 5px;
 }
 .container-logo {
-    background-color: #222831;
+    background-color: #fafafa;
     width: 100px;
     height: 100px;
     border-radius: 50px;
 }
 
 .container-logo:hover {
-    background-color: rgb(100,100,100,0.5);
+    background-color: rgb(255,255,255,0.7);
 }
 
 .container-fluid {
@@ -107,7 +108,7 @@ body {
 /*-------------------Block Dividers----------------*/
 .blockdivider {
     text-align: center;
-    border-top: 2px solid #9A9793;
+    border-top: 2px solid #404040;
     border-radius: 1px;
     padding-top: 0;
     padding-bottom: 0;
@@ -138,22 +139,22 @@ body {
 /*----------------Home Page Images--------------*/
 .container-image img {
     background-size: cover;
-    border-radius: 5px;
-    border: 1px solid #9A9793;
+    border: 2px solid #404040;
 }
 .container-image img:hover {
     opacity: 0.7;
+    border: none;
 }
 
 /*----------------Gallery Carousel and Controls---------------*/
 .carousel-item img {
     height: 500px;
-    border-radius: 5px;
-    border: 1px solid #9A9793;
+    border: 2px solid #404040;
 }
 
 .carousel-item img:hover {
     opacity: 0.7;
+    border: none;
 }
 
 #carousel-control-prev-3item {
