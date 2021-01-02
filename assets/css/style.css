@@ -24,41 +24,41 @@ body {
     padding-bottom: 5px;
     padding-left: 20px;
     min-height: 145px;
-    background-color: #EDE9D0;
+    background-color: #222831;
 }
 
 .container-logo-outer {
     padding-top: 5px;
 }
 .container-logo {
-    background-color: #EDE9D0;
+    background-color: #222831;
     width: 100px;
     height: 100px;
     border-radius: 50px;
 }
 
 .container-logo:hover {
-    background-color: rgb(0,0,0,0.1)
+    background-color: rgb(100,100,100,0.5);
 }
 
 .container-fluid {
-    background-color: #EDE9D0;
+    background-color: #222831;
 }
 
 .container-heading {
-    background-color: #EDE9D0;
+    background-color: #222831;
 }
 
 .container-image {
-    background-color: #EDE9D0;
+    background-color: #222831;
 }
 
 .container-blockdivider {
-    background-color: #EDE9D0;
+    background-color: #222831;
 }
 
 .container-carousel {
-    background-color: #EDE9D0;
+    background-color: #222831;
 }
 
 .container-footer {
@@ -68,11 +68,11 @@ body {
 .container-footer-links {
     padding-top: 10px;
     padding-bottom: 1px;
-    background-color: #EDE9D0;
+    background-color: #222831;
 }
 
 .container-copyright {
-    background-color: #EDE9D0;
+    background-color: #222831;
     padding-bottom: 0;
     margin-bottom: 0;
 }
@@ -81,24 +81,24 @@ body {
 
 .nav-item a {
     text-transform: uppercase;
-    color: #2F4858;
+    color: #9A9793;
     font-size: large;
     padding: 0 0 0 0;
 }
 
 .nav-item a:hover {
-    color: #C93C1C;
+    color: #fafafa;
 }
 
 .active a {
-    color: #C93C1C;
+    color: #fafafa;
 }
 
 /*----------------Headings---------------*/
 .heading-gallery {
     text-transform: uppercase;
     text-align: center;
-    color: #2F4858;
+    color: #fafafa;
     font-size: large; 
     margin-top: 5px;
     margin-bottom: -13px;
@@ -107,7 +107,7 @@ body {
 /*-------------------Block Dividers----------------*/
 .blockdivider {
     text-align: center;
-    border-top: 2px solid #C93C1C;
+    border-top: 2px solid #9A9793;
     border-radius: 1px;
     padding-top: 0;
     padding-bottom: 0;
@@ -139,7 +139,7 @@ body {
 .container-image img {
     background-size: cover;
     border-radius: 5px;
-    border: 1px solid white;
+    border: 2px solid #9A9793;
 }
 .container-image img:hover {
     opacity: 0.7;
@@ -150,7 +150,7 @@ body {
 .carousel-item img {
     height: 500px;
     border-radius: 5px;
-    border: 1px solid white;
+    border: 2px solid #9A9793;
 }
 
 .carousel-item img:hover {
@@ -202,7 +202,7 @@ body {
 
 .carousel-control-prev i, .carousel-control-next i {
     font-size: 35px;
-    color: #FF7D54;
+    color: #fafafa;
 }
 
 .carousel-indicators {
@@ -210,14 +210,14 @@ body {
 }
 
 .carousel-indicators li {
-    background-color: #FF7D54;
+    background-color: #fafafa;
     height: 10px;
     width: 10px;
     border-radius: 5%;
 }
 
 .carousel-indicators .active {
-    background-color: #C93C1C;
+    background-color: white;
     height: 12px;
     width: 12px;
 }
@@ -233,7 +233,7 @@ body {
 /*----------------Modal image popup---------------*/
 .modal-title {
     text-align: left;
-    color: black;
+    color: #222831;
     font-size: medium; 
 }
 
@@ -247,12 +247,12 @@ body {
 }
 
 .container-logo-comicart img:hover {
-    background-color: rgb(0,0,0,0.05);
+    background-color: rgb(100,100,100,0.3);
 }
 
 #copyright-notice {
     font-size: x-small;
-    color: #2F4858;
+    color: #9A9793;
     text-align: center;
     padding: 5px 5px 5px 5px;
 }
