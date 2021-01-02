@@ -139,23 +139,21 @@ body {
 .container-image img {
     background-size: cover;
     border-radius: 5px;
-    border: 2px solid #9A9793;
+    border: 1px solid #9A9793;
 }
 .container-image img:hover {
     opacity: 0.7;
-    border: 1px solid rgb(0,0,0,0.05);
 }
 
 /*----------------Gallery Carousel and Controls---------------*/
 .carousel-item img {
     height: 500px;
     border-radius: 5px;
-    border: 2px solid #9A9793;
+    border: 1px solid #9A9793;
 }
 
 .carousel-item img:hover {
     opacity: 0.7;
-    border: 1px solid rgb(0,0,0,0.05);
 }
 
 #carousel-control-prev-3item {
