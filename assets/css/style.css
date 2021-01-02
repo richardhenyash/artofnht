@@ -63,7 +63,8 @@ body {
 }
 
 .container-footer {
-    padding: 0 0 0 0;
+    padding-top: 0;
+    padding-bottom: 0;
 }
 
 .container-footer-links {
@@ -148,7 +149,7 @@ body {
 
 /*----------------Gallery Carousel and Controls---------------*/
 .carousel-item img {
-    height: 500px;
+    height: 450px;
     border: 2px solid #404040;
 }
 
