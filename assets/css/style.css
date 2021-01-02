@@ -165,6 +165,20 @@ body {
    }
 }
 
+/*----------------Additional image media query to re-size gallery images for extra large devices---------------*/
+@media (min-width: 1200px) {
+   .carousel-item img {
+    height: 600px;
+   }
+}
+
+/*----------------Additional image media query to re-size gallery images for widescreen devices---------------*/
+@media (min-width: 2000px) {
+   .carousel-item img {
+    height: 1000px;
+   }
+}
+
 #carousel-control-prev-3item {
     left: 0;
     margin-left: -5%;
