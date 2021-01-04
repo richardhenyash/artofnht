@@ -44,7 +44,7 @@
                             <a class="nav-link" href="about.html">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contact</a>
+                            <a class="nav-link" href="#" data-toggle="modal" data-target="#contactmodal">Contact</a>
                         </li>
                     </ul>
                 </nav>
@@ -1023,6 +1023,30 @@
             </div>
         </div>
     </div>
+    <div class="modal fade" id="contactmodal" tabindex="-1" role="dialog" aria-labelledby="contactmodal-label" aria-hidden="true">
+        <div class="modal-dialog modal-md modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h6 class="modal-title" id="contactmodal-label">Contact Nick</h6>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form role="form" method="post" id="contactform">
+                        <div class="form-group">
+                            <input type="email" class="form-control" id="inputemail" aria-describedby="emailHelp" placeholder="Email Address">
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" id="inputmessage" rows="10" placeholder="Message"></textarea>
+                        </div>                        
+                        <button type="button" class="btn btn-success float-right">Contact</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- Block Divider --> 
     <section class="container-fluid">
         <div class="row">
@@ -1036,7 +1060,7 @@
         <div class="row">
             <div class="col-12 padding-none container-footer-links">
                 <span class="container-logo-comicart">
-                    <a href = "https://www.comicartfans.com/gallerydetail.asp?gcat=682">
+                    <a href = "https://www.comicartfans.com/gallerydetail.asp?gcat=682" target="_blank">
                         <img src="assets/images/comicartfans-dark-transparent.png" alt="Comic Art Fans Logo">
                     </a>
                 </span>
