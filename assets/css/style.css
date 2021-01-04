@@ -50,6 +50,42 @@ body {
     background-color: #222831;
 }
 
+.container-heading-about {
+    margin-top: 7px;
+    margin-bottom: -4px;
+}
+
+.container-heading-illustrations {
+    margin-top: 7px;
+    margin-bottom: -4px;
+}
+
+.container-heading-caricatures {
+    margin-top: 7px;
+    margin-bottom: -12px;
+}
+
+.container-text-about {
+    padding: 20px 35px 0 35px;
+
+}
+
+.container-text-about-inset {
+    padding-top: 20px;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.container-image-about {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.container-about {
+    background-color: #222831;
+}
+
 .container-image {
     background-color: #222831;
 }
@@ -98,13 +134,25 @@ body {
 }
 
 /*----------------Headings---------------*/
+
 .heading-gallery {
     text-transform: uppercase;
     text-align: center;
     color: #fafafa;
     font-size: large; 
-    margin-top: 5px;
-    margin-bottom: -13px;
+}
+
+.heading-about {
+    text-transform: uppercase;
+    text-align: center;
+    color: #fafafa;
+    font-size: large; 
+}
+
+/*----------------Text---------------*/
+.text-about {
+    color: #fafafa; 
+    line-height: normal;
 }
 
 /*-------------------Block Dividers----------------*/
@@ -146,6 +194,45 @@ body {
 .container-image img:hover {
     opacity: 0.7;
     border: none;
+}
+
+/*----------------Fade-In Animation--------------*/
+
+.fade-in {
+    animation: fade-in 2s;
+    -webkit-animation: fade-in 2s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fade-in 2s; /* Firefox < 16 */
+    -ms-animation: fade-in 2s; /* Internet Explorer */
+    -o-animation: fade-in 2s; /* Opera < 12.1 */  
+}
+
+@keyframes fade-in {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fade-in {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fade-in {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fade-in {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fade-in {
+    from { opacity: 0; }
+    to   { opacity: 1; }
 }
 
 /*----------------Gallery Carousel and Controls---------------*/

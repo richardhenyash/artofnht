@@ -134,6 +134,9 @@ https://www.w3schools.com/howto/howto_css_style_hr.asp
 Additional help on dark mode colours:
 https://codeburst.io/50-shades-of-dark-mode-gray-d3e9907b1194
 
+Additional help on fade-in animation:
+https://stackoverflow.com/questions/11679567/using-css-for-a-fade-in-effect-on-page-load
+
 
 
 
