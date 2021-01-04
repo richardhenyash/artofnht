@@ -203,6 +203,7 @@ body {
 .container-image-about img {
     border: 2px solid #404040;
 }
+
 .container-image-about img:hover {
     opacity: 0.7;
 }
