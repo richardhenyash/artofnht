@@ -122,9 +122,8 @@ body {
     margin-bottom: -2px;
 }
 
-.nav-item a:hover, .nav-item a:focus {
+.nav-item a:hover {
     color: #fafafa;
-    border: none;
 }
 
 .active a {
