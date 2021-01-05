@@ -61,17 +61,19 @@ Develop online sales capability|3
 * As a user I am searching for an artist to commission some work.
 * As a user I am searching for comic art to buy.
 * As a user I want to contact the artist.
+* As a user I want to sign up for news and new content from the artist.
 * As a user I want to browse comic art sites for inspiration.
 
 #### Functional Requirements
-* The user needs to be able to view a portfolio of the artist's work.
+* The user will need to be able to view a portfolio of the artist's work.
 * The user requires contact information to enable them to contact the artist.
+* The user requires the facility to sign up for news and new content from the artist.
 * The user potentially requires pricing information. It was decided during the initial stategy meeting with the client that pricing information would not be disclosed on the website, but would be provided on request.
 
 #### Constraints
 * Developer skill set - the developer is currently unable to develop an online sales capability, but this may be considered for future development phases.
 * The client is reluctant to create a social media presence on facebook, instagram etc, but does have an artist page on https://www.comicartfans.com/ which should be linked to.
-* The client has time constaints on the amount of work he can produce as he has a full time job. For this reason, we discussed and decided to incorporate a Subscribe option, which would allow the artist to produce art and then contact a mailing list of prospective buyers. 
+* The client has time constaints on the amount of work he can produce as he has a full time job. For this reason, we discussed and decided to incorporate a Subscribe or Sign Up option, which would allow the artist to produce art and then contact a mailing list of prospective buyers. 
 
 #### Business rules
 * Copyright notices - all comic book characters are copyright of their respective owners. The copyright notice should appear on each page in the footer.
@@ -103,9 +105,9 @@ An [Initial Sketch](./assets/wireframes/rev0) was produced for discussion prior 
 
 The home page features two large bright and colorful illustrations, a navigation menu, the NHT logo provided by the client and a link to https://www.comicartfans.com/. We decided to use two illustations as the artist's most colourful illustrations are in portrait orientation and this would allow 2 images to be tiled side by side on a desktop view, with one of the images being removed or the images being tiled vertically on smaller devices. 
 
-The Gallery is presented as a section of the home page, to allow for simple linear navigation through the most important content on the site. The gallery will feature the artist's favourite pictures divided into the categories "Illustrations" and "Caricatures". The images will be tiled in 2 rows corresponding to the "Illustrations" and "Caricatures" categories, with 3 columns on a desktop view, 2 columns on a tablet view and 1 column on a mobile view.
+The Gallery is presented as a seperate page. The gallery will feature the artist's favourite pictures divided into the categories "Illustrations" and "Caricatures". The images will be tiled in 2 rows corresponding to the "Illustrations" and "Caricatures" categories, with 3 columns shown on a desktop view, 2 columns shown on a tablet view and 1 column shown on a mobile view.
 
-The Biography and Contact information is presented on the About NHT page. The about page will include a contact button which will open up a contact form which will have a Subscribe option.
+The Biography and Contact information is presented on the About NHT page. The about page will include a contact button which will open up a contact form which will have a Sign Up option.
 
 ### Design Choices
 
@@ -113,7 +115,13 @@ The Biography and Contact information is presented on the About NHT page. The ab
 Varela Round has been chosen as the main font for the navigation menu, buttons, about text and copyright notice. The font is clean and modern and has a soft rounded feel which ties in well with comic art.
 
 #### Colours
-The colour pallete has been chosen based on the red of the Art Of NHT logo supplied by the client (#C93C1C). Complementary colours have been chosen.
+The colour pallete was initally chosen based on the red of the Art Of NHT logo supplied by the client (#C93C1C). The mycolor (https://mycolor.space/) pallete generator tool was used to generate a complementary colour pallete based on the logo red (#C93C1C).
+
+After the home and gallery pages were constructed for review by the client using the chosen colour pallete chosen, an optional "dark mode" theme was created by the developer, using grey and dark colours for the background and functional elemnts of the website.
+The client and developer both preferred the "dark mode" theme, so this was chosen and developed further into the final website.
+Additional help and inspiration on dark mode theme colours:
+https://codeburst.io/50-shades-of-dark-mode-gray-d3e9907b1194
+
 
 ## References
 Bootstrap documentation: https://getbootstrap.com/docs/4.5/getting-started/introduction/
@@ -130,9 +138,6 @@ https://getbootstrap.com/docs/4.5/components/modal/
 
 Additional help on styling horizontal rulers:
 https://www.w3schools.com/howto/howto_css_style_hr.asp
-
-Additional help on dark mode colours:
-https://codeburst.io/50-shades-of-dark-mode-gray-d3e9907b1194
 
 Additional help on fade-in animation:
 https://stackoverflow.com/questions/11679567/using-css-for-a-fade-in-effect-on-page-load
