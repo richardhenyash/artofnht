@@ -116,26 +116,26 @@ Varela Round has been chosen as the main font for the navigation menu, buttons, 
 
 #### Colours
 The colour pallete was initally chosen based on the red of the Art Of NHT logo supplied by the client (#C93C1C). The mycolor (https://mycolor.space/) pallete generator tool was used to generate a complementary colour pallete based on the logo red (#C93C1C).
-The initial colour pallete:
-<div style="padding: 10px; background-color: #C93C1C; color: white">#C93C1C - NHT logo red</div>
-<div style="padding: 10px; background-color: #FF7D54; color: white">#FF7D54 - light red</div>
-<div style="padding: 10px; background-color: #EDE9D0; color: black">#EDE9D0 - Off white (used for background)</div>
-<div style="padding: 10px; background-color: #9A9793; color: black">#9A9793 - light grey</div>
-<div style="padding: 10px; background-color: #7C7B7C; color: white">#7C7B7C - medium grey</div>
-<div style="padding: 10px; background-color: #2F4858; color: white">#2F4858 - dark grey/blue</div>
+The initial colour pallete is shown below:
+<div style="padding: 10px; background-color: #C93C1C; color: white; border: 1px solid black">#C93C1C - NHT logo red</div>
+<div style="padding: 10px; background-color: #FF7D54; color: white; border: 1px solid black">#FF7D54 - light red</div>
+<div style="padding: 10px; background-color: #EDE9D0; color: black; border: 1px solid black">#EDE9D0 - Off white (used for background)</div>
+<div style="padding: 10px; background-color: #9A9793; color: black; border: 1px solid black">#9A9793 - light grey</div>
+<div style="padding: 10px; background-color: #7C7B7C; color: white; border: 1px solid black">#7C7B7C - medium grey</div>
+<div style="padding: 10px; background-color: #2F4858; color: white; border: 1px solid black">#2F4858 - dark grey/blue</div>
 
 After the home and gallery pages were constructed for review by the client using the chosen colour pallete chosen, an optional "dark mode" theme was created by the developer, using grey and dark colours for the background and functional elemnts of the website.
 The client and developer both preferred the "dark mode" theme, as we felt that this showed the artist's content off better and really made the drawings pop out, so this option was selected and developed further into the final website.
-The final colour pallete:
-<div style="padding: 10px; background-color: white; color: black">White, used for highlighting</div>
-<div style="padding: 10px; background-color: #FAFAFA; color: black">#FAFAFA - slightly off white, used for headings, highlighting, text and carousel indicators</div>
-<div style="padding: 10px; background-color: #9A9793; color: black">#9A9793 - light grey used for navigation links and about page image outlin</div>
-<div style="padding: 10px; background-color: #404040; color: white">#404040 - dark grey used for block dividers, home page and gallery image outlines</div>
-<div style="padding: 10px; background-color: #2F4858; color: white">#2F4858 - dark grey/blue used for used for bootstrap carousel indicator shadow</div>
-<div style="padding: 10px; background-color: #222831; color: white">#222831 - very dark grey used for background containers</div>
-<div style="padding: 10px; background-color: #D65A31; color: white">#D65A31 - red used for links on about page</div>
+The final colour pallete is shown below:
+<div style="padding: 10px; background-color: white; color: black; border: 1px solid black">White, used for highlighting</div>
+<div style="padding: 10px; background-color: #FAFAFA; color: black; border: 1px solid black">#FAFAFA - slightly off white, used for headings, highlighting, text and carousel indicators</div>
+<div style="padding: 10px; background-color: #9A9793; color: black; border: 1px solid black">#9A9793 - light grey used for navigation links and about page image outlin</div>
+<div style="padding: 10px; background-color: #404040; color: white; border: 1px solid black">#404040 - dark grey used for block dividers, home page and gallery image outlines</div>
+<div style="padding: 10px; background-color: #2F4858; color: white; border: 1px solid black">#2F4858 - dark grey/blue used for used for bootstrap carousel indicator shadow</div>
+<div style="padding: 10px; background-color: #222831; color: white; border: 1px solid black">#222831 - very dark grey used for background containers</div>
+<div style="padding: 10px; background-color: #D65A31; color: white; border: 1px solid black">#D65A31 - red used for links on about page</div>
 
-Additional help and inspiration on dark mode theme colours:
+Additional help and inspiration on dark mode theme colours can be found at the following link:
 https://codeburst.io/50-shades-of-dark-mode-gray-d3e9907b1194
 
 
