@@ -127,7 +127,7 @@ body {
     color: #fafafa;
 }
 
-.nav-item a:visited {
+.nav-item a:active, .nav-item a:focus, a:visited {
     outline: none;
 }
 
