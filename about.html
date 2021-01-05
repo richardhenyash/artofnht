@@ -131,14 +131,24 @@
                     </button>
                 </div>
                 <div class="modal-body">
-                    <form role="form" method="post" id="contactform">
+                    <form id="contact-form" method="post">
                         <div class="form-group">
-                            <input type="email" class="form-control" id="inputemail" aria-describedby="emailHelp" placeholder="Email Address">
-                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                            <input type="text" class="form-control" id="inputname" aria-describedby="namehelp" placeholder="Name">
+                            <small id="namehelp" class="form-text text-muted">Enter name here</small>
                         </div>
                         <div class="form-group">
-                            <textarea class="form-control" id="inputmessage" rows="10" placeholder="Message"></textarea>
-                        </div>                        
+                            <input type="email" class="form-control" id="inputemail" aria-describedby="emailhelp" placeholder="Email address">
+                            <small id="emailhelp" class="form-text text-muted">Enter email here (we'll never share your email with anyone else)</small>
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" id="inputmessage" rows="10" aria-describedby="inputmessagehelp" placeholder="Message"></textarea>
+                            <small id="inputmessagehelp" class="form-text text-muted">Enter message here</small>
+                        </div>   
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="inputsignup">
+                            <label class="form-check-label" for="inputsignup">Sign-up</label>
+                            <small id="signuphelp" class="form-text text-muted">Sign-up for updates from Nick</small>
+                        </div>                     
                         <button type="button" class="btn btn-success float-right">Contact</button>
                     </form>
                 </div>
@@ -166,9 +176,9 @@
         </div>
         <div class="row">
             <div class="col-12 container-copyright">
-                <p id="copyright-notice">
+                <small id="copyright-notice">
                     All comic characters are © copyright of their respective owners, and all original artwork by Nick is his intellectual property and not for reproduction.
-                <p>
+                </small>
             </div>
         </div>
     </footer>  
