@@ -126,8 +126,7 @@ body {
     color: #fafafa;
 }
 
-.nav-item a:focus {
-    color: #fafafa;
+.nav-item a:visited {
     outline: none;
 }
 
