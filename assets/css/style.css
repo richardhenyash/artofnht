@@ -126,6 +126,11 @@ body {
     color: #fafafa;
 }
 
+.nav-item a:focus {
+    color: #fafafa;
+    outline: none;
+}
+
 .active a {
     color: #fafafa;
 }
