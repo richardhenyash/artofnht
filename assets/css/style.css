@@ -127,6 +127,7 @@ body {
 }
 
 .nav-item a:visited {
+    color: #9A9793;
     outline: none;
 }
 
