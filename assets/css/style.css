@@ -75,8 +75,7 @@ body {
 }
 
 .container-image-about {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 25px 0 25px 0;
     text-align: center;
 }
 
@@ -157,6 +156,11 @@ body {
     color: #fafafa; 
 }
 
+.text-about a strong {
+    color: #d65a31;
+}
+
+
 /*-------------------Block Dividers----------------*/
 .blockdivider {
     text-align: center;
@@ -188,7 +192,7 @@ body {
     margin-bottom: 10px;    
 }
 
-/*----------------Home Page Images--------------*/
+/*----------------Home Page and Gallery Images--------------*/
 .container-image img {
     background-size: cover;
     border: 2px solid #404040;
@@ -201,11 +205,13 @@ body {
 /*----------------About Page Images--------------*/
 
 .container-image-about img {
-    border: 2px solid #404040;
+    border: 2px solid #9A9793;
+    max-width: 220px;
 }
 
 .container-image-about img:hover {
     opacity: 0.7;
+    border: none;
 }
 
 /*----------------Fade-In Animation--------------*/
