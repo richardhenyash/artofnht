@@ -124,6 +124,7 @@ body {
 
 .nav-item a:hover, .nav-item a:focus {
     color: #fafafa;
+    border: none;
 }
 
 .active a {
