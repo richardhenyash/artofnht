@@ -123,6 +123,7 @@ body {
 }
 
 .nav-item a:hover {
+    outline: none;
     color: #fafafa;
 }
 
@@ -131,6 +132,7 @@ body {
 }
 
 .active a {
+    outline: none;
     color: #fafafa;
 }
 
