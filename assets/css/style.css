@@ -123,11 +123,10 @@ body {
 }
 
 .nav-item a:hover {
-    outline: none;
     color: #fafafa;
 }
 
-.nav-item a:active, .nav-item a:focus, a:visited {
+.nav-item a:active, .nav-item a:focus, .nav-item a:visited {
     outline: none;
 }
 
@@ -221,8 +220,15 @@ body {
 
 /*----------------About Page Links--------------*/
 
-.container-text-about p a {
+.container-text-about p a:hover, .container-text-about p a:active, .container-text-about p a:focus, .container-text-about p a:visited {
     outline: none;
+    text-decoration: underline;
+    color: #d65a31;
+}
+
+.container-image-about img:active, .container-image-about img:focus, .container-image-about img:visited {
+    outline: none;
+    border: 2px solid #9A9793;
 }
 
 /*----------------Fade-In Animation--------------*/
