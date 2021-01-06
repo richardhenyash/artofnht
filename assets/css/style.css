@@ -221,12 +221,11 @@ body {
 
 .container-image-about a:active, .container-image-about a:focus, .container-image-about a:visited {
     outline: none;
-    border: none;
 }
 
 .container-image-about img:active, .container-image-about img:focus, .container-image-about img:visited {
     outline: none;
-    border: none;
+    border: 2px solid #d65a31;
 }
 
 /*----------------About Page Links--------------*/
