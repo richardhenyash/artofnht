@@ -208,7 +208,12 @@ body {
 
 /*----------------About Page Images--------------*/
 
+.container-image-about a {
+    color: #9A9793;
+}
+
 .container-image-about img {
+    color: #9A9793;
     background-color: #9A9793;
     border: 2px solid #9A9793;
     outline: none;
