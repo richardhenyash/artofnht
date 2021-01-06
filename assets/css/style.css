@@ -217,12 +217,11 @@ body {
 .container-image-about img:hover {
     opacity: 0.7;
     border: none;
-    outline: none;
 }
 
 .container-image-about img:active, .container-image-about img:focus, .container-image-about img:visited {
     border: 2px solid #9A9793;
-    outline: 2px solid #9A9793;
+    outline: 2px solid #404040;
 }
 
 /*----------------About Page Links--------------*/
