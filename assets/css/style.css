@@ -209,6 +209,7 @@ body {
 /*----------------About Page Images--------------*/
 
 .container-image-about img {
+    background-color: #9A9793;
     border: 2px solid #9A9793;
     outline: none;
     max-width: 220px;
