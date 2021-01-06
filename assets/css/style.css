@@ -221,7 +221,7 @@ body {
 
 .container-image-about img:active, .container-image-about img:focus, .container-image-about img:visited {
     border: 2px solid #9A9793;
-    outline: 2px solid #404040;
+    outline: none;
 }
 
 /*----------------About Page Links--------------*/
