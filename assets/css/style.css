@@ -227,12 +227,12 @@ body {
 
 .container-image-about a:active, .container-image-about a:focus, .container-image-about a:visited {
     color: #9A9793;
-    outline: none;
+    outline: 2px solid #9A9793;
 }
 
 .container-image-about img:active, .container-image-about img:focus, .container-image-about img:visited {
     border: 2px solid #9A9793;
-    outline: none;
+    outline: 2px solid #9A9793;
 }
 
 /*----------------About Page Links--------------*/
