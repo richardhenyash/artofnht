@@ -224,7 +224,7 @@ body {
 }
 
 #about-image:active, #about-image:focus, #about-image:visited {
-    outline: 2px solid #d65a31;
+    outline: none;
 }
 
 /*----------------About Page Links--------------*/
