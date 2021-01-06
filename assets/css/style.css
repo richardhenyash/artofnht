@@ -210,12 +210,19 @@ body {
 
 .container-image-about img {
     border: 2px solid #9A9793;
+    outline: none;
     max-width: 220px;
 }
 
 .container-image-about img:hover {
     opacity: 0.7;
     border: none;
+    outline: none;
+}
+
+.container-image-about img:active, .container-image-about img:focus, .container-image-about img:visited {
+    border: 2px solid #9A9793;
+    outline: 2px solid #9A9793;
 }
 
 /*----------------About Page Links--------------*/
@@ -224,11 +231,6 @@ body {
     outline: none;
     text-decoration: underline;
     color: #d65a31;
-}
-
-.container-image-about img:active, .container-image-about img:focus, .container-image-about img:visited {
-    outline: none;
-    border: 2px solid #9A9793;
 }
 
 /*----------------Fade-In Animation--------------*/

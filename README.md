@@ -129,7 +129,7 @@ The client and developer both preferred the "dark mode" theme, as we felt that t
 The final colour pallete is shown below:
 <div style="padding: 10px; background-color: white; color: black; border: 1px solid black">White, used for highlighting</div>
 <div style="padding: 10px; background-color: #FAFAFA; color: black; border: 1px solid black">#FAFAFA - slightly off white, used for headings, highlighting, text and carousel indicators</div>
-<div style="padding: 10px; background-color: #9A9793; color: black; border: 1px solid black">#9A9793 - light grey used for navigation links and about page image outlin</div>
+<div style="padding: 10px; background-color: #9A9793; color: black; border: 1px solid black">#9A9793 - light grey used for navigation links and about page image outline</div>
 <div style="padding: 10px; background-color: #404040; color: white; border: 1px solid black">#404040 - dark grey used for block dividers, home page and gallery image outlines</div>
 <div style="padding: 10px; background-color: #2F4858; color: white; border: 1px solid black">#2F4858 - dark grey/blue used for used for bootstrap carousel indicator shadow</div>
 <div style="padding: 10px; background-color: #222831; color: white; border: 1px solid black">#222831 - very dark grey used for background containers</div>
