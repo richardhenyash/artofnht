@@ -138,6 +138,12 @@ The final colour pallete is shown below:
 Additional help and inspiration on dark mode theme colours can be found at the following link:
 https://codeburst.io/50-shades-of-dark-mode-gray-d3e9907b1194
 
+## Deployment
+The website will be deployed to the domain www.artofnht.com
+https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages/managing-a-custom-domain-for-your-github-pages-site
+https://medium.com/@JinnaBalu/godaddy-domain-with-github-pages-62aed906d4ef
+
+
 
 ## References
 Bootstrap documentation: https://getbootstrap.com/docs/4.5/getting-started/introduction/
