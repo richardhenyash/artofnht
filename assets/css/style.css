@@ -1,9 +1,9 @@
-/*----------------Main Body---------------*/
+/*--Main Body--*/
 body {
     font-family: 'Varela Round', sans-serif;
 }
 
-/*----------------General Styles---------------*/
+/*--General Styles--*/
 
 .padding-none {
     padding: 0 0 0 0;
@@ -18,7 +18,7 @@ body {
     margin-bottom: none;
 }
 
-/*----------------Containers---------------*/
+/*--Containers--*/
 .container-logo-nav {
     padding-top: 15px;
     padding-bottom: 5px;
@@ -112,7 +112,7 @@ body {
     margin-bottom: 0;
 }
 
-/*----------------Navigation Links---------------*/
+/*--Navigation Links--*/
 
 .nav-item a {
     text-transform: uppercase;
@@ -126,7 +126,9 @@ body {
     color: #fafafa;
 }
 
-.nav-item a:active, .nav-item a:focus, .nav-item a:visited {
+.nav-item a:active,
+.nav-item a:focus,
+.nav-item a:visited {
     outline: none;
 }
 
@@ -134,7 +136,7 @@ body {
     color: #fafafa;
 }
 
-/*----------------Headings---------------*/
+/*--Headings--*/
 
 .heading-gallery {
     text-transform: uppercase;
@@ -150,7 +152,7 @@ body {
     font-size: large; 
 }
 
-/*----------------Text---------------*/
+/*--Text--*/
 .text-about {
     color: #fafafa; 
     line-height: normal;
@@ -165,7 +167,7 @@ body {
 }
 
 
-/*-------------------Block Dividers----------------*/
+/*--Block Dividers--*/
 .blockdivider {
     text-align: center;
     border-top: 2px solid #404040;
@@ -181,7 +183,7 @@ body {
 }
 
 .blockdivider-long {
-    width: 80%;
+    width: 85%;
 }
 
 .blockdivider-spacing-top {
@@ -214,22 +216,30 @@ body {
     max-width: 220px;
 }
 
-.container-image-about img:hover {
+.container-image-about
+img:hover {
     opacity: 0.7;
     border: none;
 }
 
-.container-image-about a:active, .container-image-about a:focus, .container-image-about a:visited {
+.container-image-about a:active,
+.container-image-about a:focus,
+.container-image-about a:visited {
     outline: none;
 }
 
-#about-image:active, #about-image:focus, #about-image:visited {
+#about-image:active,
+#about-image:focus,
+#about-image:visited {
     outline: none;
 }
 
 /*----------------About Page Links--------------*/
 
-.container-text-about p a:hover, .container-text-about p a:active, .container-text-about p a:focus, .container-text-about p a:visited {
+.container-text-about p a:hover,
+.container-text-about p a:active,
+.container-text-about p a:focus,
+.container-text-about p a:visited {
     outline: none;
     text-decoration: underline;
     color: #d65a31;
@@ -239,37 +249,9 @@ body {
 
 .fade-in {
     animation: fade-in 2s;
-    -webkit-animation: fade-in 2s; /* Safari, Chrome and Opera > 12.1 */
-    -moz-animation: fade-in 2s; /* Firefox < 16 */
-    -ms-animation: fade-in 2s; /* Internet Explorer */
-    -o-animation: fade-in 2s; /* Opera < 12.1 */  
 }
 
 @keyframes fade-in {
-    from { opacity: 0; }
-    to   { opacity: 1; }
-}
-
-/* Firefox < 16 */
-@-moz-keyframes fade-in {
-    from { opacity: 0; }
-    to   { opacity: 1; }
-}
-
-/* Safari, Chrome and Opera > 12.1 */
-@-webkit-keyframes fade-in {
-    from { opacity: 0; }
-    to   { opacity: 1; }
-}
-
-/* Internet Explorer */
-@-ms-keyframes fade-in {
-    from { opacity: 0; }
-    to   { opacity: 1; }
-}
-
-/* Opera < 12.1 */
-@-o-keyframes fade-in {
     from { opacity: 0; }
     to   { opacity: 1; }
 }
@@ -283,27 +265,6 @@ body {
 .carousel-item img:hover {
     opacity: 0.7;
     border: none;
-}
-
-/*----------------Additional image media query to re-size gallery images for extra small devices---------------*/
-@media (max-width: 575.98px) {
-   .carousel-item img {
-    height: 400px;
-   }
-}
-
-/*----------------Additional image media query to re-size gallery images for extra large devices---------------*/
-@media (min-width: 1200px) {
-   .carousel-item img {
-    height: 600px;
-   }
-}
-
-/*----------------Additional image media query to re-size gallery images for widescreen devices---------------*/
-@media (min-width: 2000px) {
-   .carousel-item img {
-    height: 1000px;
-   }
 }
 
 #carousel-control-prev-3item {
@@ -348,7 +309,8 @@ body {
     align-items: flex-end;
 }
 
-.carousel-control-prev i, .carousel-control-next i {
+.carousel-control-prev i,
+.carousel-control-next i {
     font-size: 35px;
     color: #fafafa;
 }
@@ -403,4 +365,25 @@ body {
     color: #9A9793;
     text-align: center;
     padding: 5px 5px 5px 5px;
+}
+
+/*--Additional image media query to re-size gallery images for extra small devices--*/
+@media (max-width: 575.98px) {
+   .carousel-item img {
+    height: 400px;
+   }
+}
+
+/*--Additional image media query to re-size gallery images for extra large devices--*/
+@media (min-width: 1200px) {
+   .carousel-item img {
+    height: 600px;
+   }
+}
+
+/*--Additional image media query to re-size gallery images for widescreen devices--*/
+@media (min-width: 2000px) {
+   .carousel-item img {
+    height: 1000px;
+   }
 }
