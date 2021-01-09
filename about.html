@@ -136,18 +136,21 @@
                     </button>
                 </div>
                 <div class="modal-body">
-                    <form id="contact-form" method="post">
+                    <form id="contact-form" method="post" action="contact.php" role="form">
                         <div class="form-group">
-                            <input type="text" class="form-control" id="inputname" aria-describedby="namehelp" placeholder="Name">
+                            <input type="text" class="form-control" id="inputname" aria-describedby="namehelp" placeholder="Name" required data-error="Name is required">
                             <small id="namehelp" class="form-text text-muted">Enter name here</small>
+                            <div class="help-block with-errors"></div>
                         </div>
                         <div class="form-group">
-                            <input type="email" class="form-control" id="inputemail" aria-describedby="emailhelp" placeholder="Email address">
+                            <input type="email" class="form-control" id="inputemail" aria-describedby="emailhelp" placeholder="Email address" required data-error="Valid email is required">
                             <small id="emailhelp" class="form-text text-muted">Enter email here (we'll never share your email with anyone else)</small>
+                            <div class="help-block with-errors"></div>
                         </div>
                         <div class="form-group">
-                            <textarea class="form-control" id="inputmessage" rows="10" aria-describedby="inputmessagehelp" placeholder="Message"></textarea>
+                            <textarea class="form-control" id="inputmessage" rows="10" aria-describedby="inputmessagehelp" placeholder="Message" required data-error="Message is required"></textarea>
                             <small id="inputmessagehelp" class="form-text text-muted">Enter message here</small>
+                            <div class="help-block with-errors"></div>
                         </div>
                         <!-- Subscribe option commented out, may be added in development phase 2
                             <div class="form-check">
@@ -156,7 +159,7 @@
                                 <small id="signuphelp" class="form-text text-muted">Sign-up for updates from Nick</small>
                             </div>
                         -->
-                        <button type="button" class="btn btn-success float-right">Contact</button>
+                        <button type="submit" class="btn btn-success btn-send float-right">Contact</button>
                     </form>
                 </div>
             </div>

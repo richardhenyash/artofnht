@@ -41,7 +41,7 @@ Showcase portfolio of work to potential customers|1
 Provide contact information to potential customers|1
 Biography|1
 Provide link to artist page on comicartfans.com|1
-Subscribe|1
+Subscribe|2
 Increase social media followers|2
 Create a blog|2
 Develop online sales capability|3
