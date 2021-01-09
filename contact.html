@@ -34,7 +34,7 @@
                 <!-- Bootstrap navigation menu -->
                 <nav class="navbar navbar-expand-lg">
                     <ul class="navbar-nav ml-auto">
-                        <li class="nav-item active">
+                        <li class="nav-item">
                             <a class="nav-link" href="index.html">Home</a>
                         </li>
                         <li class="nav-item">
@@ -43,7 +43,7 @@
                         <li class="nav-item">
                             <a class="nav-link" href="about.html">About</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item active">
                             <a class="nav-link" href="contact.html">Contact</a>
                         </li>
                     </ul>
@@ -51,66 +51,67 @@
             </div>
         </div>
     </header>
+    <!-- Heading -->
     <section class="container-fluid">
+        <!-- Block Divider -->
+        <div class="row">
+            <div class="col-12 container-blockdivider">
+                <hr class="blockdivider blockdivider-long">
+            </div>
+        </div>
+        <!-- About Heading -->
+        <div class="row">
+            <div class="col-12 container-heading container-heading-about fade-in">
+                <h3 class="heading-about">Contact Nick</h3>
+            </div>
+        </div>
+        <!-- Block Divider -->
         <div class="row">
             <div class="col-12 container-blockdivider">
                 <hr class="blockdivider blockdivider-long blockdivider-spacing-bottom">
             </div>
         </div>
     </section>
-    <!-- Main image section -->
-    <section class="container-fluid">
-        <div class="row">
-            <!-- Bootstrap classes used to display 2 fluid images on large screens -->
-            <div class="col-6 d-none d-lg-block text-center container-image fade-in">
-                <img data-toggle="modal" data-target="#imagemodal-roguecol" src="assets/images/rogue_col_1600x2250.jpg" class="img-fluid" alt="Rogue (Colour Copics)">
+    <!-- Contact form -->
+    <section class="container-fluid container-about">
+        <section class="container-md">
+            <div class="row">
+                <div class="col-12 container-about container-contact-form">
+                    <!-- Form configured to post to fomspree.io -->
+                    <form id="contact-form" method="POST" action="https://formspree.io/f/xpzokrgv" role="form">
+                        <div class="form-group">
+                            <input type="text" class="form-control form-contact-field" id="name" name="name" aria-describedby="namehelp" placeholder="Name">
+                            <small id="namehelp" class="form-text text-muted">Enter name here</small>
+                            <div class="help-block with-errors"></div>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control form-contact-field" id="email" name="email" aria-describedby="emailhelp" placeholder="Email address">
+                            <small id="emailhelp" class="form-text text-muted">Enter email here (we'll never share your email with anyone else)</small>
+                            <div class="help-block with-errors"></div>
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control form-contact-field" id="message" name="message" rows="10" aria-describedby="inputmessagehelp" placeholder="Message"></textarea>
+                            <small id="inputmessagehelp" class="form-text text-muted">Enter message here</small>
+                            <div class="help-block with-errors"></div>
+                        </div>
+                        <!-- Subscribe option commented out, this feature may be added in development phase 2
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="inputsignup">
+                            <label class="form-check-label" for="inputsignup">Sign-up</label>
+                            <small id="signuphelp" class="form-text text-muted">Sign-up for updates from Nick</small>
+                        </div>
+                        -->
+                        <button type="submit" name="submit" class="btn btn-success btn-send float-center">Send</button>
+                    </form>
+                </div>
             </div>
-            <!-- Bootstrap classes used to display 2 fluid images on large screens -->
-            <div class="col-6 d-none d-lg-block text-center container-image fade-in">
-                <img data-toggle="modal" data-target="#imagemodal-cyclopscol" src="assets/images/cyclops_col_1600x2250.jpg" class="img-fluid" alt="Cyclops (Colour Copics)">
-            </div>
-            <!-- Bootstrap classes used to display 1 fluid image on small and medium screens -->
-             <div class="col-12 d-xs-block d-sm-block d-md-block d-lg-none text-center container-image fade-in">
-                <img data-toggle="modal" data-target="#imagemodal-roguecol" src="assets/images/rogue_col_1200x1700.jpg" class="img-fluid" alt="Rogue (Colour Copics)">
-            </div>
-        </div>
+        </section>
     </section>
-    <div class="modal fade" id="imagemodal-roguecol" tabindex="-1" aria-labelledby="imagemodal-roguecol-label" aria-hidden="true">
-        <div class="modal-dialog modal-lg modal-dialog-centered">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h6 class="modal-title" id="imagemodal-roguecol-label">Rogue (Colour Copics)</h6>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <img class="d-block w-100" src="assets/images/rogue_col_1200x1700.jpg"
-                        alt="Rogue (Colour Copics)">
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="modal fade" id="imagemodal-cyclopscol" tabindex="-1" aria-labelledby="imagemodal-cyclopscol-label" aria-hidden="true">
-        <div class="modal-dialog modal-lg modal-dialog-centered">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h6 class="modal-title" id="imagemodal-cyclopscol-label">Cyclops (Colour Copics)</h6>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <img class="d-block w-100" src="assets/images/cyclops_col_1200x1700.jpg"
-                        alt="Cyclops (Colour Copics)">
-                </div>
-            </div>
-        </div>
-    </div>
+    <!-- Block Divider --> 
     <section class="container-fluid">
         <div class="row">
             <div class="col-12 container-blockdivider">
-                <hr class="blockdivider blockdivider-long blockdivider-spacing-top">
+                <hr class="blockdivider blockdivider-long blockdivider-spacing-extra-top">
             </div>
         </div>
     </section>
@@ -132,7 +133,7 @@
                 </p>
             </div>
         </div>
-    </footer>  
+    </footer> 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>  
 </body>
