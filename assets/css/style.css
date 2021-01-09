@@ -1,12 +1,12 @@
 /*-- HTML--*/
 html {
-    font-size: 100%;
+    font-size: 62.5%;
 }
 
 /*-- Body--*/
 body {
     font-family: 'Varela Round', sans-serif;
-    font-size: 1rem;
+    font-size: 1.6rem;
 }
 
 /*--General Styles--*/
@@ -26,26 +26,26 @@ body {
 
 /*--Containers--*/
 .container-logo-nav {
-    padding-top: 0.9375rem;
-    padding-bottom: 0.3125rem;
-    padding-left: 1.25rem;
-    min-height: 9.0625rem;
+    padding-top: 1.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 2rem;
+    min-height: 14.5rem;
     background-color: #222831;
 }
 
 .container-logo-outer {
-    padding-top: .3125rem;
+    padding-top: 0.5rem;
 }
 .container-logo {
     background-color: #fafafa;
-    width: 6.25rem;
-    height: 6.25rem;
-    border-radius: 3.125rem;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 5rem;
 }
 
 .container-logo img {
-    width: 6.25rem;
-    height: 6.25rem;
+    width: 10rem;
+    height: 10rem;
 }
 
 .container-logo:hover {
@@ -61,34 +61,34 @@ body {
 }
 
 .container-heading-about {
-    margin-top: 0.4375rem;
-    margin-bottom: -0.25rem;
+    margin-top: 0.7rem;
+    margin-bottom: 0;
 }
 
 .container-heading-illustrations {
-    margin-top: 0.4375rem;
-    margin-bottom: -0.25rem;
+    margin-top: 0.7rem;
+    margin-bottom: -0.2rem;
 }
 
 .container-heading-caricatures {
-    margin-top: 0.4375rem;
-    margin-bottom: -0.75rem;
+    margin-top: 0.7rem;
+    margin-bottom: -0.7rem;
 }
 
 .container-text-about {
-    padding: 1.25rem 2.1875rem 0 2.1875rem;
+    padding: 2rem 3.5rem 0 3.5rem;
 }
 
 .container-button-contact {
-    padding: 0.3125rem 2.1875rem 0.3125rem 2.1875rem;
+    padding: 0.5rem 3.5rem 0.5rem 3.5rem;
 }
 
 .container-contact-form {
-    padding: 1.25rem 2.1875rem 0 2.1875rem;
+    padding: 2rem 3.5rem 0 3.5rem;
 }
 
 .container-image-about {
-    padding: 1.5625rem 0 1.5625rem 0;
+    padding: 2.5rem 0 2.5rem 0;
     text-align: center;
 }
 
@@ -114,7 +114,7 @@ body {
 }
 
 .container-footer-links {
-    padding-top: 0.625rem;
+    padding-top: 1rem;
     padding-bottom: 1px;
     background-color: #222831;
 }
@@ -130,7 +130,7 @@ body {
 .nav-item a {
     text-transform: uppercase;
     color: #9A9793;
-    font-size: 1.125rem;
+    font-size: 1.8rem;
     padding: 0 0 0 0;
     margin-bottom: -2px;
 }
@@ -155,14 +155,14 @@ body {
     text-transform: uppercase;
     text-align: center;
     color: #fafafa;
-    font-size: 1.125rem; 
+    font-size: 1.8rem; 
 }
 
 .heading-about {
     text-transform: uppercase;
     text-align: center;
     color: #fafafa;
-    font-size: 1.125rem; 
+    font-size: 1.8rem; 
 }
 
 /*--Text--*/
@@ -192,7 +192,7 @@ body {
 }
 
 .blockdivider-short {
-    width: 3.125rem;
+    width: 5rem;
 }
 
 .blockdivider-long {
@@ -200,18 +200,18 @@ body {
 }
 
 .blockdivider-spacing-top {
-    margin-top: 0.625rem;    
+    margin-top: 1rem;    
 }
 
 .blockdivider-spacing-extra-top {
-    margin-top: 1.875rem;    
+    margin-top: 3rem;    
 }
 
 .blockdivider-spacing-bottom {
-    margin-bottom: 0.625rem;    
+    margin-bottom: 1rem;    
 }
 
-/*----------------Home Page and Gallery Images--------------*/
+/*--Home Page and Gallery Images--*/
 .container-image img {
     background-size: cover;
     border: 2px solid #404040;
@@ -221,7 +221,7 @@ body {
     border: none;
 }
 
-/*----------------About Page Images--------------*/
+/*--About Page Images--*/
 
 .container-image-about img {
     background-color: #9A9793;
@@ -247,7 +247,7 @@ img:hover {
     outline: none;
 }
 
-/*----------------About Page Links--------------*/
+/*--About Page Links--*/
 
 .container-text-about p a:hover,
 .container-text-about p a:active,
@@ -258,12 +258,18 @@ img:hover {
     color: #d65a31;
 }
 
-/*----------------Contact Page--------------*/
+/*--Contact Page--*/
 .form-contact-field {
     background-color: #fafafa;
+    font-size: 1.6rem;
 }
 
-/*----------------Fade-In Animation--------------*/
+/*--Bootstrap Buttons Font Size Override--*/
+.btn {
+    font-size: 1.6rem;
+}
+
+/*--Fade-In Animation--*/
 
 .fade-in {
     animation: fade-in 2s;
@@ -274,25 +280,25 @@ img:hover {
     to   { opacity: 1; }
 }
 
-/* Firefox < 16 */
+/*-- Firefox < 16 --*/
 @-moz-keyframes fade-in {
     from { opacity: 0; }
     to   { opacity: 1; }
 }
 
-/* Safari, Chrome and Opera > 12.1 */
+/*-- Safari, Chrome and Opera > 12.1 --*/
 @-webkit-keyframes fade-in {
     from { opacity: 0; }
     to   { opacity: 1; }
 }
 
-/* Internet Explorer */
+/*-- Internet Explorer --*/
 @-ms-keyframes fade-in {
     from { opacity: 0; }
     to   { opacity: 1; }
 }
 
-/*----------------Gallery Carousel and Controls---------------*/
+/*--Gallery Carousel and Controls--*/
 .carousel-item img {
     height: 550px;
     border: 2px solid #404040;
@@ -347,25 +353,25 @@ img:hover {
 
 .carousel-control-prev i,
 .carousel-control-next i {
-    font-size: 2.1875rem;
+    font-size: 3.5rem;
     color: #fafafa;
 }
 
 .carousel-indicators {
-    bottom: -2.9375rem;
+    bottom: -3.9rem;
 }
 
 .carousel-indicators li {
     background-color: #fafafa;
-    height: 0.625rem;
-    width: 0.625rem;
+    height: 1rem;
+    width: 1rem;
     border-radius: 5%;
 }
 
 .carousel-indicators .active {
     background-color: white;
-    height: 0.75rem;
-    width: 0.75rem;
+    height: 1.2rem;
+    width: 1.2rem;
 }
 
 .fa-chevron-circle-left {
@@ -376,19 +382,19 @@ img:hover {
      text-shadow: 0 0 5px #2F4858;
 }
 
-/*----------------Modal image popup---------------*/
+/*--Modal image popup--*/
 .modal-title {
     text-align: left;
     color: #222831;
 }
 
-/*----------------Footer---------------*/
+/*--Footer--*/
 
 .container-logo-comicart img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    max-width: 7.5rem;
+    max-width: 12rem;
 }
 
 .container-logo-comicart img:hover {
@@ -396,7 +402,7 @@ img:hover {
 }
 
 #copyright-notice {
-    font-size: 0.625rem;
+    font-size: 1rem;
     color: #9A9793;
     text-align: center;
     padding: 0.3125rem 0.3125rem 0.3125rem 0.3125rem;
