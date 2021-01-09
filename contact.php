@@ -1,9 +1,9 @@
 <?php
 
 if (isset($_POST['submit'])) {
-    $name= $_POST['inputname'];
-    $mailFrom= $_POST['inputemail'];
-    $message= $_POST['inputmessage'];
+    $name= $_POST['name'];
+    $mailFrom= $_POST['email'];
+    $message= $_POST['message'];
 
     $mailTo = "rash@pipelinedatasolutions.com";
     $headers = "From: Art Of NHT Contact Form".$mailFrom;
