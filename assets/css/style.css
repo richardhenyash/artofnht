@@ -269,6 +269,11 @@ img:hover {
     font-size: 1.6rem;
 }
 
+/*--Bootstrap Modal Dialog Title Font Size Override--*/
+.modal-title {
+    font-size: 1.6rem;
+}
+
 /*--Fade-In Animation--*/
 
 .fade-in {
