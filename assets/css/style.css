@@ -1,6 +1,12 @@
-/*--Main Body--*/
+/*-- HTML--*/
+html {
+    font-size: 100%;
+}
+
+/*-- Body--*/
 body {
     font-family: 'Varela Round', sans-serif;
+    font-size: 1rem;
 }
 
 /*--General Styles--*/
@@ -20,22 +26,26 @@ body {
 
 /*--Containers--*/
 .container-logo-nav {
-    padding-top: 15px;
-    padding-bottom: 5px;
-    padding-left: 20px;
-    min-height: 145px;
+    padding-top: 0.9375rem;
+    padding-bottom: 0.3125rem;
+    padding-left: 1.25rem;
+    min-height: 9.0625rem;
     background-color: #222831;
-
 }
 
 .container-logo-outer {
-    padding-top: 5px;
+    padding-top: .3125rem;
 }
 .container-logo {
     background-color: #fafafa;
-    width: 100px;
-    height: 100px;
-    border-radius: 50px;
+    width: 6.25rem;
+    height: 6.25rem;
+    border-radius: 3.125rem;
+}
+
+.container-logo img {
+    width: 6.25rem;
+    height: 6.25rem;
 }
 
 .container-logo:hover {
@@ -51,34 +61,34 @@ body {
 }
 
 .container-heading-about {
-    margin-top: 7px;
-    margin-bottom: -4px;
+    margin-top: 0.4375rem;
+    margin-bottom: -0.25rem;
 }
 
 .container-heading-illustrations {
-    margin-top: 7px;
-    margin-bottom: -4px;
+    margin-top: 0.4375rem;
+    margin-bottom: -0.25rem;
 }
 
 .container-heading-caricatures {
-    margin-top: 7px;
-    margin-bottom: -12px;
+    margin-top: 0.4375rem;
+    margin-bottom: -0.75rem;
 }
 
 .container-text-about {
-    padding: 20px 35px 0 35px;
+    padding: 1.25rem 2.1875rem 0 2.1875rem;
 }
 
 .container-button-contact {
-    padding: 5px 35px 5px 35px;
+    padding: 0.3125rem 2.1875rem 0.3125rem 2.1875rem;
 }
 
 .container-contact-form {
-    padding: 20px 35px 0px 35px;
+    padding: 1.25rem 2.1875rem 0 2.1875rem;
 }
 
 .container-image-about {
-    padding: 25px 0 25px 0;
+    padding: 1.5625rem 0 1.5625rem 0;
     text-align: center;
 }
 
@@ -104,7 +114,7 @@ body {
 }
 
 .container-footer-links {
-    padding-top: 10px;
+    padding-top: 0.625rem;
     padding-bottom: 1px;
     background-color: #222831;
 }
@@ -120,7 +130,7 @@ body {
 .nav-item a {
     text-transform: uppercase;
     color: #9A9793;
-    font-size: large;
+    font-size: 1.125rem;
     padding: 0 0 0 0;
     margin-bottom: -2px;
 }
@@ -145,14 +155,14 @@ body {
     text-transform: uppercase;
     text-align: center;
     color: #fafafa;
-    font-size: large; 
+    font-size: 1.125rem; 
 }
 
 .heading-about {
     text-transform: uppercase;
     text-align: center;
     color: #fafafa;
-    font-size: large; 
+    font-size: 1.125rem; 
 }
 
 /*--Text--*/
@@ -182,7 +192,7 @@ body {
 }
 
 .blockdivider-short {
-    width: 50px;
+    width: 3.125rem;
 }
 
 .blockdivider-long {
@@ -190,15 +200,15 @@ body {
 }
 
 .blockdivider-spacing-top {
-    margin-top: 10px;    
+    margin-top: 0.625rem;    
 }
 
 .blockdivider-spacing-extra-top {
-    margin-top: 30px;    
+    margin-top: 1.875rem;    
 }
 
 .blockdivider-spacing-bottom {
-    margin-bottom: 10px;    
+    margin-bottom: 0.625rem;    
 }
 
 /*----------------Home Page and Gallery Images--------------*/
@@ -324,7 +334,7 @@ img:hover {
 #carousel-control-prev-1item {
     left: 0;
     margin-left: 0;
-    padding-bottom:4px;
+    padding-bottom: 4px;
     align-items: flex-end;
 }
 
@@ -337,25 +347,25 @@ img:hover {
 
 .carousel-control-prev i,
 .carousel-control-next i {
-    font-size: 35px;
+    font-size: 2.1875rem;
     color: #fafafa;
 }
 
 .carousel-indicators {
-    bottom: -47px;
+    bottom: -2.9375rem;
 }
 
 .carousel-indicators li {
     background-color: #fafafa;
-    height: 10px;
-    width: 10px;
+    height: 0.625rem;
+    width: 0.625rem;
     border-radius: 5%;
 }
 
 .carousel-indicators .active {
     background-color: white;
-    height: 12px;
-    width: 12px;
+    height: 0.75rem;
+    width: 0.75rem;
 }
 
 .fa-chevron-circle-left {
@@ -370,7 +380,6 @@ img:hover {
 .modal-title {
     text-align: left;
     color: #222831;
-    font-size: medium; 
 }
 
 /*----------------Footer---------------*/
@@ -379,7 +388,7 @@ img:hover {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    max-width: 120px;
+    max-width: 7.5rem;
 }
 
 .container-logo-comicart img:hover {
@@ -387,10 +396,10 @@ img:hover {
 }
 
 #copyright-notice {
-    font-size: x-small;
+    font-size: 0.625rem;
     color: #9A9793;
     text-align: center;
-    padding: 5px 5px 5px 5px;
+    padding: 0.3125rem 0.3125rem 0.3125rem 0.3125rem;
 }
 
 /*--Additional image media query to re-size gallery images for extra small devices--*/
