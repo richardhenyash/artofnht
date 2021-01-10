@@ -305,7 +305,6 @@ img:hover {
 
 /*--Gallery Carousel and Controls--*/
 .carousel-item img {
-    height: 550px;
     border: 2px solid #404040;
 }
 
@@ -413,17 +412,38 @@ img:hover {
     padding: 0.3125rem 0.3125rem 0.3125rem 0.3125rem;
 }
 
-/*--Additional image media query to re-size gallery images for extra small devices--*/
-@media (max-width: 575.98px) {
+/*--Additional image media query to re-size gallery images for very thin devices--*/
+@media (max-width: 400px) {
+   .carousel-item img {
+    height: 350px;
+   }
+}
+
+/*--Additional image media query to re-size gallery images for thin devices--*/
+@media (min-width: 400px) {
    .carousel-item img {
     height: 400px;
+   }
+}
+
+/*--Additional image media query to re-size gallery images for extra small devices--*/
+@media (min-width: 500px) {
+   .carousel-item img {
+    height: 500px;
+   }
+}
+
+/*--Additional image media query to re-size gallery images for small devices--*/
+@media (min-width: 575.98px) {
+   .carousel-item img {
+    height: 600px;
    }
 }
 
 /*--Additional image media query to re-size gallery images for extra large devices--*/
 @media (min-width: 1200px) {
    .carousel-item img {
-    height: 600px;
+    height: 700px;
    }
 }
 
@@ -433,3 +453,4 @@ img:hover {
     height: 1000px;
    }
 }
+
