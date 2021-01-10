@@ -75,6 +75,11 @@ body {
     margin-bottom: -0.7rem;
 }
 
+.container-image-about {
+    padding: 2.5rem 0 2.5rem 0;
+    text-align: center;
+}
+
 .container-text-about {
     padding: 2rem 3.5rem 0 3.5rem;
 }
@@ -85,11 +90,6 @@ body {
 
 .container-contact-form {
     padding: 2rem 3.5rem 0 3.5rem;
-}
-
-.container-image-about {
-    padding: 2.5rem 0 2.5rem 0;
-    text-align: center;
 }
 
 .container-about {
@@ -247,62 +247,6 @@ img:hover {
     outline: none;
 }
 
-/*--About Page Links--*/
-
-.container-text-about p a:hover,
-.container-text-about p a:active,
-.container-text-about p a:focus,
-.container-text-about p a:visited {
-    outline: none;
-    text-decoration: underline;
-    color: #d65a31;
-}
-
-/*--Contact Page--*/
-.form-contact-field {
-    background-color: #fafafa;
-    font-size: 1.6rem;
-}
-
-/*--Bootstrap Buttons Font Size Override--*/
-.btn {
-    font-size: 1.6rem;
-}
-
-/*--Bootstrap Modal Dialog Title Font Size Override--*/
-.modal-title {
-    font-size: 1.6rem;
-}
-
-/*--Fade-In Animation--*/
-
-.fade-in {
-    animation: fade-in 2s;
-}
-
-@keyframes fade-in {
-    from { opacity: 0; }
-    to   { opacity: 1; }
-}
-
-/*-- Firefox < 16 --*/
-@-moz-keyframes fade-in {
-    from { opacity: 0; }
-    to   { opacity: 1; }
-}
-
-/*-- Safari, Chrome and Opera > 12.1 --*/
-@-webkit-keyframes fade-in {
-    from { opacity: 0; }
-    to   { opacity: 1; }
-}
-
-/*-- Internet Explorer --*/
-@-ms-keyframes fade-in {
-    from { opacity: 0; }
-    to   { opacity: 1; }
-}
-
 /*--Gallery Carousel and Controls--*/
 .carousel-item img {
     border: 2px solid #404040;
@@ -392,6 +336,23 @@ img:hover {
     color: #222831;
 }
 
+/*--About Page Links--*/
+
+.container-text-about p a:hover,
+.container-text-about p a:active,
+.container-text-about p a:focus,
+.container-text-about p a:visited {
+    outline: none;
+    text-decoration: underline;
+    color: #d65a31;
+}
+
+/*--Contact Page--*/
+.form-contact-field {
+    background-color: #fafafa;
+    font-size: 1.6rem;
+}
+
 /*--Footer--*/
 
 .container-logo-comicart img {
@@ -410,6 +371,45 @@ img:hover {
     color: #9A9793;
     text-align: center;
     padding: 0.3125rem 0.3125rem 0.3125rem 0.3125rem;
+}
+
+/*--Bootstrap Buttons Font Size Override--*/
+.btn {
+    font-size: 1.6rem;
+}
+
+/*--Bootstrap Modal Dialog Title Font Size Override--*/
+.modal-title {
+    font-size: 1.6rem;
+}
+
+/*--Fade-In Animation--*/
+
+.fade-in {
+    animation: fade-in 2s;
+}
+
+@keyframes fade-in {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/*-- Firefox < 16 --*/
+@-moz-keyframes fade-in {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/*-- Safari, Chrome and Opera > 12.1 --*/
+@-webkit-keyframes fade-in {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/*-- Internet Explorer --*/
+@-ms-keyframes fade-in {
+    from { opacity: 0; }
+    to   { opacity: 1; }
 }
 
 /*--Image media query to re-size gallery images for devices up to 400px wide--*/
@@ -474,4 +474,3 @@ img:hover {
     height: 1000px;
    }
 }
-
