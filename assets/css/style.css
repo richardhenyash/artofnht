@@ -419,42 +419,49 @@ img:hover {
    }
 }
 
-/*--Additional image media query to re-size gallery images for devices up to 450px wide--*/
+/*--Additional image media query to re-size gallery images for devices between 400px and 450px wide--*/
 @media (min-width: 400px) {
-   .carousel-item img {
-    height: 400px;
-   }
-}
-
-/*--Additional image media query to re-size gallery images for devices up to 500px wide--*/
-@media (min-width: 450px) {
    .carousel-item img {
     height: 450px;
    }
 }
 
-/*--Additional image media query to re-size gallery images for extra small devices--*/
-@media (min-width: 500px) {
+/*--Additional image media query to re-size gallery images for devices between 450px and 500px wide--*/
+@media (min-width: 450px) {
    .carousel-item img {
     height: 500px;
    }
 }
 
-/*--Additional image media query to re-size gallery images for small devices--*/
-@media (min-width: 575.98px) {
+/*--Additional image media query to re-size gallery images for devices between 500px and 600 px wide--*/
+@media (min-width: 500px) {
+   .carousel-item img {
+    height: 550px;
+   }
+}
+
+/*--Additional image media query to re-size gallery images for extra small devices between 600 and 768 px wide--*/
+@media (min-width: 600px) {
+   .carousel-item img {
+    height: 650px;
+   }
+}
+
+/*--Additional image media query to re-size gallery images for medium devices, 2 image panel--*/
+@media (min-width: 768px) {
+   .carousel-item img {
+    height: 550px;
+   }
+}
+
+/*--Additional image media query to re-size gallery images for extra large devices, 3 image panel--*/
+@media (min-width: 1200px) {
    .carousel-item img {
     height: 600px;
    }
 }
 
-/*--Additional image media query to re-size gallery images for extra large devices--*/
-@media (min-width: 1200px) {
-   .carousel-item img {
-    height: 700px;
-   }
-}
-
-/*--Additional image media query to re-size gallery images for widescreen devices--*/
+/*--Additional image media query to re-size gallery images for widescreen devices, 3 image panel--*/
 @media (min-width: 2000px) {
    .carousel-item img {
     height: 1000px;
