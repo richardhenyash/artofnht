@@ -429,7 +429,7 @@ img:hover {
 /*--Additional image media query to re-size gallery images for extra small devices--*/
 @media (min-width: 500px) {
    .carousel-item img {
-    height: 500px;
+    height: 550px;
    }
 }
 
