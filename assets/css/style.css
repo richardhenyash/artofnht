@@ -440,6 +440,13 @@ img:hover {
    }
 }
 
+/*--Additional image media query to re-size gallery images for devices between 600px and 700 px wide--*/
+@media (min-width: 600px) {
+   .carousel-item img {
+    height: 600px;
+   }
+}
+
 /*--Additional image media query to re-size gallery images for extra small devices between 600 and 768 px wide--*/
 @media (min-width: 600px) {
    .carousel-item img {
