@@ -48,8 +48,9 @@ body {
     height: 10rem;
 }
 
-.container-logo:hover {
-    background-color: rgb(255,255,255,0.7);
+.container-logo:hover, .container-logo img:hover {
+    width: 10.1rem;
+    height: 10.1rem;
 }
 
 .container-fluid {
@@ -217,7 +218,7 @@ body {
     border: 2px solid #404040;
 }
 .container-image img:hover {
-    opacity: 0.7;
+    cursor: pointer;
     border: none;
 }
 
@@ -231,7 +232,6 @@ body {
 
 .container-image-about
 img:hover {
-    opacity: 0.7;
     border: none;
 }
 
@@ -253,7 +253,7 @@ img:hover {
 }
 
 .carousel-item img:hover {
-    opacity: 0.7;
+    cursor: pointer;
     border: none;
 }
 
@@ -363,7 +363,7 @@ img:hover {
 }
 
 .container-logo-comicart img:hover {
-    background-color: rgb(100,100,100,0.3);
+    max-width: 12.5rem
 }
 
 #copyright-notice {
@@ -381,6 +381,11 @@ img:hover {
 /*--Bootstrap Modal Dialog Title Font Size Override--*/
 .modal-title {
     font-size: 1.6rem;
+}
+
+/*--Bootstrap Modal Dialog Close Button Size Override--*/
+.modal-header button span {
+    font-size: 2rem;
 }
 
 /*--Fade-In Animation--*/
