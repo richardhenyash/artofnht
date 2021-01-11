@@ -205,7 +205,7 @@ body {
 }
 
 .blockdivider-spacing-extra-top {
-    margin-top: 3rem;    
+    margin-top: 3.3rem;    
 }
 
 .blockdivider-spacing-bottom {
@@ -257,46 +257,16 @@ img:hover {
     border: none;
 }
 
-#carousel-control-prev-3item {
-    left: 0;
-    margin-left: -5%;
-    padding-bottom: 4px;
+.carousel-control-prev {
     align-items: flex-end;
+    margin-bottom: -3.6rem;
+    padding-left: 7%;
 }
 
-#carousel-control-next-3item {
-    right: 0;
-    margin-right: -5%;
-    padding-bottom: 4px;
+.carousel-control-next {
     align-items: flex-end;
-}
-
-#carousel-control-prev-2item {
-    left: 0;
-    margin-left: -4%;
-    padding-bottom: 4px;
-    align-items: flex-end;
-}
-
-#carousel-control-next-2item {
-    right: 0;
-    margin-right: -4%;
-    padding-bottom: 4px;
-    align-items: flex-end;
-}
-
-#carousel-control-prev-1item {
-    left: 0;
-    margin-left: 0;
-    padding-bottom: 4px;
-    align-items: flex-end;
-}
-
-#carousel-control-next-1item {
-    right: 0;
-    margin-right: 0;
-    padding-bottom: 4px;
-    align-items: flex-end;
+    margin-bottom: -3.6rem;
+    padding-right: 7%;
 }
 
 .carousel-control-prev i,
@@ -306,28 +276,18 @@ img:hover {
 }
 
 .carousel-indicators {
-    bottom: -3.9rem;
+    bottom: -4.1rem;
 }
 
 .carousel-indicators li {
-    background-color: #fafafa;
-    height: 1rem;
-    width: 1rem;
-    border-radius: 5%;
+    height: 1.1rem;
+    width: 1.1rem;
 }
 
 .carousel-indicators .active {
     background-color: white;
-    height: 1.2rem;
-    width: 1.2rem;
-}
-
-.fa-chevron-circle-left {
-     text-shadow: 0 0 5px #2F4858;
-}
-
-.fa-chevron-circle-right {
-     text-shadow: 0 0 5px #2F4858;
+    height: 1.3rem;
+    width: 1.3rem;
 }
 
 /*--Modal image popup--*/
@@ -417,56 +377,58 @@ img:hover {
     to   { opacity: 1; }
 }
 
-/*--Image media query to re-size gallery images for devices up to 400px wide--*/
+/*--Additional image media queries added to size images accurately on a wide range of devices--*/
+
+/*--Image media query to re-size gallery images for extra small devices up to 400px wide, 1 image panel--*/
 @media (max-width: 400px) {
    .carousel-item img {
     height: 350px;
    }
 }
 
-/*--Image media query to re-size gallery images for devices between 400px and 450px wide--*/
+/*--Image media query to re-size gallery images for extra small devices between 400px and 450px wide, 1 image panel--*/
 @media (min-width: 400px) {
    .carousel-item img {
     height: 450px;
    }
 }
 
-/*--Image media query to re-size gallery images for devices between 450px and 500px wide--*/
+/*--Image media query to re-size gallery images for extra small devices between 450px and 500px wide, 1 image panel--*/
 @media (min-width: 450px) {
    .carousel-item img {
     height: 500px;
    }
 }
 
-/*--Image media query to re-size gallery images for devices between 500px and 600 px wide--*/
+/*--Image media query to re-size gallery images for small devices between 500px and 576 px wide, 1 image panel--*/
 @media (min-width: 500px) {
    .carousel-item img {
     height: 550px;
    }
 }
 
-/*--Image media query to re-size gallery images for devices between 600px and 700 px wide--*/
-@media (min-width: 600px) {
-   .carousel-item img {
-    height: 600px;
-   }
-}
-
-/*--Image media query to re-size gallery images for extra small devices between 700 and 768 px wide--*/
-@media (min-width: 700px) {
+/*--Image media query to re-size gallery images for small devices between 576px and 700px wide, 1 image panel--*/
+@media (min-width: 576px) {
    .carousel-item img {
     height: 650px;
    }
 }
 
-/*--Image media query to re-size gallery images for medium devices, 2 image panel--*/
+/*--Image media query to re-size gallery images for small devices between 700 and 768 px wide, 1 image panel--*/
+@media (min-width: 700px) {
+   .carousel-item img {
+    height: 750px;
+   }
+}
+
+/*--Image media query to re-size gallery images for medium and large devices between 768px and 1200 px wide, 2 and 3 image panel--*/
 @media (min-width: 768px) {
    .carousel-item img {
     height: 550px;
    }
 }
 
-/*--Image media query to re-size gallery images for extra large devices, 3 image panel--*/
+/*--Image media query to re-size gallery images for extra large devices between 1200px and 2000px wide, 3 image panel--*/
 @media (min-width: 1200px) {
    .carousel-item img {
     height: 600px;
