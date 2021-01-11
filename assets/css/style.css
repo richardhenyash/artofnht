@@ -463,9 +463,16 @@ img:hover {
    }
 }
 
-/*--Image media query to re-size gallery images for widescreen devices over 2000px wide, 3 image panel--*/
+/*--Image media query to re-size gallery images for widescreen devices between 2000px and 2500px wide, 3 image panel--*/
 @media (min-width: 2000px) {
    .carousel-item img {
     height: 1000px;
+   }
+}
+
+/*--Image media query to re-size gallery images for widescreen devices over 2500px wide, 3 image panel--*/
+@media (min-width: 2500px) {
+   .carousel-item img {
+    height: 1400px;
    }
 }
