@@ -9,6 +9,9 @@ To increase sales of Nick's art.
 ## Project Goals
 To showcase the artist's portfolio, increase the artist's profile within the comic art community and to provide a means for prospective clients to engage.
 
+## User Goals
+To browse comic art for fun and inspiration and potentially to buy. To commission an artist to create some personalised art work.
+
 ## UX
 
 ### Project Strategy
@@ -49,31 +52,30 @@ Develop online sales capability|3
 ### Project Scope
 #### User Demographics
 * The primary users of the site will be comic art fans. The demographics of comic art fans are quite wide - male and female from ages 5 up to 60 who have an appreciation for comic art.
-* A simple, colorful and attractive design would fit this demographic. As the demographic is particularly interested in art and design, the site needs to reflect this and an attractive, vibrant and modern design is of high importance.
+* A simple, colorful and attractive design would fit this demographic. As the demographic is particularly interested in art and design, the site needs to reflect this and a vibrant and modern design is of high importance.
 
 #### User Requirements
 * Visually engaging
-* Simple to navigate
-* The key information should be layed out in a simple and clear way
-* Resonsive design is required as users may be viewing the site on Mobile, Tablet or Desktop.
+* Easy to navigate
+* The key information should be layed out in a simple, easy to follow and clear way.
+* Responsive design is required as users may be viewing the site on Mobile, Tablet or Desktop.
 
 #### User Stories
+* As a user I want to browse comic art sites for fun and inspiration.
+* As a user I am searching for existing comic art to buy.
 * As a user I am searching for an artist to commission some work.
-* As a user I am searching for comic art to buy.
 * As a user I want to contact the artist.
-* As a user I want to sign up for news and new content from the artist.
-* As a user I want to browse comic art sites for inspiration.
-
-#### Functional Requirements
-* The user will need to be able to view a portfolio of the artist's work.
-* The user requires contact information to enable them to contact the artist.
-* The user requires the facility to sign up for news and new content from the artist.
-* The user potentially requires pricing information. It was decided during the initial stategy meeting with the client that pricing information would not be disclosed on the website, but would be provided on request.
 
 #### Constraints
 * Developer skill set - the developer is currently unable to develop an online sales capability, but this may be considered for future development phases.
 * The client is reluctant to create a social media presence on facebook, instagram etc, but does have an artist page on https://www.comicartfans.com/ which should be linked to.
-* The client has time constaints on the amount of work he can produce as he has a full time job. For this reason, we discussed and decided to incorporate a Subscribe or Sign Up option, which would allow the artist to produce art and then contact a mailing list of prospective buyers. 
+* The client has time constaints on the amount of work he can produce as he has a full time job. We discussed incorporating a Subscribe or Sign Up option, which would allow the artist to produce art and then contact a mailing list of prospective buyers. We decided not to include this feature in phase 1 due to the complications of storing email marketing lists within the constraints of the GDPR regulations.
+* The website functional features and background should not be to 'loud' or detract from the main focus of the website, which is presenting the artist's colourful and attractive work.
+
+#### Functional Requirements
+* The user would like to view a portfolio of the artist's work.
+* The user requires contact information to enable them to contact the artist.
+* The user potentially requires pricing information. It was decided during the initial stategy meeting with the client that pricing information would not be disclosed on the website, but would be provided on request.
 
 #### Business rules
 * Copyright notices - all comic book characters are copyright of their respective owners. The copyright notice should appear on each page in the footer.
@@ -86,10 +88,10 @@ Navigation menu | 5 | 2 | 1
 Portfolio images | 5 | 3 | 1
 Contact form | 5 | 1 | 1
 Biography | 4 | 2 | 1
-Subscribe feature| 4 | 2 | 1
 Copyright notices | 5 | 1 | 1
 Link to comicartfans.com | 3 | 1 | 1
 Links to social media | 2 | 1 | 2
+Subscribe feature| 3 | 2 | 2
 Blog | 1 | 4 | 2
 Online Sales Capability | 1 | 5 | 3
 
@@ -105,40 +107,80 @@ An [Initial Sketch](./assets/wireframes/rev0) was produced for discussion prior 
 
 The home page features two large bright and colorful illustrations, a navigation menu, the NHT logo provided by the client and a link to https://www.comicartfans.com/. We decided to use two illustations as the artist's most colourful illustrations are in portrait orientation and this would allow 2 images to be tiled side by side on a desktop view, with one of the images being removed or the images being tiled vertically on smaller devices. 
 
-The Gallery is presented as a seperate page. The gallery will feature the artist's favourite pictures divided into the categories "Illustrations" and "Caricatures". The images will be tiled in 2 rows corresponding to the "Illustrations" and "Caricatures" categories, with 3 columns shown on a desktop view, 2 columns shown on a tablet view and 1 column shown on a mobile view.
+The Gallery is presented as a seperate page. The gallery features the artist's favourite work divided into the categories "Illustrations" and "Caricatures". The images will be tiled in 2 rows corresponding to the "Illustrations" and "Caricatures" categories, with 3 columns shown on a desktop view, 2 columns shown on a tablet view and 1 column shown on a mobile view.
 
-The Biography and Contact information is presented on the About NHT page. The about page will include a contact button which will open up a contact form which will have a Sign Up option.
+The Biography and Contact information is presented on the About NHT page. The about page will include a contact button which will open up a contact form.
+
 
 ### Design Choices
 
 #### Fonts
-Varela Round has been chosen as the main font for the navigation menu, buttons, about text and copyright notice. The font is clean and modern and has a soft rounded feel which ties in well with comic art.
+**Varela Round** has been chosen as the font for all text content. The font is clean and modern and has a soft rounded feel which ties in well with comic art.
+* font-family: 'Varela Round', sans-serif;  
 
 #### Colours
 The colour pallete was initally chosen based on the red of the Art Of NHT logo supplied by the client (#C93C1C). The mycolor (https://mycolor.space/) pallete generator tool was used to generate a complementary colour pallete based on the logo red (#C93C1C).
 The initial colour pallete is shown below:
-<div style="padding: 10px; background-color: #C93C1C; color: white; border: 1px solid black">#C93C1C - NHT logo red</div>
-<div style="padding: 10px; background-color: #FF7D54; color: white; border: 1px solid black">#FF7D54 - light red</div>
-<div style="padding: 10px; background-color: #EDE9D0; color: black; border: 1px solid black">#EDE9D0 - Off white (used for background)</div>
-<div style="padding: 10px; background-color: #9A9793; color: black; border: 1px solid black">#9A9793 - light grey</div>
-<div style="padding: 10px; background-color: #7C7B7C; color: white; border: 1px solid black">#7C7B7C - medium grey</div>
-<div style="padding: 10px; background-color: #2F4858; color: white; border: 1px solid black">#2F4858 - dark grey/blue</div>
+<img src="./assets/wireframes/nht-color-light.png" style="margin: 15px;">
+* #C93C1C - NHT logo red</div>
+* #FF7D54 - light red</div>
+* #EDE9D0 - Off white (used for background)</div>
+* #9A9793 - light grey</div>
+* #7C7B7C - medium grey</div>
+* #2F4858 - dark grey/blue</div>
 
 After the home and gallery pages were constructed for review by the client using the chosen colour pallete chosen, an optional "dark mode" theme was created by the developer, using grey and dark colours for the background and functional elemnts of the website.
-The client and developer both preferred the "dark mode" theme, as we felt that this showed the artist's content off better and really made the drawings pop out, so this option was selected and developed further into the final website.
+The client and developer both preferred the "dark mode" theme, as we felt that this showcased the artist's content better and really made the artwork stand out, so this option was selected and developed further into the final website.
 The final colour pallete is shown below:
-<div style="padding: 10px; background-color: white; color: black; border: 1px solid black">White, used for highlighting</div>
-<div style="padding: 10px; background-color: #FAFAFA; color: black; border: 1px solid black">#FAFAFA - slightly off white, used for headings, highlighting, text and carousel indicators</div>
-<div style="padding: 10px; background-color: #9A9793; color: black; border: 1px solid black">#9A9793 - light grey used for navigation links and about page image outline</div>
-<div style="padding: 10px; background-color: #404040; color: white; border: 1px solid black">#404040 - dark grey used for block dividers, home page and gallery image outlines</div>
-<div style="padding: 10px; background-color: #2F4858; color: white; border: 1px solid black">#2F4858 - dark grey/blue used for used for bootstrap carousel indicator shadow</div>
-<div style="padding: 10px; background-color: #222831; color: white; border: 1px solid black">#222831 - very dark grey used for background containers</div>
-<div style="padding: 10px; background-color: #D65A31; color: white; border: 1px solid black">#D65A31 - red used for links on about page</div>
+<img src="./assets/wireframes/nht-color-dark.png" style="margin: 15px;">
+* White, used for highlighting</div>
+* #FAFAFA - slightly off white, used for headings, highlighting, text and carousel indicators</div>
+* #9A9793 - light grey used for navigation links and about page image outline</div>
+* #404040 - dark grey used for block dividers, home page and gallery image outlines</div>
+* #222831 - very dark grey used for background containers</div>
+* #D65A31 - red used for links on about page</div>
 
 Additional help and inspiration on dark mode theme colours can be found at the following link:
 https://codeburst.io/50-shades-of-dark-mode-gray-d3e9907b1194
 
+
+## Technologies
+### Languages
+* [HTML](https://www.w3schools.com/html/default.asp)
+* [CSS](https://www.w3schools.com/css/default.asp)
+* [JavaScript](https://www.w3schools.com/js/default.asp)
+
+### Frameworks, Libraries and Tools
+* [Bootstrap](https://getbootstrap.com/docs/4.5/getting-started/introduction/)
+* [jQuery](https://jquery.com/)
+* [Font Awewsome](https://fontawesome.com/)
+* [Google Fonts](https://fonts.google.com/)
+* [Form Spree](https://help.formspree.io/hc/en-us)
+
+## Features
+### Features Implemented in Phase 1
+* Logo (including hover styling, links to home page if selected).
+* Navigation Menu (including hover styling).
+* Footer with link to artist page on [comicartfans](https://www.comicartfans.com/gallerydetail.asp?gcat=682) (including hover styling).
+* Responsive Design
+* Large home page image(s) which pop out into modals which include an image title if selected.
+* Responsive Gallery page bootstrap image carousels to display art categorised into Illustrations and Caricatures. The carousels feature 1 image panel on small displays, 2 image panels on medium displays and 3 image panels on large displays. The carousel controls are subtly designed and are located under the images so as not to detract from the art, which is the focus of the website. The carousels have been set as static (the user has to seleect left or right to move the images on) as we feel this will improve the user experience. The carousel images pop out into modals which include an image title if selected.
+* About page including artist biography, profile picture, contact links and large, bright call to action "Contact Nick" button. Profile picture, "Contact Form" link and "Contact Nick" button link to the contact form. The email link creates an email to Nick in the user's default email application.
+* Contact form containing fields for Name, Email address and Message, and a large Send button. If all fields are entered correctly, an email is sent to nickhopet@hotmail.com. This feature is deployed using [Formspree](https://help.formspree.io/hc/en-us).
+
+### Features To Be Implemented In Future Development Phases
+* Subscribe feature on contact form - this may be implemented in the future if the artist decides to launch a web marketing campaign and has been added to the html code for the contact page, and commented out.
+* Links to social media (dependant on artist joining scial media networks).
+* Blog - (dependant on artist's time constaints).
+* Online Sales Capability - (dependant on developer's technical capability).
+
+### Design Changes During Development
+* Colour scheme - the colour scheme was changed mid way rthrough the development as described in the colours section.
+* Contact form - the contact form was initially developed as a modal pop-up form, but this was found not to work with the [Form Spree](https://help.formspree.io/hc/en-us) service. The contact form was redesigned as a web page.
+* Gallery carousel controls - these were initially located at the bottom the images, but were moved underneath the carousel elements as we felt this provided a better user experience.
+
 ## Deployment
+
 The website will be deployed to the domain www.artofnht.com
 https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages/managing-a-custom-domain-for-your-github-pages-site
 https://medium.com/@JinnaBalu/godaddy-domain-with-github-pages-62aed906d4ef
@@ -146,7 +188,6 @@ https://medium.com/@JinnaBalu/godaddy-domain-with-github-pages-62aed906d4ef
 
 
 ## References
-Bootstrap documentation: https://getbootstrap.com/docs/4.5/getting-started/introduction/
 
 Additional help on bootstrap carousel:
 https://www.w3schools.com/bootstrap/bootstrap_carousel.asp
