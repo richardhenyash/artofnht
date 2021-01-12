@@ -174,11 +174,6 @@ The final colour pallete is shown below:
 * #222831 - very dark grey used for background containers</div>
 * #D65A31 - red used for links on about page</div>
 
-
-
-
-
-
 ## Technologies ##
 ### Languages ###
 * [HTML](https://www.w3schools.com/html/default.asp)
@@ -198,10 +193,10 @@ The final colour pallete is shown below:
 * Navigation Menu (including hover styling).
 * Footer with link to artist page on [comicartfans](https://www.comicartfans.com/gallerydetail.asp?gcat=682) (including hover styling).
 * Responsive Design
-* Large home page image(s) which pop out into modals which include an image title if selected.
-* Responsive Gallery page bootstrap image carousels to display art categorised into Illustrations and Caricatures. The carousels feature 1 image panel on small displays, 2 image panels on medium displays and 3 image panels on large displays. The carousel controls are subtly designed and are located under the images so as not to detract from the art, which is the focus of the website. The carousels have been set as static (the user has to seleect left or right to move the images on) as we feel this will improve the user experience. The carousel images pop out into modals which include an image title if selected.
-* About page including artist biography, profile picture, contact links and large, bright call to action "Contact Nick" button. Profile picture, "Contact Form" link and "Contact Nick" button link to the contact form. The email link creates an email to Nick in the user's default email application.
-* Contact form containing fields for Name, Email address and Message, and a large Send button. If all fields are entered correctly, an email is sent to nickhopet@hotmail.com. This feature is deployed using [Formspree](https://help.formspree.io/hc/en-us).
+* Large, responsive [Home](index.html) page image(s) which pop out into modals which include an image title if selected. 2 Images are shown on larger devices, and 1 image on smaller devices.
+* Responsive [Gallery](gallery.html) page including bootstrap image carousels to display art categorised into Illustrations and Caricatures. The carousels feature 1 image panel on small displays, 2 image panels on medium displays and 3 image panels on large displays. The carousel controls are subtly designed and are located under the images so as not to detract from the art, which is the focus of the website. The carousels have been set as static (the user has to seleect left or right to move the images on) as we feel this will improve the user experience. The carousel images pop out into modals which include an image title if selected.
+* [About](about.html) page including artist biography, profile picture, contact links and large, bright call to action "Contact Nick" button. Profile picture, "Contact Form" link and "Contact Nick" button link to the [Contact](contact.html) form. The email link creates an email to Nick in the user's default email application.
+* [Contact](contact.html) form containing fields for Name, Email address and Message, and a large Send button. If all fields are entered correctly, an email is sent to nickhopet@hotmail.com. This feature is deployed using [Formspree](https://help.formspree.io/hc/en-us).
 
 ### Features To Be Implemented In Future Development Phases ###
 * Subscribe feature on contact form - this may be implemented in the future if the artist decides to launch a web marketing campaign and has been added to the html code for the contact page, and commented out.
