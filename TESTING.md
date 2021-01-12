@@ -42,7 +42,7 @@ Navigation links and Navigation Links hover styling have been tested on all page
 Logo link and Logo Link hover styling has been tested on all pages and works correctly (links to [Home](./index.html) page).
 
 ### Footer Link
-Footer link and Footer Link hover styling have been tested on all pages and works correctly.
+Footer link and Footer Link hover styling have been tested on all pages and work correctly.
 
 ### Home Page Image Modals
 [Home](./index.html) page pop-up image modals have been tested and work correctly. See [Testing](./assets/wireframes/testing) screen prints.
