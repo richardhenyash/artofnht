@@ -199,7 +199,7 @@ The final colour pallete is shown below:
 * [Contact](contact.html) form containing fields for Name, Email address and Message, and a large Send button. If all fields are entered correctly, an email is sent to nickhopet@hotmail.com. This feature is deployed using [Formspree](https://help.formspree.io/hc/en-us).
 
 ### Features To Be Implemented In Future Development Phases ###
-* Subscribe feature on contact form - this may be implemented in the future if the artist decides to launch a web marketing campaign and has been added to the html code for the contact page, and commented out.
+* Subscribe feature on contact form - this may be implemented in the future if the artist decides to launch a web marketing campaign and has been added to the html code for the [Contact](contact.html) page, and commented out.
 * Links to social media (dependant on artist being willing to join social media networks).
 * Blog - (dependant on artist's time constaints).
 * Online Sales Capability - (dependant on developer's technical capability).
