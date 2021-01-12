@@ -323,7 +323,7 @@ img:hover {
 }
 
 .container-logo-comicart img:hover {
-    max-width: 12.5rem
+    max-width: 12.3rem
 }
 
 #copyright-notice {
@@ -375,104 +375,4 @@ img:hover {
 @-ms-keyframes fade-in {
     from { opacity: 0; }
     to   { opacity: 1; }
-}
-
-/*--Additional image media queries added to size gallery carousel images accurately on a wide range of devices--*/
-
-/*--Image media query to re-size gallery images for extra small devices up to 400px wide, 1 image panel--*/
-@media (max-width: 400px) {
-   .carousel-item img {
-    height: 350px;
-   }
-}
-
-/*--Image media query to re-size gallery images for extra small devices between 400px and 450px wide, 1 image panel--*/
-@media (min-width: 400px) {
-   .carousel-item img {
-    height: 450px;
-   }
-}
-
-/*--Image media query to re-size gallery images for extra small devices between 450px and 500px wide, 1 image panel--*/
-@media (min-width: 450px) {
-   .carousel-item img {
-    height: 500px;
-   }
-}
-
-/*--Image media query to re-size gallery images for small devices between 500px and 576 px wide, 1 image panel--*/
-@media (min-width: 500px) {
-   .carousel-item img {
-    height: 550px;
-   }
-}
-
-/*--Image media query to re-size gallery images for small devices between 576px and 700px wide, 1 image panel--*/
-@media (min-width: 576px) {
-   .carousel-item img {
-    height: 650px;
-   }
-}
-
-/*--Image media query to re-size gallery images for small devices between 700px and 768px wide, 1 image panel--*/
-@media (min-width: 700px) {
-   .carousel-item img {
-    height: 750px;
-   }
-}
-
-/*--Image media query to re-size gallery images for medium and large devices between 768px and 900 px wide, 2 image panel--*/
-@media (min-width: 768px) {
-   .carousel-item img {
-    height: 500px;
-   }
-}
-
-/*--Image media query to re-size gallery images for medium and large devices between 900px and 992px wide, 2 image panel--*/
-@media (min-width: 900px) {
-   .carousel-item img {
-    height: 550px;
-   }
-}
-
-/*--Image media query to re-size gallery images for medium and large devices between 992px and 1200px wide, 3 image panel--*/
-@media (min-width: 992px) {
-   .carousel-item img {
-    height: 400px;
-   }
-}
-
-/*--Image media query to re-size gallery images for medium and large devices between 1200px and 1400 px wide, 3 image panel--*/
-@media (min-width: 1200px) {
-   .carousel-item img {
-    height: 500px;
-   }
-}
-
-/*--Image media query to re-size gallery images for extra large devices between 1400px and 1600px wide, 3 image panel--*/
-@media (min-width: 1400px) {
-   .carousel-item img {
-    height: 600px;
-   }
-}
-
-/*--Image media query to re-size gallery images for extra large devices between 1600px and 2000px wide, 3 image panel--*/
-@media (min-width: 1600px) {
-   .carousel-item img {
-    height: 800px;
-   }
-}
-
-/*--Image media query to re-size gallery images for widescreen devices between 2000px and 2500px wide, 3 image panel--*/
-@media (min-width: 2000px) {
-   .carousel-item img {
-    height: 1000px;
-   }
-}
-
-/*--Image media query to re-size gallery images for widescreen devices over 2500px wide, 3 image panel--*/
-@media (min-width: 2500px) {
-   .carousel-item img {
-    height: 1400px;
-   }
 }
