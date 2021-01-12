@@ -145,7 +145,6 @@ The Gallery is presented as a seperate page. The gallery features the artist's f
 
 The Biography and Contact information is presented on the About NHT page. The about page will include a contact button which will open up a contact form.
 
-
 ### Design Choices ###
 
 #### Fonts ####
@@ -212,7 +211,7 @@ The final colour pallete is shown below:
 
 ## Testing ##
 
-Testing information can be found in [Testing.md](Testing.md).
+Testing information can be found in [Testing.md](TESTING.md).
 
 ## Deployment ##
 The website has been be deployed on GitHub pages using a custom domain purchased from [GoDaddy](https://uk.godaddy.com/), [Art Of NHT](www.artofnht.com). The steps required to achieve this are as follows:
@@ -252,4 +251,4 @@ Thanks to the following for your help and inspiration during this project:
 * [Nick Hope-Thomson](https://artofnht.com/) for his inspirational art work, I hope this website helps you acheive your dreams!
 * [Sarah Ash](https://artofnht.com/) for helping Nick to quickly put a clear and concise brief together.
 * [Neringa Bickmore](https://github.com/neringabickmore) for getting me started off on the right footing and for your very helpful review and comments on the website and documentation.
-* My remote mentor [Allen Thomas Varghese]() for the help getting me get started and for the helpful review and comments on the website.
+* My remote mentor [Allen Thomas Varghese](https://github.com/allentv) for the help getting me get started and for the insightful review and comments on the website.

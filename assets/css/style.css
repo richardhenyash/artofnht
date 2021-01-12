@@ -19,11 +19,6 @@ body {
     margin: 0 0 0 0;
 }
 
-.margin-tb-none {
-    margin-top: none;
-    margin-bottom: none;
-}
-
 /*--Containers--*/
 .container-logo-nav {
     padding-top: 1.5rem;
@@ -73,7 +68,7 @@ body {
 
 .container-heading-caricatures {
     margin-top: 0.7rem;
-    margin-bottom: -0.7rem;
+    margin-bottom: -0.2rem;
 }
 
 .container-image-about {
@@ -210,6 +205,10 @@ body {
 
 .blockdivider-spacing-bottom {
     margin-bottom: 1rem;    
+}
+
+.blockdivider-spacing-extra-bottom {
+    margin-bottom: 3.3rem;    
 }
 
 /*--Home Page and Gallery Page Images--*/
