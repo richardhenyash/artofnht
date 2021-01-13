@@ -17,7 +17,7 @@
     - [About Page Links](#about-page-links)
     - [Contact Form](#contact-form)
 - [Bugs Fixed During Testing](#bugs-fixed-during-testing)
-- [Bugs Remaining](#bugs-not-fixed-during-testing)
+- [Bugs Remaining](#bugs-remaining)
 
 ## Automated Testing ##
 
@@ -36,7 +36,7 @@ The [Gallery](./gallery.html) page now passes validation without errors or warni
 * ***As a user I am searching for existing comic art to buy.*** The user can easily browse through the artist's portfolio of work using the [Gallery](./gallery.html) page, and is able to contact the artist using the [Contact](./contact.html) form. The [Contact](./contact.html) form has been manually tested and works succesfully through [Formspree](https://help.formspree.io/hc/en-us).
 * ***As a user I am searching for an artist to commission some work.*** The user can easily browse through the artist's portfolio of work using the [Gallery](./gallery.html) page, and is able to contact the artist using the [Contact](./contact.html) form. The [Contact](./contact.html) form has been manually tested and works succesfully through [Formspree](https://help.formspree.io/hc/en-us).
 * ***As a user I want to contact the artist.*** The user is able to contact the artist using the [Contact](./contact.html) form. The [Contact](./contact.html) form has been manually tested and works succesfully through [Formspree](https://help.formspree.io/hc/en-us).
-* ***As a user I want to find out more about a specific piece of art.*** When the user clicks on a specific picture in the [Gallery](./gallery.html) or on the [Home](./home.html) page they are presented with a modal pop up which includes a larger version of the picture, the picture name and medium. 
+* ***As a user I want to find out more about a specific piece of art.*** When the user clicks on a specific picture in the [Gallery](./gallery.html) or on the [Home](./index.html) page they are presented with a modal pop up which includes a larger version of the picture, the picture name and medium. 
 
 ## Additional UX Testing ##
 A number of friends and family of the developer and the artist have visited the site and the feedback has been very good so far. Users have given feedback that the site is well designed and easy to use.
@@ -52,10 +52,10 @@ Logo link and Logo Link hover styling has been tested on all pages and works cor
 Footer link and Footer Link hover styling have been tested on all pages and work correctly.
 
 ### Home Page Image Modals
-[Home](./index.html) page pop-up image modals have been tested and work correctly. See [Image Modal Testing](./assets/wireframes/testing/image-modal) screen prints.
+[Home](./index.html) page pop-up image modals have been tested and work correctly. See [Image Modal Testing](./assets/testing/image-modals) screen prints.
 
 ### Gallery Page Image Modals
-[Gallery](./gallery.html) page pop-up image modals have been tested and work correctly. See [Image Modal Testing](./assets/wireframes/testing/image-modal) screen prints.
+[Gallery](./gallery.html) page pop-up image modals have been tested and work correctly. See [Image Modal Testing](./assets/testing/image-modals) screen prints.
 
 ### Gallery Page Carousel Controls
 [Gallery](./gallery.html) page image carousel controls have been tested for 1 panel, 2 panel and 3 panel carousels and work correctly.
@@ -63,10 +63,10 @@ Footer link and Footer Link hover styling have been tested on all pages and work
 ### Responsive Design ###
 * Responsive design has been tested by using the chrome developer tools to emulate viewing the website on a number of devices with varying screen dimensions, 
 including iPhone 5/SE, iPhone 6/7/8, iPhone 6/7/8 plus, iPhone 11, iPad, iPad Pro, Moto G4, Galaxy S5, Surface Duo, Galaxy Fold, Widescreen Laptop and Desktop PC. 
-See [Responsive Design Testing](./assets/wireframes/testing/responsive-design) screen prints.
+See [Responsive Design Testing](./assets/testing/responsive-design) screen prints.
 * Responsive design was then further tested using the [Responsive Viewer](https://chrome.google.com/webstore/detail/responsive-viewer/inmopeiepgfljkpkidclfgbgbmfcennb?hl=en)
 plug in for chrome. This emulates viewing the website on a large number of devices, including iPhone XR, XS Max, iPhone XS, X, Galaxy S9 Plus, S8 Plus, Galaxy S9, Note 8, S8, Pixel 3, 3XL,
-Medium Desktop PC and Large Desktop PC. See [Responsive Design Testing](./assets/wireframes/testing/responsive-design) screen prints.
+Medium Desktop PC and Large Desktop PC. See [Responsive Design Testing](./assets/testing/responsive-design) screen prints.
 * The home page images behave as expected - the right hand "cyclops" image is hidden on smaller devices.  
 * The gallery carousel behaves as expected, auto-sizing the images fluidly and displaying a 1 panel wide carousel on small screens,
 a 2 panel wide carousel on medium screens and a 3 panel carousel on large screens.
@@ -84,7 +84,7 @@ It was found during testing that the "required" attribute had not been added to 
 * The [Contact](./contact.html) form "Message" form input now works correctly. Input is required in order to submit the form.
 * The [Contact](./contact.html) form "Send" form input now works correctly. A message is displayed saying that the form was submitted succesfully using [Formspree](https://help.formspree.io/hc/en-us) and an email is sent to "nickhopet@hotmail.com".  
 
-See [Contact Form Testing](./assets/wireframes/testing/contact-form) screen prints.
+See [Contact Form Testing](./assets/testing/contact-form) screen prints.
 
 ## Bugs Fixed During Testing ##
 See [Custom CSS Styling](#custom-css-styling) and [HTML](#html) sections for bugs fixed during the automated testing process. See [Contact Form](#contact-form) section for bug fixed during the manual testing process.
