@@ -55,9 +55,12 @@ Footer link and Footer Link hover styling have been tested on all pages and work
 
 ### Responsive Design ###
 * Responsive design has been tested by using the chrome developer tools to emulate viewing the website on a number of devices with varying screen dimensions, including iPhone 5/SE, iPhone 6/7/8, iPhone 6/7/8 plus, iPhone 11, iPad, iPad Pro, Moto G4, Galaxy S5, Surface Duo, Galaxy Fold, Widescreen Laptop and Desktop PC. See [Testing](./assets/wireframes/testing) screen prints.
-* Responsive design was then further tested using the [Responsive Viewer] (https://chrome.google.com/webstore/detail/responsive-viewer/inmopeiepgfljkpkidclfgbgbmfcennb?hl=en) plug in for chrome. This emulated viewing the website on a large number of devices, including iPhone XR, XS Max, iPhone XS, X, Galaxy S9 Plus, S8 Plus, Galaxy S9, Note 8, S8, Pixel 3, 3XL, Medium Desktop PC and Large Desktop PC. See [Testing](./assets/wireframes/testing) screen prints.
+* Responsive design was then further tested using the [Responsive Viewer] (https://chrome.google.com/webstore/detail/responsive-viewer/inmopeiepgfljkpkidclfgbgbmfcennb?hl=en)
+plug in for chrome. This emulated viewing the website on a large number of devices, including iPhone XR, XS Max, iPhone XS, X, Galaxy S9 Plus, S8 Plus, Galaxy S9, Note 8, S8, Pixel 3, 3XL,
+Medium Desktop PC and Large Desktop PC. See [Testing](./assets/wireframes/testing) screen prints.
 * The home page images behave as expected - the right hand "cyclops" image is hidden on smaller devices.  
-* The gallery carousel behaves as expected, auto-sizing the images fluidly and displaying a 1 panel wide carousel on small screenms, a 2 panel wide carousel on medium screens and a 3 panel carousel on large screens.
+* The gallery carousel behaves as expected, auto-sizing the images fluidly and displaying a 1 panel wide carousel on small screens,
+a 2 panel wide carousel on medium screens and a 3 panel carousel on large screens.
 
 ### About Page Links ###
 * The [About](./about.html) page profile image links to the [Contact](./contact.html) page correctly.
@@ -66,10 +69,11 @@ Footer link and Footer Link hover styling have been tested on all pages and work
 * The [About](./about.html) page "Contact Nick" button links to the [Contact](./contact.html) page correctly.
 
 ### Contact Form ###
-* The [Contact](./contact.html) form "Name" field works correctly. Input is required in order to submit the form and the user's name entered previously into the browser are available for selection.
-* The [Contact](./contact.html) form "Email" field works correctly. Input is required in order to submit the form, must be in the correct format (requires an @ symbol) and the user's email addresses entered previously into the browser are available for selection.
-* The [Contact](./contact.html) form "Message" field works correctly. Input is required in order to submit the form.
-* The [Contact](./contact.html) form "Send" button works correctly. A message is displayed saying that the form was submitted succesfully using [Formspree](https://help.formspree.io/hc/en-us) and an email is sent to "nickhopet@hotmail.com". See screen print below: <img src="./assets/wireframes/testing/contact-form-submission.png" style="margin: 15px;">.
+It was found during testing that the "required" attribute had not been added to the "Name", "Email address" and "Message" form inputs. This has now been added, and the form was re-tested.
+* The [Contact](./contact.html) form "Name" form input now works correctly. Input is required in order to submit the form and the user's name(s) entered previously into the browser are available for selection.
+* The [Contact](./contact.html) form "Email address" form input now works correctly. Input is required in order to submit the form, must be in the correct format (requires an @ symbol) and the user's email addresses entered previously into the browser are available for selection.
+* The [Contact](./contact.html) form "Message" form input now works correctly. Input is required in order to submit the form.
+* The [Contact](./contact.html) form "Send" form input now works correctly. A message is displayed saying that the form was submitted succesfully using [Formspree](https://help.formspree.io/hc/en-us) and an email is sent to "nickhopet@hotmail.com". See screen print below:  <img src="./assets/wireframes/testing/contact-form-submission.png" style="margin: 15px;">.
 
 ## Bugs Fixed During Testing ##
 See [Custom CSS Styling](#custom-css-styling) and [HTML](#html) sections for bugs fixed during the automated testing process. No bugs were detected during the manual testing process.
