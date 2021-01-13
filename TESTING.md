@@ -52,10 +52,12 @@ Logo link and Logo Link hover styling has been tested on all pages and works cor
 Footer link and Footer Link hover styling have been tested on all pages and work correctly.
 
 ### Home Page Image Modals
-[Home](./index.html) page pop-up image modals have been tested and work correctly. See [Image Modal Testing](./assets/testing/image-modals) screen prints.
+[Home](./index.html) page pop-up image modals have been tested and work correctly. See [Image Modal Testing](./assets/testing/image-modals) screen prints, also shown below:  
+<img src="./assets/testing/image-modals/image-modal-home-page.png" style="margin: 15px; width:300px;">  
 
 ### Gallery Page Image Modals
-[Gallery](./gallery.html) page pop-up image modals have been tested and work correctly. See [Image Modal Testing](./assets/testing/image-modals) screen prints.
+[Gallery](./gallery.html) page pop-up image modals have been tested and work correctly. See [Image Modal Testing](./assets/testing/image-modals) screen prints, also shown below:  
+<img src="./assets/testing/image-modals/image-modal-gallery-page.png" style="margin: 15px; width:300px;">
 
 ### Gallery Page Carousel Controls
 [Gallery](./gallery.html) page image carousel controls have been tested for 1 panel, 2 panel and 3 panel carousels and work correctly.
@@ -63,10 +65,19 @@ Footer link and Footer Link hover styling have been tested on all pages and work
 ### Responsive Design ###
 * Responsive design has been tested by using the chrome developer tools to emulate viewing the website on a number of devices with varying screen dimensions, 
 including iPhone 5/SE, iPhone 6/7/8, iPhone 6/7/8 plus, iPhone 11, iPad, iPad Pro, Moto G4, Galaxy S5, Surface Duo, Galaxy Fold, Widescreen Laptop and Desktop PC. 
-See [Responsive Design Testing](./assets/testing/responsive-design) screen prints.
+See [Responsive Design Testing](./assets/testing/responsive-design) screen prints, a selection of which are shown below:  
+<img src="./assets/testing/responsive-design/responsive-design-iphone5.png" style="margin: 15px; width:300px;">
+<img src="./assets/testing/responsive-design/responsive-design-iphone11.png" style="margin: 15px; width:300px;">
+<img src="./assets/testing/responsive-design/responsive-design-ipad.png" style="margin: 15px; width:300px;">  
+<img src="./assets/testing/responsive-design/responsive-design-desktoppc.png" style="margin: 15px; width:300px;">
+<img src="./assets/testing/responsive-design/responsive-design-widescreenlaptop.png" style="margin: 15px; width:300px;">
+
 * Responsive design was then further tested using the [Responsive Viewer](https://chrome.google.com/webstore/detail/responsive-viewer/inmopeiepgfljkpkidclfgbgbmfcennb?hl=en)
 plug in for chrome. This emulates viewing the website on a large number of devices, including iPhone XR, XS Max, iPhone XS, X, Galaxy S9 Plus, S8 Plus, Galaxy S9, Note 8, S8, Pixel 3, 3XL,
-Medium Desktop PC and Large Desktop PC. See [Responsive Design Testing](./assets/testing/responsive-design) screen prints.
+Medium Desktop PC and Large Desktop PC. See [Responsive Design Testing](./assets/testing/responsive-design) screen prints, also shown below:  
+<img src="./assets/testing/responsive-design/responsive-viewer-page1.png" style="margin: 15px; width:300px;">
+<img src="./assets/testing/responsive-design/responsive-viewer-page2.png" style="margin: 15px; width:300px;">
+
 * The home page images behave as expected - the right hand "cyclops" image is hidden on smaller devices.  
 * The gallery carousel behaves as expected, auto-sizing the images fluidly and displaying a 1 panel wide carousel on small screens,
 a 2 panel wide carousel on medium screens and a 3 panel carousel on large screens.
@@ -84,7 +95,10 @@ It was found during testing that the "required" attribute had not been added to 
 * The [Contact](./contact.html) form "Message" form input now works correctly. Input is required in order to submit the form.
 * The [Contact](./contact.html) form "Send" form input now works correctly. A message is displayed saying that the form was submitted succesfully using [Formspree](https://help.formspree.io/hc/en-us) and an email is sent to "nickhopet@hotmail.com".  
 
-See [Contact Form Testing](./assets/testing/contact-form) screen prints.
+See [Contact Form Testing](./assets/testing/contact-form) screen prints, a selection of which are also shown below:   
+<img src="./assets/testing/contact-form/contact-form-test-email.png" style="margin: 15px; width:300px;">  
+<img src="./assets/testing/contact-form/contact-form-test-submission.png" style="margin: 15px; width:300px;">  
+
 
 ## Bugs Fixed During Testing ##
 See [Custom CSS Styling](#custom-css-styling) and [HTML](#html) sections for bugs fixed during the automated testing process. See [Contact Form](#contact-form) section for bug fixed during the manual testing process.

@@ -214,15 +214,18 @@ The final colour pallete is shown below:
 Testing information can be found in [Testing.md](TESTING.md).
 
 ## Deployment ##
-The website has been be deployed on GitHub pages using a custom domain purchased from [GoDaddy](https://uk.godaddy.com/), [Art Of NHT](www.artofnht.com). The steps required to achieve this are as follows:
+The website resides as a repository in [GitHub](https://github.com/) and has been be deployed on [GitHub](https://github.com/) pages using the custom domain [Art Of NHT](www.artofnht.com) purchased from [GoDaddy](https://uk.godaddy.com/). 
+The code may be downloaded to a local computer from the [GitHub](https://github.com/) repository by going to the [Code Repository Location](https://github.com/richardhenyash/artofnht) on [GitHub](https://github.com/), 
+selecting the "Code" option and downloading as a zip file.  
+The steps required to deploy the website to a custom domain using GitHub pages are as follows:
 * Open the DNS management page in the GoDaddy Domain Manager for the relevant domain which you have purchased through GoDaddy.
 * Edit the Type "A" record. The IP address in the "Value" field should be changed to 185.199.108.153.
 * Edit the Type "CNAME" record with the field "Name" set to "www". This should be changed to the relevant [GitHub](https://github.com/) pages web adrress (username.github.io). For my GitHub pages this is (richardhenyash.github.io).
 * Add 3 further Type "A" records with "Name" set to "@", and "Value" fields set to IP addresses 185.199.109.153, 185.199.110.153, 185.199.111.153.
 * Go to the Settings in the [GitHub](https://github.com/) repository.
-* In the [GitHub](https://github.com/) Pages section, add the custom domain in the Custom domain box (artofnht.com).
+* In the [GitHub](https://github.com/) Pages section, add the custom domain name in the Custom domain box (artofnht.com).
 * Tick "Enforce HTTPS".
-* This will create a a new file in the root directory called CNAME, which should have one line of text which is the custom domain name (artofnht.com).
+* This creates a a new file in the root directory called CNAME, which should have one line of text which is the custom domain name (artofnht.com).
 
 ## Credits ##
 
