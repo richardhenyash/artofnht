@@ -8,7 +8,14 @@
 - [Additional UX Testing](#additional-ux-testing)
 - [Manual Testing](#manual-testing)
     - [Navigation Links](#navigation-links)
+    - [Logo Link](#logo-link)
     - [Footer Link](#footer-link)
+    - [Home Page Image Modals](#home-page-image-modals)
+    - [Gallery Page Image Modals](#gallery-page-image-modals)
+    - [Gallery Page Carousel Controls](#gallery-page-carousel-controls)
+    - [Resonsive Design](#responsive-design)
+    - [About Page Links](#about-page-links)
+    - [Contact Form](#contact-form)
 - [Bugs Fixed During Testing](#bugs-fixed-during-testing)
 - [Bugs Remaining](#bugs-not-fixed-during-testing)
 
@@ -45,19 +52,21 @@ Logo link and Logo Link hover styling has been tested on all pages and works cor
 Footer link and Footer Link hover styling have been tested on all pages and work correctly.
 
 ### Home Page Image Modals
-[Home](./index.html) page pop-up image modals have been tested and work correctly. See [Testing](./assets/wireframes/testing) screen prints.
+[Home](./index.html) page pop-up image modals have been tested and work correctly. See [Image Modal Testing](./assets/wireframes/testing/image-modal) screen prints.
 
 ### Gallery Page Image Modals
-[Gallery](./gallery.html) page pop-up image modals have been tested and work correctly. See [Testing](./assets/wireframes/testing) screen prints.
+[Gallery](./gallery.html) page pop-up image modals have been tested and work correctly. See [Image Modal Testing](./assets/wireframes/testing/image-modal) screen prints.
 
 ### Gallery Page Carousel Controls
 [Gallery](./gallery.html) page image carousel controls have been tested for 1 panel, 2 panel and 3 panel carousels and work correctly.
 
 ### Responsive Design ###
-* Responsive design has been tested by using the chrome developer tools to emulate viewing the website on a number of devices with varying screen dimensions, including iPhone 5/SE, iPhone 6/7/8, iPhone 6/7/8 plus, iPhone 11, iPad, iPad Pro, Moto G4, Galaxy S5, Surface Duo, Galaxy Fold, Widescreen Laptop and Desktop PC. See [Testing](./assets/wireframes/testing) screen prints.
-* Responsive design was then further tested using the [Responsive Viewer] (https://chrome.google.com/webstore/detail/responsive-viewer/inmopeiepgfljkpkidclfgbgbmfcennb?hl=en)
-plug in for chrome. This emulated viewing the website on a large number of devices, including iPhone XR, XS Max, iPhone XS, X, Galaxy S9 Plus, S8 Plus, Galaxy S9, Note 8, S8, Pixel 3, 3XL,
-Medium Desktop PC and Large Desktop PC. See [Testing](./assets/wireframes/testing) screen prints.
+* Responsive design has been tested by using the chrome developer tools to emulate viewing the website on a number of devices with varying screen dimensions, 
+including iPhone 5/SE, iPhone 6/7/8, iPhone 6/7/8 plus, iPhone 11, iPad, iPad Pro, Moto G4, Galaxy S5, Surface Duo, Galaxy Fold, Widescreen Laptop and Desktop PC. 
+See [Responsive Design Testing](./assets/wireframes/testing/responsive-design) screen prints.
+* Responsive design was then further tested using the [Responsive Viewer](https://chrome.google.com/webstore/detail/responsive-viewer/inmopeiepgfljkpkidclfgbgbmfcennb?hl=en)
+plug in for chrome. This emulates viewing the website on a large number of devices, including iPhone XR, XS Max, iPhone XS, X, Galaxy S9 Plus, S8 Plus, Galaxy S9, Note 8, S8, Pixel 3, 3XL,
+Medium Desktop PC and Large Desktop PC. See [Responsive Design Testing](./assets/wireframes/testing/responsive-design) screen prints.
 * The home page images behave as expected - the right hand "cyclops" image is hidden on smaller devices.  
 * The gallery carousel behaves as expected, auto-sizing the images fluidly and displaying a 1 panel wide carousel on small screens,
 a 2 panel wide carousel on medium screens and a 3 panel carousel on large screens.
@@ -73,10 +82,12 @@ It was found during testing that the "required" attribute had not been added to 
 * The [Contact](./contact.html) form "Name" form input now works correctly. Input is required in order to submit the form and the user's name(s) entered previously into the browser are available for selection.
 * The [Contact](./contact.html) form "Email address" form input now works correctly. Input is required in order to submit the form, must be in the correct format (requires an @ symbol) and the user's email addresses entered previously into the browser are available for selection.
 * The [Contact](./contact.html) form "Message" form input now works correctly. Input is required in order to submit the form.
-* The [Contact](./contact.html) form "Send" form input now works correctly. A message is displayed saying that the form was submitted succesfully using [Formspree](https://help.formspree.io/hc/en-us) and an email is sent to "nickhopet@hotmail.com". See screen print below:  <img src="./assets/wireframes/testing/contact-form-submission.png" style="margin: 15px;">.
+* The [Contact](./contact.html) form "Send" form input now works correctly. A message is displayed saying that the form was submitted succesfully using [Formspree](https://help.formspree.io/hc/en-us) and an email is sent to "nickhopet@hotmail.com".  
+
+See [Contact Form Testing](./assets/wireframes/testing/contact-form) screen prints.
 
 ## Bugs Fixed During Testing ##
-See [Custom CSS Styling](#custom-css-styling) and [HTML](#html) sections for bugs fixed during the automated testing process. No bugs were detected during the manual testing process.
+See [Custom CSS Styling](#custom-css-styling) and [HTML](#html) sections for bugs fixed during the automated testing process. See [Contact Form](#contact-form) section for bug fixed during the manual testing process.
 
 ## Bugs Remaining ##
 There are no known bugs remaining.
