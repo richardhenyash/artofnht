@@ -32,9 +32,22 @@ A number of errors were detected and fixed in the [Gallery](./gallery.html) page
 The [Gallery](./gallery.html) page now passes validation without errors or warnings. The [About](./about.html) and [Contact](./contact.html) pages both passed validation without errors or warnings.
 
 ## User Stories Testing ##
-* ***As a user I want to browse comic art sites for fun and inspiration.*** The user can easily browse through the artist's portfolio of work using the [Gallery](./gallery.html) page.
-* ***As a user I am searching for existing comic art to buy.*** The user can easily browse through the artist's portfolio of work using the [Gallery](./gallery.html) page, and is able to contact the artist using the [Contact](./contact.html) form. The [Contact](./contact.html) form has been manually tested and works succesfully through [Formspree](https://help.formspree.io/hc/en-us).
-* ***As a user I am searching for an artist to commission some work.*** The user can easily browse through the artist's portfolio of work using the [Gallery](./gallery.html) page, and is able to contact the artist using the [Contact](./contact.html) form. The [Contact](./contact.html) form has been manually tested and works succesfully through [Formspree](https://help.formspree.io/hc/en-us).
+* ***As a user I want to browse comic art sites for fun and inspiration.*** The user can browse through the artist's portfolio of work using the [Gallery](./gallery.html) page.  
+The carousel controls allow the user to cycle the images at a time of their choosing. Each image can be selected and pops out into an extra large modal which includes the name of the image and the medium (e.g. Inks).  
+<img src="./assets/testing/gallery-page/gallery-page.png" style="margin: 15px; width:300px;">
+<img src="./assets/testing/image-modals/image-modal-gallery-page.png" style="margin: 15px; width:300px;">
+
+* ***As a user I am searching for existing comic art to buy.*** The user can browse through the artist's portfolio of work using the [Gallery](./gallery.html) page, and is able to contact the artist using the [Contact](./contact.html) form. The [Contact](./contact.html) form has been manually tested and works succesfully through [Formspree](https://help.formspree.io/hc/en-us).  
+<img src="./assets/testing/contact-form/contact-form.png" style="margin: 15px; width:300px;">  
+<img src="./assets/testing/contact-form/contact-form-test-submission.png" style="margin: 15px; width:300px;">
+
+
+* ***As a user I am searching for an artist to commission some work.*** The user can browse through the artist's 
+portfolio of work using the [Gallery](./gallery.html) page, and can view a biography of the artist on the [About](./about.html) page.
+The user is able to contact the artist using the [Contact](./contact.html) form which is linked from the 
+[About](./about.html) page and the navigation menu. The [Contact](./contact.html) form has been manually tested and 
+works succesfully through [Formspree](https://help.formspree.io/hc/en-us).
+
 * ***As a user I want to contact the artist.*** The user is able to contact the artist using the [Contact](./contact.html) form. The [Contact](./contact.html) form has been manually tested and works succesfully through [Formspree](https://help.formspree.io/hc/en-us).
 * ***As a user I want to find out more about a specific piece of art.*** When the user clicks on a specific picture in the [Gallery](./gallery.html) or on the [Home](./index.html) page they are presented with a modal pop up which includes a larger version of the picture, the picture name and medium. 
 
