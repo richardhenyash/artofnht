@@ -16,6 +16,7 @@
     - [Resonsive Design](#responsive-design)
     - [About Page Links](#about-page-links)
     - [Contact Form](#contact-form)
+    - [Browser Compatibility Testing Form](#browser-compatibility-testing)
 - [Bugs Fixed During Testing](#bugs-fixed-during-testing)
 - [Bugs Remaining](#bugs-remaining)
 
@@ -123,6 +124,21 @@ See [Contact Form Testing](./assets/testing/contact-form) screen prints, a selec
 <img src="./assets/testing/contact-form/contact-form-test-email.png" style="margin: 15px; width:300px;">  
 <img src="./assets/testing/contact-form/contact-form-test-submission.png" style="margin: 15px; width:300px;">  
 
+### Browser Compatibility Testing ###
+The website was tested on the following browsers and operating systems, 
+using a combination of manual testing across various devices and the [Browserstack](https://www.browserstack.com/) emulator:
+* Chrome (Windows 10, Android 11 and Mac OS Big Sur).
+* Microsoft Edge (Windows 10 and Mac OS Big Sur).
+* Microsoft Internet Explorer 11 (Windows 10).
+* Safari (Mac OS Big Sur and iOS).
+* Firefox (Windows 10 and Mac OS Big Sur).
+* Yandex (Windows 10).
+* Opera (Windows 10 and Mac OS Big Sur).  
+
+The only issue detected was that the fade-ins which are applied to the images on [Home](./index.html) and [Gallery](./gallery.html) pages
+and the titles on the [Contact](./contact.html) and [About](./about.html) pages don't work on the Yandex browser. All images and titles 
+still display correctly without the fade-in animation. The Yandex browser accounts for approximately 12% of the browser market share in Russia 
+and is not widely used outside of Russia, so this is not seen as a major issue.
 
 ## Bugs Fixed During Testing ##
 See [Custom CSS Styling](#custom-css-styling) and [HTML](#html) sections for bugs fixed during the automated testing process. See [Contact Form](#contact-form) section for bug fixed during the manual testing process.
