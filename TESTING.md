@@ -28,28 +28,37 @@
 ### HTML ###
 All HTML code was validated using the [W3C Markup validation service](https://validator.w3.org/). One warning was generated on the [Home](./index.html) page.
 This is due to the fact that there is no heading in the main section, which is intentional as this would detract from the overall look and user experience.
+The main image section is visually implied without the need for a heading. An aria-label was added to the main image section to improve accesibility for visually impaired users.
+The [Home](./index.html) page HTML coed was then revalidated and passed with no errors or warnings.  
 A number of errors were detected and fixed in the [Gallery](./gallery.html) page, including 2 closing 'h3' tags which were incorrectly set to 'p', and duplicate id's on the carousel control elements.
 The [Gallery](./gallery.html) page now passes validation without errors or warnings. The [About](./about.html) and [Contact](./contact.html) pages both passed validation without errors or warnings.
 
 ## User Stories Testing ##
 * ***As a user I want to browse comic art sites for fun and inspiration.*** The user can browse through the artist's portfolio of work using the [Gallery](./gallery.html) page.  
 The carousel controls allow the user to cycle the images at a time of their choosing. Each image can be selected and pops out into an extra large modal which includes the name of the image and the medium (e.g. Inks).  
-<img src="./assets/testing/gallery-page/gallery-page.png" style="margin: 15px; width:300px;">
-<img src="./assets/testing/image-modals/image-modal-gallery-page.png" style="margin: 15px; width:300px;">
+<img src="./assets/testing/gallery-page/gallery-page-1.png" style="margin: 15px; width:300px;">
+<img src="./assets/testing/image-modals/image-modal-gallery-page-1.png" style="margin: 15px; width:300px;">
 
 * ***As a user I am searching for existing comic art to buy.*** The user can browse through the artist's portfolio of work using the [Gallery](./gallery.html) page, and is able to contact the artist using the [Contact](./contact.html) form. The [Contact](./contact.html) form has been manually tested and works succesfully through [Formspree](https://help.formspree.io/hc/en-us).  
-<img src="./assets/testing/contact-form/contact-form.png" style="margin: 15px; width:300px;">  
+<img src="./assets/testing/contact-form/contact-form.png" style="margin: 15px; width:300px;">
 <img src="./assets/testing/contact-form/contact-form-test-submission.png" style="margin: 15px; width:300px;">
-
 
 * ***As a user I am searching for an artist to commission some work.*** The user can browse through the artist's 
 portfolio of work using the [Gallery](./gallery.html) page, and can view a biography of the artist on the [About](./about.html) page.
 The user is able to contact the artist using the [Contact](./contact.html) form which is linked from the 
 [About](./about.html) page and the navigation menu. The [Contact](./contact.html) form has been manually tested and 
-works succesfully through [Formspree](https://help.formspree.io/hc/en-us).
+works succesfully through [Formspree](https://help.formspree.io/hc/en-us).  
+<img src="./assets/testing/gallery-page/gallery-page-2.png" style="margin: 15px; width:300px;">
+<img src="./assets/testing/about-page/about-page.png" style="margin: 15px; width:300px;">
 
-* ***As a user I want to contact the artist.*** The user is able to contact the artist using the [Contact](./contact.html) form. The [Contact](./contact.html) form has been manually tested and works succesfully through [Formspree](https://help.formspree.io/hc/en-us).
+* ***As a user I want to contact the artist.*** The user is able to contact the artist using the [Contact](./contact.html) form. The [Contact](./contact.html) form has been manually tested and works succesfully through [Formspree](https://help.formspree.io/hc/en-us).  
+<img src="./assets/testing/contact-form/contact-form.png" style="margin: 15px; width:300px;">
+<img src="./assets/testing/contact-form/contact-form-test-submission.png" style="margin: 15px; width:300px;">
+
 * ***As a user I want to find out more about a specific piece of art.*** When the user clicks on a specific picture in the [Gallery](./gallery.html) or on the [Home](./index.html) page they are presented with a modal pop up which includes a larger version of the picture, the picture name and medium. 
+The user is then able to contact the artist using the [Contact](./contact.html) form. The [Contact](./contact.html) form has been manually tested and works succesfully through [Formspree](https://help.formspree.io/hc/en-us).  
+<img src="./assets/testing/image-modals/image-modal-gallery-page-3.png" style="margin: 15px; width:300px;">
+<img src="./assets/testing/image-modals/image-modal-gallery-page-4.png" style="margin: 15px; width:300px;">
 
 ## Additional UX Testing ##
 A number of friends and family of the developer and the artist have visited the site and the feedback has been very good so far. Users have given feedback that the site is well designed and easy to use.
@@ -66,11 +75,13 @@ Footer link and Footer Link hover styling have been tested on all pages and work
 
 ### Home Page Image Modals
 [Home](./index.html) page pop-up image modals have been tested and work correctly. See [Image Modal Testing](./assets/testing/image-modals) screen prints, also shown below:  
-<img src="./assets/testing/image-modals/image-modal-home-page.png" style="margin: 15px; width:300px;">  
+<img src="./assets/testing/image-modals/image-modal-home-page-1.png" style="margin: 15px; width:300px;">
+<img src="./assets/testing/image-modals/image-modal-home-page-2.png" style="margin: 15px; width:300px;">
 
 ### Gallery Page Image Modals
 [Gallery](./gallery.html) page pop-up image modals have been tested and work correctly. See [Image Modal Testing](./assets/testing/image-modals) screen prints, also shown below:  
-<img src="./assets/testing/image-modals/image-modal-gallery-page.png" style="margin: 15px; width:300px;">
+<img src="./assets/testing/image-modals/image-modal-gallery-page-4.png" style="margin: 15px; width:300px;">
+<img src="./assets/testing/image-modals/image-modal-gallery-page-5.png" style="margin: 15px; width:300px;">
 
 ### Gallery Page Carousel Controls
 [Gallery](./gallery.html) page image carousel controls have been tested for 1 panel, 2 panel and 3 panel carousels and work correctly.
