@@ -252,12 +252,14 @@ repository. A new [darktheme](https://github.com/richardhenyash/artofnht/tree/da
 developed into the final website. This is set as the source for [GitHub](https://github.com/) pages.
 * Gallery carousel controls - these were initially located at the bottom of the images within the image panels, but were moved underneath the carousel elements as we felt this provided a better user experience. 
 See [Gallery Testing Screen Prints](./assets/testing/gallery-page), an example of which is shown below:  
-<img src="./assets/testing/gallery-page/gallery-page-2.png" style="margin: 15px; width:250px;">
+<img src="./assets/testing/gallery-page/gallery-page-2.png" style="margin: 15px; width:250px;">  
+
 * Gallery carousel images - the images were initially being sized by using specific media queries for a range of device widths to set the 
 height of the image. The gallery images were then resized to 1200px x 1680px, to enable bootstrap to auto size the gallery in 1 panel, 
 2 panels or 3 panels depending on screen size. This enables the gallery to scale fluidly and without degrading image quality for any 
 screen size up to 3600px wide. [Gallery Testing Screen Prints](./assets/testing/gallery-page), an example of which is shown below:  
-<img src="./assets/testing/gallery-page/gallery-page-3.png" style="margin: 15px; width:250px;">
+<img src="./assets/testing/gallery-page/gallery-page-3.png" style="margin: 15px; width:250px;">  
+
 * Contact form - the contact form was initially developed as a modal pop-up form, but this was found not to work with the [Form Spree](https://help.formspree.io/hc/en-us) service. The contact form was redesigned as a [web page](contact.html).
 
 ## Testing ##
