@@ -264,7 +264,7 @@ screen size up to 3600px wide. [Gallery Testing Screen Prints](./assets/testing/
 
 ## Testing ##
 
-Testing information and screen prints can be found in [Testing.md](TESTING.md).
+Further testing information and screen prints can be found in [Testing.md](TESTING.md).
 
 ## Deployment ##
 The website resides as a repository in [GitHub](https://github.com/) and has been be deployed on [GitHub](https://github.com/) pages using the custom domain [Art Of NHT](www.artofnht.com) purchased from [GoDaddy](https://uk.godaddy.com/). 
