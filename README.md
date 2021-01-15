@@ -178,11 +178,11 @@ The final colour pallete is shown below:
 ### Languages ###
 * [HTML](https://www.w3schools.com/html/default.asp)
 * [CSS](https://www.w3schools.com/css/default.asp)
-* [JavaScript](https://www.w3schools.com/js/default.asp)
+* [JavaScript](https://www.w3schools.com/js/default.asp) (used internally by [Bootstrap](https://getbootstrap.com/docs/4.5/getting-started/introduction/))
 
 ### Frameworks Libraries and Tools ###
 * [Bootstrap](https://getbootstrap.com/docs/4.5/getting-started/introduction/)
-* [jQuery](https://jquery.com/)
+* [jQuery](https://jquery.com/) (used internally by [Bootstrap](https://getbootstrap.com/docs/4.5/getting-started/introduction/))
 * [Font Awewsome](https://fontawesome.com/)
 * [Google Fonts](https://fonts.google.com/)
 * [Form Spree](https://help.formspree.io/hc/en-us)

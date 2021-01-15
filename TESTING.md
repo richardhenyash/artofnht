@@ -118,11 +118,13 @@ a 2 panel wide carousel on medium screens and a 3 panel wide carousel on large s
 * The [About](./about.html) page "Contact Nick" button links to the [Contact](./contact.html) page correctly.
 
 ### Contact Form ###
-It was found during testing that the "required" attribute had not been added to the "Name", "Email address" and "Message" form inputs. This has now been added, and the form was re-tested.
-* The [Contact](./contact.html) form "Name" form input now works correctly. Input is required in order to submit the form and the user's name(s) entered previously into the browser are available for selection.
-* The [Contact](./contact.html) form "Email address" form input now works correctly. Input is required in order to submit the form, must be in the correct format (requires an @ symbol) and the user's email addresses entered previously into the browser are available for selection.
-* The [Contact](./contact.html) form "Message" form input now works correctly. Input is required in order to submit the form.
-* The [Contact](./contact.html) form "Send" form input now works correctly. A message is displayed saying that the form was submitted succesfully using [Formspree](https://help.formspree.io/hc/en-us) and an email is sent to nickhopet@hotmail.com.  
+Each input field of the [Contact](./contact.html) form was tested in turn. It was found during testing that the "required" attribute had not been added to the "Name", "Email address" and "Message" form inputs. This has now been added, and the form was re-tested.
+* The [Contact](./contact.html) form "Name" input was tested by attempting to submit the form with the "Name" input not populated.
+Input is required in order to submit the form and the user's name(s) entered previously into the browser are available for selection. The input works as intended.
+* The [Contact](./contact.html) form "Email address" input was tested by attempting to submit the form with the "Email" input not populated, and then with the "Email" input not populated with a valid email address.
+Input is required in order to submit the form, must be in the correct format (requires an @ symbol) and the user's email addresses entered previously into the browser are available for selection. The input works as intended.
+* The [Contact](./contact.html) form "Message" input was tested by attempting to submit the form with the "Message" input not populated. Input is required in order to submit the form. The input works as intended.
+* The [Contact](./contact.html) form "Send" buttton was tested by submitting the form. A message is displayed saying that the form was submitted succesfully using [Formspree](https://help.formspree.io/hc/en-us) and an email is sent to nickhopet@hotmail.com. The button works as intended.
 
 See [Contact Form Testing](./assets/testing/contact-form) screen prints, a selection of which are also shown below:   
 <img src="./assets/testing/contact-form/contact-form-test-name.png" style="margin: 15px; width:250px;">
@@ -132,13 +134,13 @@ See [Contact Form Testing](./assets/testing/contact-form) screen prints, a selec
 ### Browser Compatibility Testing ###
 The website was tested on the following browsers and operating systems, 
 using a combination of manual testing across various devices and the [Browserstack](https://www.browserstack.com/) emulator:
-* [Google Chrome](https://www.google.com/intl/en_uk/chrome/) (Windows 10, Android 11 and Mac OS Big Sur).
-* [Microsoft Edge](https://www.microsoft.com/en-us/edge) (Windows 10 and Mac OS Big Sur).
-* [Microsoft Internet Explorer 11](https://support.microsoft.com/en-us/topic/internet-explorer-downloads-d49e1f0d-571c-9a7b-d97e-be248806ca70#ID0EBBD=Windows_10) (Windows 10).
-* [Safari](https://www.apple.com/uk/safari/) (Mac OS Big Sur and iOS).
-* [Firefox](https://www.mozilla.org/en-GB/firefox/new/) (Windows 10 and Mac OS Big Sur).
-* [Yandex](https://browser.yandex.com/) (Windows 10).
-* [Opera](https://www.opera.com/) (Windows 10 and Mac OS Big Sur).  
+* [Google Chrome](https://www.google.com/intl/en_uk/chrome/) ([Windows 10](https://www.microsoft.com/en-us/windows), [Android 11](https://www.android.com/android-11/) and [Mac OS Big Sur](https://www.apple.com/uk/macos/big-sur/)).
+* [Microsoft Edge](https://www.microsoft.com/en-us/edge) ([Windows 10](https://www.microsoft.com/en-us/windows) and [Mac OS Big Sur](https://www.apple.com/uk/macos/big-sur/)).
+* [Microsoft Internet Explorer 11](https://support.microsoft.com/en-us/topic/internet-explorer-downloads-d49e1f0d-571c-9a7b-d97e-be248806ca70#ID0EBBD=Windows_10) ([Windows 10](https://www.microsoft.com/en-us/windows)).
+* [Safari](https://www.apple.com/uk/safari/) ([Mac OS Big Sur](https://www.apple.com/uk/macos/big-sur/) and [iOS](https://www.apple.com/uk/ios/ios-14/)).
+* [Firefox](https://www.mozilla.org/en-GB/firefox/new/) ([Windows 10](https://www.microsoft.com/en-us/windows) and [Mac OS Big Sur](https://www.apple.com/uk/macos/big-sur/)).
+* [Yandex](https://browser.yandex.com/) ([Windows 10](https://www.microsoft.com/en-us/windows)).
+* [Opera](https://www.opera.com/) ([Windows 10](https://www.microsoft.com/en-us/windows) and [Mac OS Big Sur](https://www.apple.com/uk/macos/big-sur/)).  
 
 The only issue detected was that the fade-ins which are applied to the images on [Home](./index.html) and [Gallery](./gallery.html) pages
 and the titles on the [Contact](./contact.html) and [About](./about.html) pages don't work in the [Yandex](https://browser.yandex.com/) browser. All images and titles 
