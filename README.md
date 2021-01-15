@@ -171,7 +171,7 @@ The initial colour pallete is shown below:
 * #7C7B7C - medium grey</div>
 * #2F4858 - dark grey/blue</div>  
 
-A screen print of the [Home](./index.html) page with the initial colour cheme is shown below:  
+A screen print of the [Home](index.html) page with the initial colour cheme is shown below:  
 <img src="./assets/testing/home-page/home-page-initial-colours.png" style="margin: 15px; width:300px;">
 
 After the home and gallery pages were constructed for review by the client using the colour pallete initially chosen, 
@@ -207,11 +207,11 @@ The final colour pallete is shown below:
 <img src="./assets/testing/home-page/logo.png" style="margin: 15px;">
 * Navigation Menu (including hover styling):  
 <img src="./assets/testing/home-page/navigation-menu.png" style="margin: 15px; width:300px;">
-* Footer with link to artist page on [comicartfans](https://www.comicartfans.com/gallerydetail.asp?gcat=682) (including hover styling):  
+* Footer with link to artist page on [comicartfans](https://www.comicartfans.com/gallerydetail.asp?gcat=682), (including hover styling):  
 <img src="./assets/testing/home-page/footer.png" style="margin: 15px; width:600px;">
 * Responsive Design.  
 * Large, responsive [Home](index.html) page image(s) which pop out into Modals which include an image title if selected. 
-2 images are shown on the [Home](index.html) page on larger devices, and 1 image is shown on the [Home](./index.html) page on smaller devices.  
+2 images are shown on the [Home](index.html) page on larger devices, and 1 image is shown on the [Home](/index.html) page on smaller devices.  
 <img src="./assets/testing/home-page/home-page.png" style="margin: 15px; width:250px;">
 <img src="./assets/testing/image-modals/image-modal-home-page-1.png" style="margin: 15px; width:250px;">
 * Responsive [Gallery](gallery.html) page including bootstrap image carousels to display art categorised into Illustrations and Caricatures. 
