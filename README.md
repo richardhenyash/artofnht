@@ -210,7 +210,10 @@ launch a web marketing campaign.
 * Online Sales Capability - (dependant on developer's technical capability).
 
 ### Design Changes During The Phase 1 Development ###
-* Colour scheme - the colour scheme was changed mid-way through the development as described in the [Colours](#colours) section. The original colour theme is on the [master](https://github.com/richardhenyash/artofnht/tree/master) branch in the [GitHub](https://github.com/) repository. A new [darktheme](https://github.com/richardhenyash/artofnht/tree/darktheme) branch was created for the dark theme option and developed into the final website. This is set as the source for [GitHub](https://github.com/) pages.
+* Colour scheme - the colour scheme was changed mid-way through the development as described in the [Colours](#colours) section. 
+The original colour theme is on the [master](https://github.com/richardhenyash/artofnht/tree/master) branch in the [GitHub](https://github.com/) 
+repository. A new [darktheme](https://github.com/richardhenyash/artofnht/tree/darktheme) branch was created for the dark theme option and 
+developed into the final website. This is set as the source for [GitHub](https://github.com/) pages.
 * Gallery carousel controls - these were initially located at the bottom of the images within the image panels, but were moved underneath the carousel elements as we felt this provided a better user experience. See [gallery](gallery.html).
 * Gallery carousel images - the images were initially being sized by using specific media queries for a range of device widths to set the height of the image. The gallery images were then resized to 1200px x 1680px, to enable bootstrap to auto size the gallery in 1 panel, 2 panels or 3 panels depending on screen size. This enables the gallery to scale fluidly and without degrading image quality for any screen size up to 3600px wide. See [gallery](gallery.html).
 * Contact form - the contact form was initially developed as a modal pop-up form, but this was found not to work with the [Form Spree](https://help.formspree.io/hc/en-us) service. The contact form was redesigned as a [web page](contact.html).
@@ -223,6 +226,8 @@ Testing information can be found in [Testing.md](TESTING.md).
 The website resides as a repository in [GitHub](https://github.com/) and has been be deployed on [GitHub](https://github.com/) pages using the custom domain [Art Of NHT](www.artofnht.com) purchased from [GoDaddy](https://uk.godaddy.com/). 
 The code may be downloaded to a local computer from the [GitHub](https://github.com/) repository by going to the [Code Repository Location](https://github.com/richardhenyash/artofnht) on [GitHub](https://github.com/), 
 selecting the "Code" option and downloading as a zip file.  
+Note that the deployed [GitHub](https://github.com/) pages source branch is the [darktheme](https://github.com/richardhenyash/artofnht/tree/darktheme) branch - 
+see [Design Changes During The Phase 1 Development](#design-changes-during-the-phase-1-development) for more details.  
 The steps required to deploy the website to a custom domain using GitHub pages are as follows:
 * Open the DNS management page in the GoDaddy Domain Manager for the relevant domain which you have purchased through GoDaddy.
 * Edit the Type "A" record. The IP address in the "Value" field should be changed to 185.199.108.153.
