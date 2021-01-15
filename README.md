@@ -244,24 +244,24 @@ I gained additional help and inspiration on dark mode theme colours from the fol
 * [codeburst](https://codeburst.io/50-shades-of-dark-mode-gray-d3e9907b1194)
 
 I gained additional insight and help on bootstrap carousel functionality from the following links:
-* [w3schools](https://www.w3schools.com/bootstrap/bootstrap_carousel.asp).
-* [medium link 1](https://medium.com/wdstack/bootstrap-4-custom-carousel-94a537364fde).
-* [Stack Overflow link 1](https://stackoverflow.com/questions/46249541/change-arrow-colors-in-bootstraps-carousel).
-* [Stack Overflow link 2](https://stackoverflow.com/questions/47400874/bootstrap-4-change-position-of-carousel-controls/50352437).
-* [Stack Overflow link 3](https://stackoverflow.com/questions/39536075/how-to-change-the-carousel-active-indicator-color-bootstrap/39536141).
+* [w3schools](https://www.w3schools.com/bootstrap/bootstrap_carousel.asp)
+* [medium link 1](https://medium.com/wdstack/bootstrap-4-custom-carousel-94a537364fde)
+* [Stack Overflow link 1](https://stackoverflow.com/questions/46249541/change-arrow-colors-in-bootstraps-carousel)
+* [Stack Overflow link 2](https://stackoverflow.com/questions/47400874/bootstrap-4-change-position-of-carousel-controls/50352437)
+* [Stack Overflow link 3](https://stackoverflow.com/questions/39536075/how-to-change-the-carousel-active-indicator-color-bootstrap/39536141)
 
 Additional help on styling horizontal rulers was found at the following link:
-* [w3schools](https://www.w3schools.com/howto/howto_css_style_hr.asp).
+* [w3schools](https://www.w3schools.com/howto/howto_css_style_hr.asp)
 
 Additional help on aria label attributes was found at the following link:
 * [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Techniques/Using_the_aria-label_attribute)
 
 Additional help on fade-in animation was found at the following link:
-* [Stack Overflow link 4](https://stackoverflow.com/questions/11679567/using-css-for-a-fade-in-effect-on-page-load).
+* [Stack Overflow link 4](https://stackoverflow.com/questions/11679567/using-css-for-a-fade-in-effect-on-page-load)
 
 Additional help on deploying the website to a godaddy domain using github pages was found at the following links:
 * [Github documentation](https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages/managing-a-custom-domain-for-your-github-pages-site)
-* [Medium link 2](https://medium.com/@JinnaBalu/godaddy-domain-with-github-pages-62aed906d4ef).
+* [Medium link 2](https://medium.com/@JinnaBalu/godaddy-domain-with-github-pages-62aed906d4ef)
 
 ## Acknowledgements ##
 Thanks to the following for your help and inspiration during this project:
