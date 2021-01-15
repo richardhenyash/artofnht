@@ -126,9 +126,10 @@ Input is required in order to submit the form, must be in the correct format (re
 * The [Contact](./contact.html) form "Message" input was tested by attempting to submit the form with the "Message" input not populated. Input is required in order to submit the form. The input works as intended.
 * The [Contact](./contact.html) form "Send" buttton was tested by submitting the form. A message is displayed saying that the form was submitted succesfully using [Formspree](https://help.formspree.io/hc/en-us) and an email is sent to nickhopet@hotmail.com. The button works as intended.
 
-See [Contact Form Testing](./assets/testing/contact-form) screen prints, a selection of which are also shown below:   
+See [Contact Form Testing](./assets/testing/contact-form) screen prints, which are also shown below:   
 <img src="./assets/testing/contact-form/contact-form-test-name.png" style="margin: 15px; width:250px;">
 <img src="./assets/testing/contact-form/contact-form-test-email.png" style="margin: 15px; width:250px;">
+<img src="./assets/testing/contact-form/contact-form-test-message.png" style="margin: 15px; width:250px;">
 <img src="./assets/testing/contact-form/contact-form-test-submission.png" style="margin: 15px; width:250px;">  
 
 ### Browser Compatibility Testing ###

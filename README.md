@@ -103,7 +103,7 @@ Develop online sales capability|3
 
 #### Constraints #####
 * Developer skill set - the developer is currently unable to develop an online sales capability, but this may be considered for future development phases.
-* The client is reluctant to create a social media presence on facebook, instagram etc, but does have an artist page on https://www.comicartfans.com/ which should be linked to.
+* The client is reluctant to create a social media presence on facebook, instagram etc, but does have an artist page on [comicartfans](https://www.comicartfans.com) which should be linked to.
 * The client has time constaints on the amount of work he can produce as he has a full time job. We discussed incorporating a Subscribe or Sign Up option, which would allow the artist to produce art and then contact a mailing list of prospective buyers. We decided not to include this feature in phase 1 due to the complications of storing email marketing lists within the constraints of the GDPR regulations.
 * The website functional features and background should not be to 'loud' or detract from the main focus of the website, which is presenting the artist's colourful and attractive work.
 
@@ -131,7 +131,8 @@ Blog | 1 | 4 | 2
 Online Sales Capability | 1 | 5 | 3
 
 ### Site Map ###
-A [Site Map](./assets/wireframes/sitemap.png) was produced for discussion prior to the initial project strategy meeting with the client.
+A [Site Map](./assets/wireframes/sitemap.png) was produced for discussion prior to the initial project strategy meeting with the client, and is shown below:  
+<img src="./assets/wireframes/sitemap.png" style="margin: 15px; width: 400px;">
 
 ### Wireframes ###
 An [Initial Sketch](./assets/wireframes/rev0) was produced for discussion prior to the initial project strategy meeting with the client.
@@ -140,9 +141,14 @@ An [Initial Sketch](./assets/wireframes/rev0) was produced for discussion prior 
 
 [Responsive Design Wireframes](./assets/wireframes/rev2) were then developed based on the initial wireframes showing the Home, Gallery and About pages as viewed on desktop, tablet and mobile devices.
 
-The home page features two large bright and colorful illustrations, a navigation menu, the NHT logo provided by the client and a link to https://www.comicartfans.com/. We decided to use two illustations as the artist's most colourful illustrations are in portrait orientation and this would allow 2 images to be tiled side by side on a desktop view, with one of the images being removed or the images being tiled vertically on smaller devices. 
+The home page features two large bright and colorful illustrations, a navigation menu, the NHT logo provided by the client and 
+a link to the artist's page on [comicartfans](https://www.comicartfans.com/gallerydetail.asp?gcat=682). We decided to use two illustations for the home page 
+as the artist's most colourful illustrations are in portrait orientation and this would allow 2 images to be tiled side by side on a desktop view, 
+with one of the images being removed or the images being tiled vertically on smaller devices. 
 
-The Gallery is presented as a seperate page. The gallery features the artist's favourite work divided into the categories "Illustrations" and "Caricatures". The images will be tiled in 2 rows corresponding to the "Illustrations" and "Caricatures" categories, with 3 columns shown on a desktop view, 2 columns shown on a tablet view and 1 column shown on a mobile view.
+The Gallery is presented as a seperate page. The gallery features the artist's favourite work divided into the categories "Illustrations" 
+and "Caricatures". The images will be tiled in 2 rows corresponding to the "Illustrations" and "Caricatures" categories, 
+with 3 columns shown on a desktop view, 2 columns shown on a tablet view and 1 column shown on a mobile view.
 
 The Biography and Contact information is presented on the About NHT page. The about page will include a contact button which will open up a contact form.
 
@@ -153,8 +159,10 @@ The Biography and Contact information is presented on the About NHT page. The ab
 * font-family: 'Varela Round', sans-serif;  
 
 #### Colours ####
-The colour pallete was initally chosen based on the red of the Art Of NHT logo supplied by the client (#C93C1C). The mycolor (https://mycolor.space/) pallete generator tool was used to generate a complementary colour pallete based on the logo red (#C93C1C).
-The initial colour pallete is shown below:
+The colour pallete was initally chosen based on the red of the Art Of NHT logo supplied by the client (#C93C1C). 
+The [mycolor](https://mycolor.space) pallete generator tool was used to generate a complementary colour pallete 
+based on the logo red (#C93C1C).
+The initial colour pallete is shown below:  
 <img src="./assets/wireframes/nht-color-light.png" style="margin: 15px;">
 * #C93C1C - NHT logo red</div>
 * #FF7D54 - light red</div>
@@ -163,16 +171,19 @@ The initial colour pallete is shown below:
 * #7C7B7C - medium grey</div>
 * #2F4858 - dark grey/blue</div>
 
-After the home and gallery pages were constructed for review by the client using the chosen colour pallete chosen, an optional "dark mode" theme was created by the developer, using grey and dark colours for the background and functional elemnts of the website.
-The client and developer both preferred the "dark mode" theme, as we felt that this showcased the artist's content better and really made the artwork stand out, so this option was selected and developed further into the final website.
-The final colour pallete is shown below:
+After the home and gallery pages were constructed for review by the client using the colour pallete initially chosen, 
+an optional "dark mode" theme was created by the developer, using grey and dark colours for the background and 
+functional elemnts of the website.
+The client and developer both preferred the "dark mode" theme, as we felt that this showcased the artist's 
+content better and really made the artwork stand out, so this option was selected and developed further into the final website.
+The final colour pallete is shown below:  
 <img src="./assets/wireframes/nht-color-dark.png" style="margin: 15px;">
 * White, used for highlighting</div>
 * #FAFAFA - slightly off white, used for headings, highlighting, text and carousel indicators</div>
-* #9A9793 - light grey used for navigation links and about page image outline</div>
-* #404040 - dark grey used for block dividers, home page and gallery image outlines</div>
-* #222831 - very dark grey used for background containers</div>
-* #D65A31 - red used for links on about page</div>
+* #9A9793 - light grey, used for navigation links and about page image outline</div>
+* #404040 - dark grey, used for block dividers, home page and gallery image outlines</div>
+* #222831 - very dark grey, used for background containers</div>
+* #D65A31 - red, used for links on about page</div>
 
 ## Technologies ##
 ### Languages ###
@@ -192,17 +203,22 @@ The final colour pallete is shown below:
 * Logo (including hover styling, links to home page if selected).
 * Navigation Menu (including hover styling).
 * Footer with link to artist page on [comicartfans](https://www.comicartfans.com/gallerydetail.asp?gcat=682) (including hover styling).
-* Responsive Design
-* Large, responsive [Home](index.html) page image(s) which pop out into modals which include an image title if selected. 2 Images are shown on larger devices, and 1 image on smaller devices.
-* Responsive [Gallery](gallery.html) page including bootstrap image carousels to display art categorised into Illustrations and Caricatures. The carousels feature 1 image panel on small displays, 2 image panels on medium displays and 3 image panels on large displays. The carousel controls are subtly designed and are located under the images so as not to detract from the art, which is the focus of the website. The carousels have been set as static (the user has to seleect left or right to move the images on) as we feel this will improve the user experience. The carousel images pop out into modals which include an image title if selected.
+* Responsive Design.
+* Large, responsive [Home](index.html) page image(s) which pop out into modals which include an image title if selected. 
+2 Images are shown on the [Home](index.html) page on larger devices, and 1 image is shown on the [Home](index.html) page on smaller devices.
+* Responsive [Gallery](gallery.html) page including bootstrap image carousels to display art categorised into Illustrations and Caricatures. 
+The carousels feature 1 image panel on small displays, 2 image panels on medium displays and 3 image panels on large displays. 
+The carousel controls are subtly designed and are located under the images so as not to detract from the art, which is the focus of the 
+website. The carousels have been set as static (the user has to select left or right to move the images on) as we feel this will improve 
+the user experience. The carousel images pop out into modals which include an image title if selected.
 * [About](about.html) page including artist biography, profile picture, contact links and large, bright call to action "Contact Nick" button. Profile picture, "Contact Form" link and "Contact Nick" button link to the [Contact](contact.html) form. The email link creates an email to Nick in the user's default email application.
 * [Contact](contact.html) form containing fields for Name, Email address and Message, and a large Send button. If all fields are entered correctly, an email is sent to nickhopet@hotmail.com. This feature is deployed using [Formspree](https://help.formspree.io/hc/en-us).
 
 ### Features To Be Implemented In Future Development Phases ###
 * The [Formspree](https://help.formspree.io/hc/en-us) form submission message can be customised to improve the user experience, however this requires a payed account with [Formspree](https://help.formspree.io/hc/en-us).
 This may be considered for implementation in the future, as the free service provided by [Formspree](https://help.formspree.io/hc/en-us) is limited to 50 contact messages per month.
-Another future development option would be to submit the contact form via php. It is not possible to deploy php on a site hosted by [GitHub](https://github.com/) pages, 
-so the site would need to be moved to another provider that supports php in order to implement this.
+Another future development option would be to submit the contact form via [php](https://www.php.net/). It is not possible to deploy [php](https://www.php.net/) on a site hosted by [GitHub](https://github.com/) pages, 
+so the site would need to be moved to another provider that supports [php](https://www.php.net/) in order to implement this.
 * Subscribe feature on contact form - this may be implemented in the future if the artist decides to
 launch a web marketing campaign.
 * Links to social media (dependant on artist being willing to join social media networks).
@@ -214,7 +230,7 @@ launch a web marketing campaign.
 The original colour theme is on the [master](https://github.com/richardhenyash/artofnht/tree/master) branch in the [GitHub](https://github.com/) 
 repository. A new [darktheme](https://github.com/richardhenyash/artofnht/tree/darktheme) branch was created for the dark theme option and 
 developed into the final website. This is set as the source for [GitHub](https://github.com/) pages.
-* Gallery carousel controls - these were initially located at the bottom of the images within the image panels, but were moved underneath the carousel elements as we felt this provided a better user experience. See [gallery](gallery.html).
+* Gallery carousel controls - these were initially located at the bottom of the images within the image panels, but were moved underneath the carousel elements as we felt this provided a better user experience. See [Gallery Screen Prints](./assets/testing/gallery-page).
 * Gallery carousel images - the images were initially being sized by using specific media queries for a range of device widths to set the height of the image. The gallery images were then resized to 1200px x 1680px, to enable bootstrap to auto size the gallery in 1 panel, 2 panels or 3 panels depending on screen size. This enables the gallery to scale fluidly and without degrading image quality for any screen size up to 3600px wide. See [gallery](gallery.html).
 * Contact form - the contact form was initially developed as a modal pop-up form, but this was found not to work with the [Form Spree](https://help.formspree.io/hc/en-us) service. The contact form was redesigned as a [web page](contact.html).
 
