@@ -99,6 +99,7 @@ Develop online sales capability|3
 * As a user I am searching for existing comic art to buy.
 * As a user I am searching for an artist to commission some work.
 * As a user I want to contact the artist.
+* As a user I want to find out more about a specific piece of art.
 
 #### Constraints #####
 * Developer skill set - the developer is currently unable to develop an online sales capability, but this may be considered for future development phases.
@@ -247,16 +248,19 @@ I gained additional insight and help on bootstrap carousel functionality from th
 Additional help on styling horizontal rulers was found at the following link:
 * [w3schools](https://www.w3schools.com/howto/howto_css_style_hr.asp).
 
+Additional help on aria label attributes was found at the following link:
+* [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Techniques/Using_the_aria-label_attribute)
+
 Additional help on fade-in animation was found at the following link:
 * [Stack Overflow link 4](https://stackoverflow.com/questions/11679567/using-css-for-a-fade-in-effect-on-page-load).
 
 Additional help on deploying the website to a godaddy domain using github pages was found at the following links:
-* [github documentation](https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages/managing-a-custom-domain-for-your-github-pages-site)
-* [medium link 2](https://medium.com/@JinnaBalu/godaddy-domain-with-github-pages-62aed906d4ef).
+* [Github documentation](https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages/managing-a-custom-domain-for-your-github-pages-site)
+* [Medium link 2](https://medium.com/@JinnaBalu/godaddy-domain-with-github-pages-62aed906d4ef).
 
 ## Acknowledgements ##
 Thanks to the following for your help and inspiration during this project:
 * [Nick Hope-Thomson](https://artofnht.com/) for his inspirational art work, I hope this website helps you acheive your dreams!
 * [Sarah Ash](https://artofnht.com/) for helping Nick to quickly put a clear and concise brief together.
 * [Neringa Bickmore](https://github.com/neringabickmore) for getting me started off on the right footing and for your very helpful review and comments on the website and documentation.
-* My remote mentor [Allen Thomas Varghese](https://github.com/allentv) for the help getting me get started and for the insightful review and comments on the website.
+* My remote mentor [Allen Thomas Varghese](https://github.com/allentv) for the help getting me started and for the insightful review and comments on the website.

@@ -29,8 +29,8 @@
 ### HTML ###
 All HTML code was validated using the [W3C Markup validation service](https://validator.w3.org/).  
 One warning was generated on the [Home](./index.html) page.
-This is due to the fact that there is no heading in the main section, which is intentional as this would detract from the overall look and user experience.
-The main image section is visually implied without the need for a heading. An aria-label was added to the main image section to improve accesibility for visually impaired users.
+This was due to the fact that there is no heading in the main section, which is intentional as this would detract from the overall look and user experience.
+The main image section is visually implied without the need for a heading. An [aria-label](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Techniques/Using_the_aria-label_attribute) attribute was added to the main image section to improve accesibility for visually impaired users.
 The [Home](./index.html) page HTML code was then revalidated and passed with no errors or warnings.  
 A number of errors were detected and fixed in the [Gallery](./gallery.html) page, including 2 closing 'h3' tags which were incorrectly set to 'p', and duplicate id's on the carousel control elements.
 The [Gallery](./gallery.html) page now passes validation without errors or warnings.  
@@ -64,21 +64,21 @@ The user is then able to contact the artist using the [Contact](./contact.html) 
 <img src="./assets/testing/image-modals/image-modal-gallery-page-4.png" style="margin: 15px; width:250px;">
 
 ## Additional UX Testing ##
-A number of friends and family of the developer and the artist have visited the site and the feedback has been very positive so far. Users have given feedback that the site is well designed and easy to use.
+A number of friends and family of the developer and the artist have visited the site and the feedback has been very positive so far. Users have said that the site is well designed and easy to use.
 
 ## Manual Testing ##
 ### Navigation Links
 Navigation Links and Navigation Links hover styling have been tested on all pages and work correctly.
 
 ### Logo Link
-Logo link and Logo Link hover styling have been tested on all pages and work correctly (links to [Home](./index.html) page).
+Logo link and Logo Link hover styling have been tested on all pages and work correctly (logo links to [Home](./index.html) page).
 
 ### Footer Link
-Footer link and Footer Link hover styling have been tested on all pages and work correctly (links to artist's page on [Comic Art Fans](https://www.comicartfans.com/gallerydetail.asp?gcat=682) website).
+Footer link and Footer Link hover styling have been tested on all pages and work correctly (footer image links to artist's page on [Comic Art Fans](https://www.comicartfans.com/gallerydetail.asp?gcat=682) website).
 
 ### Home Page Image Modals
 [Home](./index.html) page pop-up image modals have been tested and work correctly. See [Image Modal Testing](./assets/testing/image-modals) screen prints, also shown below:  
-<img src="./assets/testing/image-modals/image-modal-home-page-1.png" style="margin: 15px; width: 250px;">
+<img src="./assets/testing/image-modals/image-modal-home-page-1.png" style="margin: 15px; width:250px;">
 <img src="./assets/testing/image-modals/image-modal-home-page-2.png" style="margin: 15px; width:250px;">
 
 ### Gallery Page Image Modals
@@ -102,19 +102,19 @@ See [Responsive Design Testing](./assets/testing/responsive-design) screen print
 <img src="./assets/testing/responsive-design/responsive-design-widescreenlaptop.png" style="margin: 15px; width:250px;">
 
 * Responsive design was then further tested using the [Responsive Viewer](https://chrome.google.com/webstore/detail/responsive-viewer/inmopeiepgfljkpkidclfgbgbmfcennb?hl=en)
-plug in for chrome. This emulates viewing the website on a large number of devices, including iPhone XR, XS Max, iPhone XS, X, Galaxy S9 Plus, S8 Plus, Galaxy S9, Note 8, S8, Pixel 3, 3XL,
+plug in for chrome. This emulates viewing the website on a large number of devices, including iPhone XR, iPhone XS Max, iPhone XS, iPhone X, Galaxy S9 Plus, Galaxy S8 Plus, Galaxy S9, Note 8, Note S8, Pixel 3, Pixel 3XL,
 Medium Desktop PC and Large Desktop PC. See [Responsive Design Testing](./assets/testing/responsive-design) screen prints, also shown below:  
 <img src="./assets/testing/responsive-design/responsive-viewer-page1.png" style="margin: 15px; width:250px;">
 <img src="./assets/testing/responsive-design/responsive-viewer-page2.png" style="margin: 15px; width:250px;">
 
 * The home page images behave as expected - the right hand "cyclops" image is hidden on smaller devices.  
 * The gallery carousel behaves as expected, auto-sizing the images fluidly and displaying a 1 panel wide carousel on small screens,
-a 2 panel wide carousel on medium screens and a 3 panel carousel on large screens.
+a 2 panel wide carousel on medium screens and a 3 panel wide carousel on large screens.
 
 ### About Page Links ###
 * The [About](./about.html) page profile image links to the [Contact](./contact.html) page correctly.
 * The [About](./about.html) page "contact form" link takes the user to the [Contact](./contact.html) page correctly.
-* The [About](./about.html) page "nickhopet@hotmail.com" link creates an email to "nickhopet@hotmail.com" with the user's defualt mail app and works correctly.
+* The [About](./about.html) page nickhopet@hotmail.com link creates an email to nickhopet@hotmail.com with the user's defualt mail app and works correctly.
 * The [About](./about.html) page "Contact Nick" button links to the [Contact](./contact.html) page correctly.
 
 ### Contact Form ###
@@ -122,7 +122,7 @@ It was found during testing that the "required" attribute had not been added to 
 * The [Contact](./contact.html) form "Name" form input now works correctly. Input is required in order to submit the form and the user's name(s) entered previously into the browser are available for selection.
 * The [Contact](./contact.html) form "Email address" form input now works correctly. Input is required in order to submit the form, must be in the correct format (requires an @ symbol) and the user's email addresses entered previously into the browser are available for selection.
 * The [Contact](./contact.html) form "Message" form input now works correctly. Input is required in order to submit the form.
-* The [Contact](./contact.html) form "Send" form input now works correctly. A message is displayed saying that the form was submitted succesfully using [Formspree](https://help.formspree.io/hc/en-us) and an email is sent to "nickhopet@hotmail.com".  
+* The [Contact](./contact.html) form "Send" form input now works correctly. A message is displayed saying that the form was submitted succesfully using [Formspree](https://help.formspree.io/hc/en-us) and an email is sent to nickhopet@hotmail.com.  
 
 See [Contact Form Testing](./assets/testing/contact-form) screen prints, a selection of which are also shown below:   
 <img src="./assets/testing/contact-form/contact-form-test-name.png" style="margin: 15px; width:250px;">
@@ -132,17 +132,17 @@ See [Contact Form Testing](./assets/testing/contact-form) screen prints, a selec
 ### Browser Compatibility Testing ###
 The website was tested on the following browsers and operating systems, 
 using a combination of manual testing across various devices and the [Browserstack](https://www.browserstack.com/) emulator:
-* Chrome (Windows 10, Android 11 and Mac OS Big Sur).
-* Microsoft Edge (Windows 10 and Mac OS Big Sur).
-* Microsoft Internet Explorer 11 (Windows 10).
-* Safari (Mac OS Big Sur and iOS).
-* Firefox (Windows 10 and Mac OS Big Sur).
-* Yandex (Windows 10).
-* Opera (Windows 10 and Mac OS Big Sur).  
+* [Google Chrome](https://www.google.com/intl/en_uk/chrome/) (Windows 10, Android 11 and Mac OS Big Sur).
+* [Microsoft Edge](https://www.microsoft.com/en-us/edge) (Windows 10 and Mac OS Big Sur).
+* [Microsoft Internet Explorer 11](https://support.microsoft.com/en-us/topic/internet-explorer-downloads-d49e1f0d-571c-9a7b-d97e-be248806ca70#ID0EBBD=Windows_10) (Windows 10).
+* [Safari](https://www.apple.com/uk/safari/) (Mac OS Big Sur and iOS).
+* [Firefox](https://www.mozilla.org/en-GB/firefox/new/) (Windows 10 and Mac OS Big Sur).
+* [Yandex](https://browser.yandex.com/) (Windows 10).
+* [Opera](https://www.opera.com/) (Windows 10 and Mac OS Big Sur).  
 
 The only issue detected was that the fade-ins which are applied to the images on [Home](./index.html) and [Gallery](./gallery.html) pages
-and the titles on the [Contact](./contact.html) and [About](./about.html) pages don't work on the Yandex browser. All images and titles 
-still display correctly without the fade-in animation. The Yandex browser accounts for approximately 12% of the browser market share in Russia 
+and the titles on the [Contact](./contact.html) and [About](./about.html) pages don't work in the [Yandex](https://browser.yandex.com/) browser. All images and titles 
+still display correctly in the [Yandex](https://browser.yandex.com/) browser without the fade-in animation. The [Yandex](https://browser.yandex.com/) browser accounts for approximately 12% of the browser market share in Russia 
 and is not widely used outside of Russia, so this is not seen as a major issue.
 
 ## Bugs Fixed During Testing ##
