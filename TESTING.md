@@ -13,7 +13,7 @@
     - [Home Page Image Modals](#home-page-image-modals)
     - [Gallery Page Image Modals](#gallery-page-image-modals)
     - [Gallery Page Carousel Controls](#gallery-page-carousel-controls)
-    - [Resonsive Design](#responsive-design)
+    - [Responsive Design](#responsive-design)
     - [About Page Links](#about-page-links)
     - [Contact Form](#contact-form)
     - [Browser Compatibility Testing](#browser-compatibility-testing)
@@ -27,12 +27,14 @@
 2 errors were reported on a redundant class. The class was removed and the code was re-validated, and passed with no errors.
 
 ### HTML ###
-All HTML code was validated using the [W3C Markup validation service](https://validator.w3.org/).  One warning was generated on the [Home](./index.html) page.
+All HTML code was validated using the [W3C Markup validation service](https://validator.w3.org/).  
+One warning was generated on the [Home](./index.html) page.
 This is due to the fact that there is no heading in the main section, which is intentional as this would detract from the overall look and user experience.
 The main image section is visually implied without the need for a heading. An aria-label was added to the main image section to improve accesibility for visually impaired users.
 The [Home](./index.html) page HTML code was then revalidated and passed with no errors or warnings.  
 A number of errors were detected and fixed in the [Gallery](./gallery.html) page, including 2 closing 'h3' tags which were incorrectly set to 'p', and duplicate id's on the carousel control elements.
-The [Gallery](./gallery.html) page now passes validation without errors or warnings. The [About](./about.html) and [Contact](./contact.html) pages both passed validation without errors or warnings.
+The [Gallery](./gallery.html) page now passes validation without errors or warnings.  
+The [About](./about.html) and [Contact](./contact.html) pages both passed validation without errors or warnings.
 
 ## User Stories Testing ##
 * ***As a user I want to browse comic art sites for fun and inspiration.*** The user can browse through the artist's portfolio of work using the [Gallery](./gallery.html) page.  
@@ -66,10 +68,10 @@ A number of friends and family of the developer and the artist have visited the 
 
 ## Manual Testing ##
 ### Navigation Links
-Navigation Links and Navigation Links hover styling have been tested on all pages and works correctly.
+Navigation Links and Navigation Links hover styling have been tested on all pages and work correctly.
 
 ### Logo Link
-Logo link and Logo Link hover styling has been tested on all pages and works correctly (links to [Home](./index.html) page).
+Logo link and Logo Link hover styling have been tested on all pages and work correctly (links to [Home](./index.html) page).
 
 ### Footer Link
 Footer link and Footer Link hover styling have been tested on all pages and work correctly (links to artist's page on [Comic Art Fans](https://www.comicartfans.com/gallerydetail.asp?gcat=682) website).
@@ -81,8 +83,10 @@ Footer link and Footer Link hover styling have been tested on all pages and work
 
 ### Gallery Page Image Modals
 [Gallery](./gallery.html) page pop-up image modals have been tested and work correctly. See [Image Modal Testing](./assets/testing/image-modals) screen prints, a selection of which are shown below:  
+<img src="./assets/testing/image-modals/image-modal-gallery-page-3.png" style="margin: 15px; width:250px;">
 <img src="./assets/testing/image-modals/image-modal-gallery-page-4.png" style="margin: 15px; width:250px;">
 <img src="./assets/testing/image-modals/image-modal-gallery-page-5.png" style="margin: 15px; width:250px;">
+<img src="./assets/testing/image-modals/image-modal-gallery-page-6.png" style="margin: 15px; width:250px;">
 
 ### Gallery Page Carousel Controls
 [Gallery](./gallery.html) page image carousel controls have been tested for 1 panel, 2 panel and 3 panel carousels and work correctly.
