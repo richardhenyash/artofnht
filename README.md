@@ -169,7 +169,8 @@ The initial colour pallete is shown below:
 * #EDE9D0 - Off white (used for background)</div>
 * #9A9793 - light grey</div>
 * #7C7B7C - medium grey</div>
-* #2F4858 - dark grey/blue</div>
+* #2F4858 - dark grey/blue</div>  
+
 A screen print of the [Home](./index.html) page with the initial colour cheme is shown below:  
 <img src="./assets/testing/home-page/home-page-initial-colours.png" style="margin: 15px; width:300px;">
 
@@ -208,12 +209,12 @@ The final colour pallete is shown below:
 <img src="./assets/testing/home-page/navigation-menu.png" style="margin: 15px; width:300px;">
 * Footer with link to artist page on [comicartfans](https://www.comicartfans.com/gallerydetail.asp?gcat=682) (including hover styling):  
 <img src="./assets/testing/home-page/footer.png" style="margin: 15px; width:600px;">
-* [Responsive Design](./assets/testing/responsive-design)
-* Large, responsive [Home](./assets/testing/home-page) page image(s) which pop out into [Modals](./assets/testing/image-modals) which include an image title if selected. 
-2 images are shown on the [Home](./assets/testing/home-page) page on larger devices, and 1 image is shown on the [Home](./assets/testing/home-page) page on smaller devices.  
+* Responsive Design.
+* Large, responsive [Home](index.html) page image(s) which pop out into Modals which include an image title if selected. 
+2 images are shown on the [Home](index.html) page on larger devices, and 1 image is shown on the [Home](./index.html) page on smaller devices.  
 <img src="./assets/testing/home-page/home-page.png" style="margin: 15px; width:250px;">
 <img src="./assets/testing/image-modals/image-modal-home-page-1.png" style="margin: 15px; width:250px;">
-* Responsive [Gallery](./assets/testing/gallery-page) page including bootstrap image carousels to display art categorised into Illustrations and Caricatures. 
+* Responsive [Gallery](gallery.html) page including bootstrap image carousels to display art categorised into Illustrations and Caricatures. 
 The carousels feature 1 image panel on small displays, 2 image panels on medium displays and 3 image panels on large displays. 
 The carousel controls are subtly designed and are located under the images so as not to detract from the art, which is the focus of the 
 website. The carousels have been set as static (the user has to select left or right to move the images on) as we feel this will improve 
@@ -222,7 +223,8 @@ the user experience. The carousel images pop out into modals which include an im
 <img src="./assets/testing/image-modals/image-modal-gallery-page-4.png" style="margin: 15px; width:250px;">
 * [About](about.html) page including artist biography, profile picture, contact links and large, bright call to action "Contact Nick" button. Profile picture, "Contact Form" link and "Contact Nick" button link to the [Contact](contact.html) form. The email link creates an email to Nick in the user's default email application.  
 <img src="./assets/testing/about-page/about-page.png" style="margin: 15px; width:250px;">
-* [Contact Form](./assets/testing/contact-form) containing fields for Name, Email address and Message, and a large Send button. If all fields are entered correctly, an email is sent to nickhopet@hotmail.com. This feature is deployed using [Formspree](https://help.formspree.io/hc/en-us).  
+* [Contact Form](contact.html) containing fields for Name, Email address and Message, and a large Send button. 
+If all fields are entered correctly, an email is sent to nickhopet@hotmail.com. This feature is deployed using [Formspree](https://help.formspree.io/hc/en-us).  
 <img src="./assets/testing/contact-form/contact-form.png" style="margin: 15px; width:250px;">
 
 ### Features To Be Implemented In Future Development Phases ###
