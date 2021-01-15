@@ -60,7 +60,7 @@ works succesfully through [Formspree](https://help.formspree.io/hc/en-us).
 
 * ***As a user I want to find out more about a specific piece of art.*** When the user clicks on a specific picture in the [Gallery](./gallery.html) or on the [Home](./index.html) page they are presented with a modal pop up which includes a large version of the picture, the picture name and medium. 
 The user is then able to contact the artist using the [Contact](./contact.html) form. The [Contact](./contact.html) form has been manually tested and works succesfully through [Formspree](https://help.formspree.io/hc/en-us).  
-<img src="./assets/testing/image-modals/image-modal-gallery-page-3.png" style="margin: 15px; width:250px;">
+<img src="./assets/testing/image-modals/image-modal-gallery-page-2.png" style="margin: 15px; width:250px;">
 <img src="./assets/testing/image-modals/image-modal-gallery-page-4.png" style="margin: 15px; width:250px;">
 
 ## Additional UX Testing ##
@@ -78,13 +78,13 @@ Footer link and Footer Link hover styling have been tested on all pages and work
 
 ### Home Page Image Modals
 [Home](./index.html) page pop-up image modals have been tested and work correctly. See [Image Modal Testing](./assets/testing/image-modals) screen prints, also shown below:  
-<img src="./assets/testing/image-modals/image-modal-home-page-1.png" style="margin: 15px; width:250px;">
+<img src="./assets/testing/image-modals/image-modal-home-page-1.png" style="margin: 15px; width: 250px;">
 <img src="./assets/testing/image-modals/image-modal-home-page-2.png" style="margin: 15px; width:250px;">
 
 ### Gallery Page Image Modals
 [Gallery](./gallery.html) page pop-up image modals have been tested and work correctly. See [Image Modal Testing](./assets/testing/image-modals) screen prints, a selection of which are shown below:  
+<img src="./assets/testing/image-modals/image-modal-gallery-page-1.png" style="margin: 15px; width:250px;">
 <img src="./assets/testing/image-modals/image-modal-gallery-page-3.png" style="margin: 15px; width:250px;">
-<img src="./assets/testing/image-modals/image-modal-gallery-page-4.png" style="margin: 15px; width:250px;">
 <img src="./assets/testing/image-modals/image-modal-gallery-page-5.png" style="margin: 15px; width:250px;">
 <img src="./assets/testing/image-modals/image-modal-gallery-page-6.png" style="margin: 15px; width:250px;">
 
