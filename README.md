@@ -163,13 +163,15 @@ The colour pallete was initally chosen based on the red of the Art Of NHT logo s
 The [mycolor](https://mycolor.space) pallete generator tool was used to generate a complementary colour pallete 
 based on the logo red (#C93C1C).
 The initial colour pallete is shown below:  
-<img src="./assets/wireframes/nht-color-light.png" style="margin: 15px;">
+<img src="./assets/wireframes/nht-color-light.png" style="margin: 15px; width:600px;">
 * #C93C1C - NHT logo red</div>
 * #FF7D54 - light red</div>
 * #EDE9D0 - Off white (used for background)</div>
 * #9A9793 - light grey</div>
 * #7C7B7C - medium grey</div>
 * #2F4858 - dark grey/blue</div>
+A screen print of the [Home](./index.html) page with the initial colour cheme is shown below:  
+<img src="./assets/testing/home-page/home-page-initial-colours.png" style="margin: 15px; width:300px;">
 
 After the home and gallery pages were constructed for review by the client using the colour pallete initially chosen, 
 an optional "dark mode" theme was created by the developer, using grey and dark colours for the background and 
@@ -177,7 +179,7 @@ functional elemnts of the website.
 The client and developer both preferred the "dark mode" theme, as we felt that this showcased the artist's 
 content better and really made the artwork stand out, so this option was selected and developed further into the final website.
 The final colour pallete is shown below:  
-<img src="./assets/wireframes/nht-color-dark.png" style="margin: 15px;">
+<img src="./assets/wireframes/nht-color-dark.png" style="margin: 15px; width:600px;">
 * White, used for highlighting</div>
 * #FAFAFA - slightly off white, used for headings, highlighting, text and carousel indicators</div>
 * #9A9793 - light grey, used for navigation links and about page image outline</div>
@@ -200,19 +202,28 @@ The final colour pallete is shown below:
 
 ## Features ##
 ### Features Implemented in Phase 1 ###
-* Logo (including hover styling, links to home page if selected).
-* Navigation Menu (including hover styling).
-* Footer with link to artist page on [comicartfans](https://www.comicartfans.com/gallerydetail.asp?gcat=682) (including hover styling).
-* Responsive Design.
-* Large, responsive [Home](index.html) page image(s) which pop out into modals which include an image title if selected. 
-2 Images are shown on the [Home](index.html) page on larger devices, and 1 image is shown on the [Home](index.html) page on smaller devices.
-* Responsive [Gallery](gallery.html) page including bootstrap image carousels to display art categorised into Illustrations and Caricatures. 
+* Logo (including hover styling, links to home page if selected):  
+<img src="./assets/testing/home-page/logo.png" style="margin: 15px;">
+* Navigation Menu (including hover styling):  
+<img src="./assets/testing/home-page/navigation-menu.png" style="margin: 15px; width:300px;">
+* Footer with link to artist page on [comicartfans](https://www.comicartfans.com/gallerydetail.asp?gcat=682) (including hover styling):  
+<img src="./assets/testing/home-page/footer.png" style="margin: 15px; width:600px;">
+* [Responsive Design](./assets/testing/responsive-design)
+* Large, responsive [Home](./assets/testing/home-page) page image(s) which pop out into [Modals](./assets/testing/image-modals) which include an image title if selected. 
+2 images are shown on the [Home](./assets/testing/home-page) page on larger devices, and 1 image is shown on the [Home](./assets/testing/home-page) page on smaller devices.  
+<img src="./assets/testing/home-page/home-page.png" style="margin: 15px; width:250px;">
+<img src="./assets/testing/image-modals/image-modal-home-page-1.png" style="margin: 15px; width:250px;">
+* Responsive [Gallery](./assets/testing/gallery-page) page including bootstrap image carousels to display art categorised into Illustrations and Caricatures. 
 The carousels feature 1 image panel on small displays, 2 image panels on medium displays and 3 image panels on large displays. 
 The carousel controls are subtly designed and are located under the images so as not to detract from the art, which is the focus of the 
 website. The carousels have been set as static (the user has to select left or right to move the images on) as we feel this will improve 
-the user experience. The carousel images pop out into modals which include an image title if selected.
-* [About](about.html) page including artist biography, profile picture, contact links and large, bright call to action "Contact Nick" button. Profile picture, "Contact Form" link and "Contact Nick" button link to the [Contact](contact.html) form. The email link creates an email to Nick in the user's default email application.
-* [Contact](contact.html) form containing fields for Name, Email address and Message, and a large Send button. If all fields are entered correctly, an email is sent to nickhopet@hotmail.com. This feature is deployed using [Formspree](https://help.formspree.io/hc/en-us).
+the user experience. The carousel images pop out into modals which include an image title if selected.  
+<img src="./assets/testing/gallery-page/gallery-page-2.png" style="margin: 15px; width:250px;">
+<img src="./assets/testing/image-modals/image-modal-gallery-page-4.png" style="margin: 15px; width:250px;">
+* [About](about.html) page including artist biography, profile picture, contact links and large, bright call to action "Contact Nick" button. Profile picture, "Contact Form" link and "Contact Nick" button link to the [Contact](contact.html) form. The email link creates an email to Nick in the user's default email application.  
+<img src="./assets/testing/about-page/about-page.png" style="margin: 15px; width:250px;">
+* [Contact Form](./assets/testing/contact-form) containing fields for Name, Email address and Message, and a large Send button. If all fields are entered correctly, an email is sent to nickhopet@hotmail.com. This feature is deployed using [Formspree](https://help.formspree.io/hc/en-us).  
+<img src="./assets/testing/contact-form/contact-form.png" style="margin: 15px; width:250px;">
 
 ### Features To Be Implemented In Future Development Phases ###
 * The [Formspree](https://help.formspree.io/hc/en-us) form submission message can be customised to improve the user experience, however this requires a payed account with [Formspree](https://help.formspree.io/hc/en-us).
@@ -230,13 +241,19 @@ launch a web marketing campaign.
 The original colour theme is on the [master](https://github.com/richardhenyash/artofnht/tree/master) branch in the [GitHub](https://github.com/) 
 repository. A new [darktheme](https://github.com/richardhenyash/artofnht/tree/darktheme) branch was created for the dark theme option and 
 developed into the final website. This is set as the source for [GitHub](https://github.com/) pages.
-* Gallery carousel controls - these were initially located at the bottom of the images within the image panels, but were moved underneath the carousel elements as we felt this provided a better user experience. See [Gallery Screen Prints](./assets/testing/gallery-page).
-* Gallery carousel images - the images were initially being sized by using specific media queries for a range of device widths to set the height of the image. The gallery images were then resized to 1200px x 1680px, to enable bootstrap to auto size the gallery in 1 panel, 2 panels or 3 panels depending on screen size. This enables the gallery to scale fluidly and without degrading image quality for any screen size up to 3600px wide. See [gallery](gallery.html).
+* Gallery carousel controls - these were initially located at the bottom of the images within the image panels, but were moved underneath the carousel elements as we felt this provided a better user experience. 
+See [Gallery Testing Screen Prints](./assets/testing/gallery-page), an example of which is shown below:  
+<img src="./assets/testing/gallery-page/gallery-page-2.png" style="margin: 15px; width:250px;">
+* Gallery carousel images - the images were initially being sized by using specific media queries for a range of device widths to set the 
+height of the image. The gallery images were then resized to 1200px x 1680px, to enable bootstrap to auto size the gallery in 1 panel, 
+2 panels or 3 panels depending on screen size. This enables the gallery to scale fluidly and without degrading image quality for any 
+screen size up to 3600px wide. [Gallery Testing Screen Prints](./assets/testing/gallery-page), an example of which is shown below:  
+<img src="./assets/testing/gallery-page/gallery-page-3.png" style="margin: 15px; width:250px;">
 * Contact form - the contact form was initially developed as a modal pop-up form, but this was found not to work with the [Form Spree](https://help.formspree.io/hc/en-us) service. The contact form was redesigned as a [web page](contact.html).
 
 ## Testing ##
 
-Testing information can be found in [Testing.md](TESTING.md).
+Testing information and screen prints can be found in [Testing.md](TESTING.md).
 
 ## Deployment ##
 The website resides as a repository in [GitHub](https://github.com/) and has been be deployed on [GitHub](https://github.com/) pages using the custom domain [Art Of NHT](www.artofnht.com) purchased from [GoDaddy](https://uk.godaddy.com/). 
