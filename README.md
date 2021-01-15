@@ -95,11 +95,11 @@ Develop online sales capability|3
 * Responsive design is required as users may be viewing the site on Mobile, Tablet or Desktop.
 
 #### User Stories ####
-* As a user I want to browse comic art sites for fun and inspiration.
-* As a user I am searching for existing comic art to buy.
-* As a user I am searching for an artist to commission some work.
-* As a user I want to contact the artist.
-* As a user I want to find out more about a specific piece of art.
+* ***As a user, I want to browse comic art sites for fun and inspiration.***
+* ***As a user, I am searching for existing comic art to buy.***
+* ***As a user, I am searching for an artist to commission some work.***
+* ***As a user, I want to contact the artist.***
+* ***As a user, I want to find out more about a specific piece of art.***
 
 #### Constraints #####
 * Developer skill set - the developer is currently unable to develop an online sales capability, but this may be considered for future development phases.
@@ -163,6 +163,7 @@ The colour pallete was initally chosen based on the red of the Art Of NHT logo s
 The [mycolor](https://mycolor.space) pallete generator tool was used to generate a complementary colour pallete 
 based on the logo red (#C93C1C).
 The initial colour pallete is shown below:  
+
 <img src="./assets/wireframes/nht-color-light.png" style="margin: 15px; width:600px;">
 * #C93C1C - NHT logo red</div>
 * #FF7D54 - light red</div>
@@ -171,15 +172,16 @@ The initial colour pallete is shown below:
 * #7C7B7C - medium grey</div>
 * #2F4858 - dark grey/blue</div>  
 
-A screen print of the [Home](index.html) page with the initial colour cheme is shown below:  
+A screen print of the [Home](index.html) page with the initial colour scheme is shown below:  
 <img src="./assets/testing/home-page/home-page-initial-colours.png" style="margin: 15px; width:300px;">
 
 After the home and gallery pages were constructed for review by the client using the colour pallete initially chosen, 
 an optional "dark mode" theme was created by the developer, using grey and dark colours for the background and 
-functional elemnts of the website.
+functional elements of the website.
 The client and developer both preferred the "dark mode" theme, as we felt that this showcased the artist's 
 content better and really made the artwork stand out, so this option was selected and developed further into the final website.
 The final colour pallete is shown below:  
+
 <img src="./assets/wireframes/nht-color-dark.png" style="margin: 15px; width:600px;">
 * White, used for highlighting</div>
 * #FAFAFA - slightly off white, used for headings, highlighting, text and carousel indicators</div>
@@ -215,7 +217,7 @@ The final colour pallete is shown below:
 * [Responsive Design](./assets/testing/responsive-design).  
 
 * Large, responsive [Home](index.html) page image(s) which pop out into Modals which include an image title if selected. 
-2 images are shown on the [Home](index.html) page on larger devices, and 1 image is shown on the [Home](/index.html) page on smaller devices.  
+2 images are shown on the [Home](index.html) page on larger devices, and 1 image is shown on the [Home](/index.html) page on smaller devices:  
 <img src="./assets/testing/home-page/home-page.png" style="margin: 15px; width:250px;">  
 <img src="./assets/testing/image-modals/image-modal-home-page-1.png" style="margin: 15px; width:250px;">    
 
@@ -223,15 +225,15 @@ The final colour pallete is shown below:
 The carousels feature 1 image panel on small displays, 2 image panels on medium displays and 3 image panels on large displays. 
 The carousel controls are subtly designed and are located under the images so as not to detract from the art, which is the focus of the 
 website. The carousels have been set as static (the user has to select left or right to move the images on) as we feel this will improve 
-the user experience. The carousel images pop out into modals which include an image title if selected.  
+the user experience. The carousel images pop out into modals which include an image title if selected:  
 <img src="./assets/testing/gallery-page/gallery-page-2.png" style="margin: 15px; width:250px;">  
 <img src="./assets/testing/image-modals/image-modal-gallery-page-4.png" style="margin: 15px; width:250px;">  
 
-* [About](about.html) page including artist biography, profile picture, contact links and large, bright call to action "Contact Nick" button. Profile picture, "Contact Form" link and "Contact Nick" button link to the [Contact](contact.html) form. The email link creates an email to Nick in the user's default email application.  
+* [About](about.html) page including artist biography, profile picture, contact links and large, bright call to action "Contact Nick" button. Profile picture, "Contact Form" link and "Contact Nick" button link to the [Contact Form](contact.html) form. The email link creates an email to Nick in the user's default email application:  
 <img src="./assets/testing/about-page/about-page.png" style="margin: 15px; width:250px;">  
 
 * [Contact Form](contact.html) containing fields for Name, Email address and Message, and a large Send button. 
-If all fields are entered correctly, an email is sent to nickhopet@hotmail.com. This feature is deployed using [Formspree](https://help.formspree.io/hc/en-us).  
+If all fields are entered correctly, an email is sent to nickhopet@hotmail.com. This feature is deployed using [Formspree](https://help.formspree.io/hc/en-us):  
 <img src="./assets/testing/contact-form/contact-form.png" style="margin: 15px; width:250px;">  
 
 ### Features To Be Implemented In Future Development Phases ###
