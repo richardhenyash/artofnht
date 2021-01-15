@@ -348,6 +348,7 @@ img:hover {
 }
 
 /*--Fade-In Animation--*/
+/*--Additional information and help on Fade-In Animation sourced from Stack Overflow link 4 in README.md credits section--*/
 
 .fade-in {
     animation: fade-in 2s;
