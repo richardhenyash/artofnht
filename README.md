@@ -204,28 +204,35 @@ The final colour pallete is shown below:
 ## Features ##
 ### Features Implemented in Phase 1 ###
 * Logo (including hover styling, links to home page if selected):  
-<img src="./assets/testing/home-page/logo.png" style="margin: 15px;">
+<img src="./assets/testing/home-page/logo.png" style="margin: 15px; width:100px;">  
+
 * Navigation Menu (including hover styling):  
-<img src="./assets/testing/home-page/navigation-menu.png" style="margin: 15px; width:300px;">
+<img src="./assets/testing/home-page/navigation-menu.png" style="margin: 15px; width:300px;">  
+
 * Footer with link to artist page on [comicartfans](https://www.comicartfans.com/gallerydetail.asp?gcat=682), (including hover styling):  
-<img src="./assets/testing/home-page/footer.png" style="margin: 15px; width:600px;">
-* Responsive Design.  
+<img src="./assets/testing/home-page/footer.png" style="margin: 15px; width:600px;">  
+
+* [Responsive Design](./assets/testing/responsive-design).  
+
 * Large, responsive [Home](index.html) page image(s) which pop out into Modals which include an image title if selected. 
 2 images are shown on the [Home](index.html) page on larger devices, and 1 image is shown on the [Home](/index.html) page on smaller devices.  
-<img src="./assets/testing/home-page/home-page.png" style="margin: 15px; width:250px;">
-<img src="./assets/testing/image-modals/image-modal-home-page-1.png" style="margin: 15px; width:250px;">
+<img src="./assets/testing/home-page/home-page.png" style="margin: 15px; width:250px;">  
+<img src="./assets/testing/image-modals/image-modal-home-page-1.png" style="margin: 15px; width:250px;">    
+
 * Responsive [Gallery](gallery.html) page including bootstrap image carousels to display art categorised into Illustrations and Caricatures. 
 The carousels feature 1 image panel on small displays, 2 image panels on medium displays and 3 image panels on large displays. 
 The carousel controls are subtly designed and are located under the images so as not to detract from the art, which is the focus of the 
 website. The carousels have been set as static (the user has to select left or right to move the images on) as we feel this will improve 
 the user experience. The carousel images pop out into modals which include an image title if selected.  
-<img src="./assets/testing/gallery-page/gallery-page-2.png" style="margin: 15px; width:250px;">
-<img src="./assets/testing/image-modals/image-modal-gallery-page-4.png" style="margin: 15px; width:250px;">
+<img src="./assets/testing/gallery-page/gallery-page-2.png" style="margin: 15px; width:250px;">  
+<img src="./assets/testing/image-modals/image-modal-gallery-page-4.png" style="margin: 15px; width:250px;">  
+
 * [About](about.html) page including artist biography, profile picture, contact links and large, bright call to action "Contact Nick" button. Profile picture, "Contact Form" link and "Contact Nick" button link to the [Contact](contact.html) form. The email link creates an email to Nick in the user's default email application.  
-<img src="./assets/testing/about-page/about-page.png" style="margin: 15px; width:250px;">
+<img src="./assets/testing/about-page/about-page.png" style="margin: 15px; width:250px;">  
+
 * [Contact Form](contact.html) containing fields for Name, Email address and Message, and a large Send button. 
 If all fields are entered correctly, an email is sent to nickhopet@hotmail.com. This feature is deployed using [Formspree](https://help.formspree.io/hc/en-us).  
-<img src="./assets/testing/contact-form/contact-form.png" style="margin: 15px; width:250px;">
+<img src="./assets/testing/contact-form/contact-form.png" style="margin: 15px; width:250px;">  
 
 ### Features To Be Implemented In Future Development Phases ###
 * The [Formspree](https://help.formspree.io/hc/en-us) form submission message can be customised to improve the user experience, however this requires a payed account with [Formspree](https://help.formspree.io/hc/en-us).
