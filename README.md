@@ -287,7 +287,7 @@ The steps required to deploy the website to a custom domain using [GitHub Pages]
 * This creates a a new file in the root directory called CNAME, which should have one line of text which is the custom domain name (artofnht.com).
 
 In order to make a clone of the project, a [GitHub](https://www.Gitpod.io/) account is required. 
-The [Gitpod Browser Extension](https://www.Gitpod.io/docs/browser-extension/) for [Google Chrome](https://www.google.com/intl/en_uk/chrome/) is also recommended.  
+The [Gitpod Browser Extension](https://www.Gitpod.io/docs/browser-extension/) is also recommended.  
 
 The project may be cloned by following these steps:
 * Go to the [Project Code Repository Location](https://github.com/richardhenyash/artofnht) on [GitHub](https://github.com/).
