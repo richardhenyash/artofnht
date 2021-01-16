@@ -78,11 +78,13 @@ Footer link and Footer Link hover styling have been tested on all pages and work
 
 ### Home Page Image Modals
 [Home](index.html) page pop-up image modals have been tested and work correctly. See [Image Modal Testing](./assets/testing/image-modals) screen prints, also shown below:  
+
 <img src="./assets/testing/image-modals/image-modal-home-page-1.png" style="margin: 15px; width:250px;">
 <img src="./assets/testing/image-modals/image-modal-home-page-2.png" style="margin: 15px; width:250px;">
 
 ### Gallery Page Image Modals
 [Gallery](gallery.html) page pop-up image modals have been tested and work correctly. See [Image Modal Testing](./assets/testing/image-modals) screen prints, a selection of which are shown below:  
+
 <img src="./assets/testing/image-modals/image-modal-gallery-page-1.png" style="margin: 15px; width:250px;">
 <img src="./assets/testing/image-modals/image-modal-gallery-page-3.png" style="margin: 15px; width:250px;">
 <img src="./assets/testing/image-modals/image-modal-gallery-page-5.png" style="margin: 15px; width:250px;">
@@ -95,6 +97,7 @@ Footer link and Footer Link hover styling have been tested on all pages and work
 * Responsive design has been tested by using the chrome developer tools to emulate viewing the website on a number of devices with varying screen dimensions, 
 including iPhone 5/SE, iPhone 6/7/8, iPhone 6/7/8 plus, iPhone 11, iPad, iPad Pro, Moto G4, Galaxy S5, Surface Duo, Galaxy Fold, Widescreen Laptop and Desktop PC. 
 See [Responsive Design Testing](./assets/testing/responsive-design) screen prints, a selection of which are shown below:  
+
 <img src="./assets/testing/responsive-design/responsive-design-iphone5.png" style="margin: 15px; width:250px;">
 <img src="./assets/testing/responsive-design/responsive-design-iphone11.png" style="margin: 15px; width:250px;">
 <img src="./assets/testing/responsive-design/responsive-design-ipad.png" style="margin: 15px; width:250px;">  
@@ -104,6 +107,7 @@ See [Responsive Design Testing](./assets/testing/responsive-design) screen print
 * Responsive design was then further tested using the [Responsive Viewer](https://chrome.google.com/webstore/detail/responsive-viewer/inmopeiepgfljkpkidclfgbgbmfcennb?hl=en)
 plug in for chrome. This emulates viewing the website on a large number of devices, including iPhone XR, iPhone XS Max, iPhone XS, iPhone X, Galaxy S9 Plus, Galaxy S8 Plus, Galaxy S9, Note 8, Note S8, Pixel 3, Pixel 3XL,
 Medium Desktop PC and Large Desktop PC. See [Responsive Design Testing](./assets/testing/responsive-design) screen prints, also shown below:  
+
 <img src="./assets/testing/responsive-design/responsive-viewer-page1.png" style="margin: 15px; width:250px;">
 <img src="./assets/testing/responsive-design/responsive-viewer-page2.png" style="margin: 15px; width:250px;">
 
