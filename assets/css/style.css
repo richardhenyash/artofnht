@@ -10,7 +10,6 @@ body {
 }
 
 /*--General Styles--*/
-
 .padding-none {
     padding: 0 0 0 0;
 }
@@ -31,6 +30,7 @@ body {
 .container-logo-outer {
     padding-top: 0.5rem;
 }
+
 .container-logo {
     background-color: #fafafa;
     width: 10rem;
@@ -103,7 +103,6 @@ body {
 }
 
 /*--Navigation Links--*/
-
 .nav-item a {
     text-transform: uppercase;
     color: #9A9793;
@@ -127,7 +126,6 @@ body {
 }
 
 /*--Headings--*/
-
 .heading-gallery {
     text-transform: uppercase;
     text-align: center;
@@ -266,12 +264,6 @@ img:hover {
     width: 1.3rem;
 }
 
-/*--Modal image popup--*/
-.modal-title {
-    text-align: left;
-    color: #222831;
-}
-
 /*--About Page Links--*/
 .container-text-about p a:hover,
 .container-text-about p a:active,
@@ -289,7 +281,6 @@ img:hover {
 }
 
 /*--Footer--*/
-
 .container-logo-comicart img {
     display: block;
     margin-left: auto;
@@ -308,6 +299,7 @@ img:hover {
     padding: 0.3125rem 0.3125rem 0.3125rem 0.3125rem;
 }
 
+/*--Bootstrap Class Overrides--*/
 /*--Bootstrap Buttons Font Size Override--*/
 .btn {
     font-size: 1.6rem;
@@ -316,6 +308,8 @@ img:hover {
 /*--Bootstrap Modal Dialog Title Font Size Override--*/
 .modal-title {
     font-size: 1.6rem;
+    text-align: left;
+    color: #222831;
 }
 
 /*--Bootstrap Modal Dialog Close Button Size Override--*/
@@ -325,7 +319,6 @@ img:hover {
 
 /*--Fade-In Animation--*/
 /*--Additional information and help on Fade-In Animation sourced from Stack Overflow link 4 in README.md credits section--*/
-
 .fade-in {
     animation: fade-in 2s;
 }
