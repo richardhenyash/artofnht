@@ -5,6 +5,9 @@ env.py
 __pycache__/
 *.py[cod]
 cname
+.gitpod.dockerfile
+.gitpod.yml
+/.theia/*
 /assets/images/*
 /assets/testing/*
 /assets/wireframes/*
