@@ -332,7 +332,7 @@ Additional help on deploying the website to a godaddy domain using github pages 
 
 ## Acknowledgements ##
 Thanks to the following for your help and inspiration during this project:
-* [Nick Hope-Thomson](https://artofnht.com/) for his amazing art work, I hope this website helps you acheive your dreams!
+* [Nick Hope-Thomson](https://artofnht.com/) for his amazing art work, I hope this website helps you achieve your dreams!
 * [Sarah Ash](https://artofnht.com/) for helping Nick to quickly put a clear and concise brief together.
 * [Neringa Bickmore](https://github.com/neringabickmore) for getting me started off on the right footing and for your very helpful review and comments on the website and documentation.
 * My remote mentor [Allen Thomas Varghese](https://github.com/allentv) for the help getting me started and for the insightful review and comments on the website.
