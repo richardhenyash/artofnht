@@ -266,27 +266,44 @@ screen size up to 3600px wide. [Gallery Testing Screen Prints](./assets/testing/
 Further testing information and screen prints can be found in [Testing.md](TESTING.md).
 
 ## Deployment ##
-The project has been developed using [GitPod](https://www.gitpod.io/) and [GitHub](https://github.com/). 
+The project has been developed using [Gitpod](https://www.Gitpod.io/) and [GitHub](https://github.com/). 
 The project was regularly commited to [GitHub](https://github.com/) during the initial development phase.
 The website resides as a repository in [GitHub](https://github.com/) and has been been deployed on [GitHub](https://github.com/) 
 pages using the custom domain [Art Of NHT](www.artofnht.com) purchased from [GoDaddy](https://uk.godaddy.com/). 
-The code may be downloaded to a local computer from the [GitHub](https://github.com/) repository by going to 
-the [Code Repository Location](https://github.com/richardhenyash/artofnht) on [GitHub](https://github.com/), 
-selecting the "Code" option and downloading as a zip file.  
-Note that the deployed [GitHub](https://github.com/) pages source branch is the [darktheme](https://github.com/richardhenyash/artofnht/tree/darktheme) branch - 
+ 
+Note that the deployed [GitHub Pages](https://pages.github.com/) source branch is the [darktheme](https://github.com/richardhenyash/artofnht/tree/darktheme) branch - 
 see [Design Changes During The Phase 1 Development](#design-changes-during-the-phase-1-development) for more details.  
 
-The steps required to deploy the website to a custom domain using GitHub pages are as follows:
-* Open the DNS management page in the GoDaddy Domain Manager for the relevant domain which you have purchased through GoDaddy.
+The steps required to deploy the website to a custom domain using [GitHub Pages](https://pages.github.com/) pages are as follows:
+* Open the DNS management page in the [GoDaddy](https://uk.godaddy.com/) Domain Manager for the relevant domain which you have purchased through GoDaddy.
 * Edit the Type "A" record. The IP address in the "Value" field should be changed to 185.199.108.153.
 * Edit the Type "CNAME" record with the field "Name" set to "www". This should be changed to the relevant [GitHub](https://github.com/) pages web adrress (username.github.io). For my GitHub pages this is (richardhenyash.github.io).
 * Add 3 further Type "A" records with "Name" set to "@", and "Value" fields set to IP addresses 185.199.109.153, 185.199.110.153, 185.199.111.153.
-* Go to the [Settings](https://github.com/richardhenyash/artofnht/settings) in the [GitHub](https://github.com/) repository.
-* Scroll [GitHub](https://github.com/) Pages section.
+* Go to the [Settings](https://github.com/richardhenyash/artofnht/settings) in the [Project Code Repository Location](https://github.com/richardhenyash/artofnht).
+* Scroll to the [GitHub Pages](https://pages.github.com/) section.
 * In the Source section select the [darktheme](https://github.com/richardhenyash/artofnht/tree/darktheme) branch from the dropdown menu.
 * In the Custom domain box, add the custom domain name (artofnht.com).
 * Tick "Enforce HTTPS".
 * This creates a a new file in the root directory called CNAME, which should have one line of text which is the custom domain name (artofnht.com).
+
+In order to make a clone of the project, a [GitHub](https://www.Gitpod.io/) account is required. 
+The [Gitpod Browser Extension](https://www.Gitpod.io/docs/browser-extension/) for [Google Chrome](https://www.google.com/intl/en_uk/chrome/) is also recommended.  
+
+The project may be cloned by following these steps:
+* Go to the [Project Code Repository Location](https://github.com/richardhenyash/artofnht) on [GitHub](https://github.com/).
+* Select the "Code" dropdown and choose "GitHub CLI" under "Clone". This will give you a URL that may be copied into the clipboard. 
+* Open the Git Bash command line interface in [Gitpod](https://www.Gitpod.io/).
+* Change the current working directory to the location where you would like the cloned directory to reside.
+* Type git clone, and then paste the URL copied earlier, eg:  
+$ git clone https://github.com/richardhenyash/artofnht
+* Press Enter to create the local clone.
+
+The code may also be downloaded to a local computer by following these steps:
+* Go to the [Project Code Repository Location](https://github.com/richardhenyash/artofnht) on [GitHub](https://github.com/).
+* Select the "Code" dropdown and choose the "Download ZIP" option.
+* This will download a copy of the entire project locally as a .zip file.
+
+For further information on cloning a [GitHub](https://github.com/) repository, see the [GitHub Documentation](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository).
 
 ## Credits ##
 
