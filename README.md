@@ -60,7 +60,7 @@ Create online presence|5|5
 Showcase portfolio|5|4
 Provide contact information|5|5
 Biography|4|5
-Link to artist page on comicartfans.com|3|3
+Link to artist page on [comicartfans.com](https://www.comicartfans.com/)|3|3
 Subscribe|2|1
 Communicate pricing information|2|5
 Increase social media followers|2|3
@@ -165,12 +165,6 @@ based on the logo red (#C93C1C).
 The initial colour pallete is shown below:  
 
 <img src="./assets/wireframes/nht-color-light.png" style="margin: 15px; width:600px;">
-* #C93C1C - NHT logo red</div>
-* #FF7D54 - light red</div>
-* #EDE9D0 - Off white (used for background)</div>
-* #9A9793 - light grey</div>
-* #7C7B7C - medium grey</div>
-* #2F4858 - dark grey/blue</div>  
 
 A screen print of the [Home](index.html) page with the initial colour scheme is shown below:  
 <img src="./assets/testing/home-page/home-page-initial-colours.png" style="margin: 15px; width:300px;">
@@ -182,13 +176,14 @@ The client and developer both preferred the "dark mode" theme, as we felt that t
 content better and really made the artwork stand out, so this option was selected and developed further into the final website.
 The final colour pallete is shown below:  
 
-<img src="./assets/wireframes/nht-color-dark.png" style="margin: 15px; width:600px;">
-* White, used for highlighting</div>
-* #FAFAFA - slightly off white, used for headings, highlighting, text and carousel indicators</div>
-* #9A9793 - light grey, used for navigation links and about page image outline</div>
-* #404040 - dark grey, used for block dividers, home page and gallery image outlines</div>
-* #222831 - very dark grey, used for background containers</div>
-* #D65A31 - red, used for links on about page</div>
+<img src="./assets/wireframes/nht-color-dark.png" style="margin: 15px; width:600px;">  
+
+* White, used for highlighting
+* #FAFAFA - slightly off white, used for headings, highlighting, text and carousel indicators
+* #9A9793 - light grey, used for navigation links and about page image outline
+* #404040 - dark grey, used for block dividers, home page and gallery image outlines
+* #222831 - very dark grey, used for background containers
+* #D65A31 - red, used for links on about page
 
 ## Technologies ##
 ### Languages ###
