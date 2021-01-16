@@ -85,7 +85,7 @@ Develop online sales capability|3
 
 ### Project Scope ###
 #### User Demographics ####
-* The primary users of the site will be comic art fans. The demographics of comic art fans are quite wide - male and female from ages 5 up to 60 who have an appreciation for comic art.
+* The primary users of the site will be comic art fans. The demographics of comic art fans are quite wide - male and female from ages 5 and up who have an appreciation for comic art.
 * A simple, colorful and attractive design would fit this demographic. As the demographic is particularly interested in art and design, the site needs to reflect this and a vibrant and modern design is of high importance.
 
 #### User Requirements ####
@@ -137,20 +137,21 @@ A [Site Map](./assets/wireframes/sitemap.png) was produced for discussion prior 
 ### Wireframes ###
 An [Initial Sketch](./assets/wireframes/rev0) was produced for discussion prior to the initial project strategy meeting with the client.
 
-[Initial Wireframes](./assets/wireframes/rev1) showing different options for the Home and Gallery pages were produced using [balsamiq](https://balsamiq.com/index.html) and presented to the client. The base case was selected for the Home and Gallery pages.
+[Initial Wireframes](./assets/wireframes/rev1) showing different options for the Home and Gallery pages were produced using [balsamiq](https://balsamiq.com/index.html) and presented to the client. 
+The base case was selected for the Home and Gallery pages.
 
 [Responsive Design Wireframes](./assets/wireframes/rev2) were then developed based on the initial wireframes showing the Home, Gallery and About pages as viewed on desktop, tablet and mobile devices.
 
 The home page features two large bright and colorful illustrations, a navigation menu, the NHT logo provided by the client and 
-a link to the artist's page on [comicartfans](https://www.comicartfans.com/gallerydetail.asp?gcat=682). We decided to use two illustations for the home page 
+a link to the artist's page on [comicartfans](https://www.comicartfans.com/gallerydetail.asp?gcat=682). We decided to use two illustrations for the home page 
 as the artist's most colourful illustrations are in portrait orientation and this would allow 2 images to be tiled side by side on a desktop view, 
 with one of the images being removed or the images being tiled vertically on smaller devices. 
 
 The Gallery is presented as a seperate page. The gallery features the artist's favourite work divided into the categories "Illustrations" 
-and "Caricatures". The images will be tiled in 2 rows corresponding to the "Illustrations" and "Caricatures" categories, 
+and "Caricatures". The images are tiled in 2 rows corresponding to the "Illustrations" and "Caricatures" categories, 
 with 3 columns shown on a desktop view, 2 columns shown on a tablet view and 1 column shown on a mobile view.
 
-The Biography and Contact information is presented on the About NHT page. The about page will include a contact button which will open up a contact form.
+The Biography and Contact information is presented on the About NHT page. The about page includes a contact button which will open up a contact form.
 
 ### Design Choices ###
 
@@ -167,6 +168,7 @@ The initial colour pallete is shown below:
 <img src="./assets/wireframes/nht-color-light.png" style="margin: 15px; width:600px;">
 
 A screen print of the [Home](index.html) page with the initial colour scheme is shown below:  
+
 <img src="./assets/testing/home-page/home-page-initial-colours.png" style="margin: 15px; width:300px;">
 
 After the home and gallery pages were constructed for review by the client using the colour pallete initially chosen, 
@@ -211,7 +213,7 @@ The final colour pallete is shown below:
 
 * [Responsive Design](./assets/testing/responsive-design).  
 
-* Large, responsive [Home](index.html) page image(s) which pop out into Modals which include an image title if selected. 
+* Large, responsive [Home](index.html) page image(s) which pop out into [Modals](./assets/testing/image-modals) which include image title and medium if selected. 
 2 images are shown on the [Home](index.html) page on larger devices, and 1 image is shown on the [Home](/index.html) page on smaller devices:  
 <img src="./assets/testing/home-page/home-page.png" style="margin: 15px; width:250px;">  
 <img src="./assets/testing/image-modals/image-modal-home-page-1.png" style="margin: 15px; width:250px;">    
@@ -220,7 +222,7 @@ The final colour pallete is shown below:
 The carousels feature 1 image panel on small displays, 2 image panels on medium displays and 3 image panels on large displays. 
 The carousel controls are subtly designed and are located under the images so as not to detract from the art, which is the focus of the 
 website. The carousels have been set as static (the user has to select left or right to move the images on) as we feel this will improve 
-the user experience. The carousel images pop out into modals which include an image title if selected:  
+the user experience. The carousel images pop out into [Modals](./assets/testing/image-modals) which include image title and medium if selected:  
 <img src="./assets/testing/gallery-page/gallery-page-2.png" style="margin: 15px; width:250px;">  
 <img src="./assets/testing/image-modals/image-modal-gallery-page-4.png" style="margin: 15px; width:250px;">  
 
@@ -248,16 +250,16 @@ The original colour theme is on the [master](https://github.com/richardhenyash/a
 repository. A new [darktheme](https://github.com/richardhenyash/artofnht/tree/darktheme) branch was created for the dark theme option and 
 developed into the final website. This is set as the source for [GitHub](https://github.com/) pages.
 * Gallery carousel controls - these were initially located at the bottom of the images within the image panels, but were moved underneath the carousel elements as we felt this provided a better user experience. 
-See [Gallery Testing Screen Prints](./assets/testing/gallery-page), an example of which is shown below:  
+See [Gallery Testing Screen Prints](./assets/testing/gallery-page) and example below:  
 <img src="./assets/testing/gallery-page/gallery-page-2.png" style="margin: 15px; width:250px;">  
 
 * Gallery carousel images - the images were initially being sized by using specific media queries for a range of device widths to set the 
 height of the image. The gallery images were then resized to 1200px x 1680px, to enable bootstrap to auto size the gallery in 1 panel, 
 2 panels or 3 panels depending on screen size. This enables the gallery to scale fluidly and without degrading image quality for any 
-screen size up to 3600px wide. [Gallery Testing Screen Prints](./assets/testing/gallery-page), an example of which is shown below:  
+screen size up to 3600px wide. [Gallery Testing Screen Prints](./assets/testing/gallery-page), and example below:  
 <img src="./assets/testing/gallery-page/gallery-page-3.png" style="margin: 15px; width:250px;">  
 
-* Contact form - the contact form was initially developed as a modal pop-up form, but this was found not to work with the [Form Spree](https://help.formspree.io/hc/en-us) service. The contact form was redesigned as a [web page](contact.html).
+* Contact form - the contact form was initially developed as a modal pop-up form, but this was found not to work with the [Formspree](https://help.formspree.io/hc/en-us) service. The contact form was redesigned as a [web page](contact.html).
 
 ## Testing ##
 
@@ -297,7 +299,7 @@ Additional help on styling horizontal rulers was found at the following link:
 Additional help on aria label attributes was found at the following link:
 * [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Techniques/Using_the_aria-label_attribute)
 
-Additional help on fade-in animation was found at the following link:
+Additional help on fade-in animations was found at the following link:
 * [Stack Overflow link 4](https://stackoverflow.com/questions/11679567/using-css-for-a-fade-in-effect-on-page-load)
 
 Additional help on deploying the website to a godaddy domain using github pages was found at the following links:
@@ -306,7 +308,7 @@ Additional help on deploying the website to a godaddy domain using github pages 
 
 ## Acknowledgements ##
 Thanks to the following for your help and inspiration during this project:
-* [Nick Hope-Thomson](https://artofnht.com/) for his inspirational art work, I hope this website helps you acheive your dreams!
+* [Nick Hope-Thomson](https://artofnht.com/) for his amazing art work, I hope this website helps you acheive your dreams!
 * [Sarah Ash](https://artofnht.com/) for helping Nick to quickly put a clear and concise brief together.
 * [Neringa Bickmore](https://github.com/neringabickmore) for getting me started off on the right footing and for your very helpful review and comments on the website and documentation.
 * My remote mentor [Allen Thomas Varghese](https://github.com/allentv) for the help getting me started and for the insightful review and comments on the website.
