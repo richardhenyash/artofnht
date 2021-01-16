@@ -111,7 +111,7 @@ Medium Desktop PC and Large Desktop PC. See [Responsive Design Testing](./assets
 <img src="./assets/testing/responsive-design/responsive-viewer-page1.png" style="margin: 15px; width:250px;">
 <img src="./assets/testing/responsive-design/responsive-viewer-page2.png" style="margin: 15px; width:250px;">
 
-* The home page images behave as expected - the right hand "cyclops" image is hidden on smaller devices.  
+* The [Home](index.html) page images behave as expected - the right hand "cyclops" image is hidden on smaller devices.  
 * The [Gallery](gallery.html) carousel behaves as expected, auto-sizing the images fluidly and displaying a 1 panel wide carousel on small screens,
 a 2 panel wide carousel on medium screens and a 3 panel wide carousel on large screens.
 
