@@ -6,4 +6,5 @@ __pycache__/
 *.py[cod]
 cname
 /assets/images/*
+/assets/testing/*
 /assets/wireframes/*
