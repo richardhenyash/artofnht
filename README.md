@@ -326,6 +326,9 @@ Additional help on aria label attributes was found at the following link:
 Additional help on fade-in animations was found at the following link:
 * [Stack Overflow link 4](https://stackoverflow.com/questions/11679567/using-css-for-a-fade-in-effect-on-page-load)
 
+Additional help on progressive .jpg images was found at the following link:
+* [The Webmaster Link](https://www.thewebmaster.com/dev/2016/feb/10/how-progressive-jpegs-can-speed-up-your-website/)
+
 Additional help on deploying the website to a godaddy domain using github pages was found at the following links:
 * [Github documentation](https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages/managing-a-custom-domain-for-your-github-pages-site)
 * [Medium link 2](https://medium.com/@JinnaBalu/godaddy-domain-with-github-pages-62aed906d4ef)

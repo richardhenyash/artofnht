@@ -112,7 +112,7 @@ Medium Desktop PC and Large Desktop PC. See [Responsive Design Testing](./assets
 <img src="./assets/testing/responsive-design/responsive-viewer-page2.png" style="margin: 15px; width:250px;">
 
 * The home page images behave as expected - the right hand "cyclops" image is hidden on smaller devices.  
-* The gallery carousel behaves as expected, auto-sizing the images fluidly and displaying a 1 panel wide carousel on small screens,
+* The [Gallery](gallery.html) carousel behaves as expected, auto-sizing the images fluidly and displaying a 1 panel wide carousel on small screens,
 a 2 panel wide carousel on medium screens and a 3 panel wide carousel on large screens.
 
 ### About Page Links ###
@@ -153,7 +153,12 @@ still display correctly in the [Yandex](https://browser.yandex.com/) browser wit
 and is not widely used outside of Russia, so this is not seen as a major issue.
 
 ## Bugs Fixed During Testing ##
-See [Custom CSS Styling](#custom-css-styling) and [HTML](#html) sections for bugs fixed during the automated testing process. See [Contact Form](#contact-form) section for bug fixed during the manual testing process.
+See [Custom CSS Styling](#custom-css-styling) and [HTML](#html) sections for bugs fixed during the automated testing process.  
+During the testing process, it was noted that the [Home](index.html) and [Gallery](gallery.html) page images were taking a short while to load in.  
+To improve performance, the [Riot](https://riot-optimizer.com/) image optimisation software tool was used to optimise the .jpg images, 
+and also to convert the images to progressive .jpg format, which loads in a lower resolution version of the image
+while the full resolution image loads in. This has improved the page loading time for the [Home](index.html) and [Gallery](gallery.html) pages.  
+Also see [Contact Form](#contact-form) section for further bug fixed during the manual testing process.
 
 ## Bugs Remaining ##
 There are no known bugs remaining.
