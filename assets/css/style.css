@@ -48,10 +48,7 @@ body {
     height: 10.1rem;
 }
 
-.container-fluid {
-    background-color: #222831;
-}
-
+.container-fluid,
 .container-heading {
     background-color: #222831;
 }
@@ -88,18 +85,9 @@ body {
     padding: 2rem 3.5rem 0 3.5rem;
 }
 
-.container-about {
-    background-color: #222831;
-}
-
-.container-image {
-    background-color: #222831;
-}
-
-.container-blockdivider {
-    background-color: #222831;
-}
-
+.container-about,
+.container-image,
+.container-blockdivider,
 .container-carousel {
     background-color: #222831;
 }
@@ -222,7 +210,6 @@ body {
 }
 
 /*--About Page Images--*/
-
 .container-image-about img {
     background-color: #9A9793;
     border: 2px solid #9A9793;
@@ -236,10 +223,7 @@ img:hover {
 
 .container-image-about a:active,
 .container-image-about a:focus,
-.container-image-about a:visited {
-    outline: none;
-}
-
+.container-image-about a:visited,
 #about-image:active,
 #about-image:focus,
 #about-image:visited {
@@ -296,7 +280,6 @@ img:hover {
 }
 
 /*--About Page Links--*/
-
 .container-text-about p a:hover,
 .container-text-about p a:active,
 .container-text-about p a:focus,
