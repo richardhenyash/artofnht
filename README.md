@@ -263,7 +263,7 @@ screen size up to 3600px wide. [Gallery Testing Screen Prints](./assets/testing/
 
 ## Testing ##
 
-Further testing information and screen prints can be found in [Testing.md](TESTING.md).
+Further testing information and screen prints can be found in [TESTING.md](TESTING.md).
 
 ## Deployment ##
 The project has been developed using [Gitpod](https://www.Gitpod.io/) and [GitHub](https://github.com/). 
@@ -282,7 +282,7 @@ for the relevant domain which you have purchased through [GoDaddy](https://uk.go
 * Edit the Type "A" record. The IP address in the "Value" field should be changed to 185.199.108.153.
 * Edit the Type "CNAME" record with the field "Name" set to "www". This should be changed to the relevant 
 [GitHub](https://github.com/) pages web adrress (username.github.io). For my [GitHub](https://github.com/) pages this is richardhenyash.github.io.
-* Add 3 further Type "A" records with "Name" set to "@", and "Value" fields set to IP addresses 185.199.109.153, 185.199.110.153, 185.199.111.153.
+* Add 3 further Type "A" records with "Name" set to "@", and "Value" fields set to IP addresses 185.199.109.153, 185.199.110.153 and 185.199.111.153.
 * Go to the [Settings](https://github.com/richardhenyash/artofnht/settings) in the [Project Code Repository Location](https://github.com/richardhenyash/artofnht).
 * Scroll to the [GitHub Pages](https://pages.github.com/) section.
 * In the Source section select the [darktheme](https://github.com/richardhenyash/artofnht/tree/darktheme) branch from the dropdown menu.
@@ -319,29 +319,29 @@ For further information on cloning a [GitHub](https://github.com/) repository, s
 ## Credits ##
 
 I gained additional help and inspiration on dark mode theme colours from the following link:
-* [codeburst](https://codeburst.io/50-shades-of-dark-mode-gray-d3e9907b1194)
+* [codeburst link 1](https://codeburst.io/50-shades-of-dark-mode-gray-d3e9907b1194)
 
 I gained additional insight and help on bootstrap carousel functionality from the following links:
-* [w3schools](https://www.w3schools.com/bootstrap/bootstrap_carousel.asp)
-* [medium link 1](https://medium.com/wdstack/bootstrap-4-custom-carousel-94a537364fde)
+* [w3schools link 1](https://www.w3schools.com/bootstrap/bootstrap_carousel.asp)
+* [Medium link 1](https://medium.com/wdstack/bootstrap-4-custom-carousel-94a537364fde)
 * [Stack Overflow link 1](https://stackoverflow.com/questions/46249541/change-arrow-colors-in-bootstraps-carousel)
 * [Stack Overflow link 2](https://stackoverflow.com/questions/47400874/bootstrap-4-change-position-of-carousel-controls/50352437)
 * [Stack Overflow link 3](https://stackoverflow.com/questions/39536075/how-to-change-the-carousel-active-indicator-color-bootstrap/39536141)
 
 Additional help on styling horizontal rulers was found at the following link:
-* [w3schools](https://www.w3schools.com/howto/howto_css_style_hr.asp)
+* [w3schools link 2](https://www.w3schools.com/howto/howto_css_style_hr.asp)
 
 Additional help on aria label attributes was found at the following link:
-* [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Techniques/Using_the_aria-label_attribute)
+* [MDN Web Docs link 1](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Techniques/Using_the_aria-label_attribute)
 
 Additional help on fade-in animations was found at the following link:
 * [Stack Overflow link 4](https://stackoverflow.com/questions/11679567/using-css-for-a-fade-in-effect-on-page-load)
 
 Additional help on progressive .jpg images was found at the following link:
-* [The Webmaster Link](https://www.thewebmaster.com/dev/2016/feb/10/how-progressive-jpegs-can-speed-up-your-website/)
+* [The Webmaster Link 1](https://www.thewebmaster.com/dev/2016/feb/10/how-progressive-jpegs-can-speed-up-your-website/)
 
-Additional help on deploying the website to a godaddy domain using github pages was found at the following links:
-* [Github documentation](https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages/managing-a-custom-domain-for-your-github-pages-site)
+Additional help on deploying the website to a custom [GoDaddy](https://uk.godaddy.com/) domain using [GitHub Pages](https://pages.github.com/) was found at the following links:
+* [Github documentation link 1](https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages/managing-a-custom-domain-for-your-github-pages-site)
 * [Medium link 2](https://medium.com/@JinnaBalu/godaddy-domain-with-github-pages-62aed906d4ef)
 
 ## Acknowledgements ##
