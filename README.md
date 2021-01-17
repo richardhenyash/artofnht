@@ -270,7 +270,7 @@ The project has been developed using [Gitpod](https://www.Gitpod.io/) and [GitHu
 The project was regularly commited to [GitHub](https://github.com/) during the initial development phase.
 The website resides as a repository in [GitHub](https://github.com/) and has been been deployed on [GitHub](https://github.com/) 
 pages using the custom domain [Art Of NHT](www.artofnht.com) purchased from [GoDaddy](https://uk.godaddy.com/).  
-For further informaton on prchasing a custom .com domain from [GoDaddy](https://uk.godaddy.com/) 
+For further information on purchasing a custom .com domain from [GoDaddy](https://uk.godaddy.com/) 
 see this [Link](https://uk.godaddy.com/tlds/com-domain).
  
 Note that the deployed [GitHub Pages](https://pages.github.com/) source branch is the [darktheme](https://github.com/richardhenyash/artofnht/tree/darktheme) branch - 
@@ -294,6 +294,7 @@ The [Gitpod Browser Extension](https://www.Gitpod.io/docs/browser-extension/) is
 The project may be forked by following these steps:
 * Go to the [Project Code Repository Location](https://github.com/richardhenyash/artofnht) on [GitHub](https://github.com/).
 * In the top-right corner of the page, click "Fork".  
+
 For further information on forking a [GitHub](https://github.com/) repository, 
 see the [GitHub Documentation](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo).
 
@@ -309,7 +310,7 @@ $ git clone https://github.com/richardhenyash/artofnht
 The code may also be downloaded to a local computer by following these steps:
 * Go to the [Project Code Repository Location](https://github.com/richardhenyash/artofnht) on [GitHub](https://github.com/).
 * Select the "Code" dropdown and choose the "Download ZIP" option.
-* This will download a copy of the entire project locally as a .zip file.
+* This will download a copy of the entire project locally as a .zip file.  
 
 For further information on cloning a [GitHub](https://github.com/) repository, see the [GitHub Documentation](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository).
 
