@@ -269,7 +269,9 @@ Further testing information and screen prints can be found in [Testing.md](TESTI
 The project has been developed using [Gitpod](https://www.Gitpod.io/) and [GitHub](https://github.com/). 
 The project was regularly commited to [GitHub](https://github.com/) during the initial development phase.
 The website resides as a repository in [GitHub](https://github.com/) and has been been deployed on [GitHub](https://github.com/) 
-pages using the custom domain [Art Of NHT](www.artofnht.com) purchased from [GoDaddy](https://uk.godaddy.com/). 
+pages using the custom domain [Art Of NHT](www.artofnht.com) purchased from [GoDaddy](https://uk.godaddy.com/).  
+For further informaton on prchasing a custom .com domain from [GoDaddy](https://uk.godaddy.com/) 
+see this [Link](https://uk.godaddy.com/tlds/com-domain).
  
 Note that the deployed [GitHub Pages](https://pages.github.com/) source branch is the [darktheme](https://github.com/richardhenyash/artofnht/tree/darktheme) branch - 
 see [Design Changes During The Phase 1 Development](#design-changes-during-the-phase-1-development) for more details.  
@@ -286,8 +288,14 @@ The steps required to deploy the website to a custom domain using [GitHub Pages]
 * Tick "Enforce HTTPS".
 * This creates a a new file in the root directory called CNAME, which should have one line of text which is the custom domain name (artofnht.com).
 
-In order to make a clone of the project, a [GitHub](https://www.Gitpod.io/) account is required. 
+In order to make a fork or clone of the project, a [GitHub](https://www.Gitpod.io/) account is required. 
 The [Gitpod Browser Extension](https://www.Gitpod.io/docs/browser-extension/) is also recommended.  
+
+The project may be forked by following these steps:
+* Go to the [Project Code Repository Location](https://github.com/richardhenyash/artofnht) on [GitHub](https://github.com/).
+* In the top-right corner of the page, click "Fork".  
+For further information on forking a [GitHub](https://github.com/) repository, 
+see the [GitHub Documentation](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo).
 
 The project may be cloned by following these steps:
 * Go to the [Project Code Repository Location](https://github.com/richardhenyash/artofnht) on [GitHub](https://github.com/).
