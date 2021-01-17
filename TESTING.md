@@ -100,6 +100,7 @@ Footer link and Footer Link hover styling have been tested on all pages and work
 
 ### Gallery Page Carousel Controls
 [Gallery](gallery.html) page image carousel controls have been tested for 1 panel, 2 panel and 3 panel carousels and work correctly.  
+
 <img src="./assets/testing/gallery-page/gallery-page-carousel-controls.png" style="margin: 15px; width:400px;">
 
 ### Responsive Design ###
