@@ -5,6 +5,3 @@ env.py
 __pycache__/
 *.py[cod]
 cname
-/assets/testing/*
-/assets/images/*
-/assets/wireframes/*
