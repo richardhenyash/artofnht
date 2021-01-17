@@ -64,17 +64,22 @@ The user is then able to contact the artist using the [Contact](contact.html) fo
 <img src="./assets/testing/image-modals/image-modal-gallery-page-4.png" style="margin: 15px; width:250px;">
 
 ## Additional UX Testing ##
-A number of friends and family of the developer and the artist have visited the site and the feedback has been very positive so far. Users have said that the site is well designed and easy to use.
+A number of friends and family of the developer and the artist have visited the site and the feedback has been very positive so far. 
+Users have said that the site is well designed, looks stylish and is easy to navigate.
 
 ## Manual Testing ##
 ### Navigation Links
-Navigation Links and Navigation Links hover styling have been tested on all pages and work correctly.
+Navigation Links and Navigation Links hover styling have been tested on all pages and work correctly.  
+<img src="./assets/testing/home-page/navigation-menu.png" style="margin: 15px; width:300px;"> 
 
 ### Logo Link
-Logo link and Logo Link hover styling have been tested on all pages and work correctly (logo links to [Home](index.html) page).
+Logo link and Logo Link hover styling have been tested on all pages and work correctly (logo links to [Home](index.html) page).  
+<img src="./assets/testing/home-page/logo.png" style="margin: 15px; width:100px;"> 
 
 ### Footer Link
-Footer link and Footer Link hover styling have been tested on all pages and work correctly (footer image links to artist's page on [Comic Art Fans](https://www.comicartfans.com/gallerydetail.asp?gcat=682) website).
+Footer link and Footer Link hover styling have been tested on all pages and work correctly 
+(footer image links to artist's page on [Comic Art Fans](https://www.comicartfans.com/gallerydetail.asp?gcat=682) website).  
+<img src="./assets/testing/home-page/footer.png" style="margin: 15px; width:600px;">
 
 ### Home Page Image Modals
 [Home](index.html) page pop-up image modals have been tested and work correctly. See [Image Modal Testing](./assets/testing/image-modals) screen prints, also shown below:  
@@ -91,10 +96,11 @@ Footer link and Footer Link hover styling have been tested on all pages and work
 <img src="./assets/testing/image-modals/image-modal-gallery-page-6.png" style="margin: 15px; width:250px;">
 
 ### Gallery Page Carousel Controls
-[Gallery](gallery.html) page image carousel controls have been tested for 1 panel, 2 panel and 3 panel carousels and work correctly.
+[Gallery](gallery.html) page image carousel controls have been tested for 1 panel, 2 panel and 3 panel carousels and work correctly.  
+<img src="./assets/testing/gallery-page/gallery-page-carousel-controls.png" style="margin: 15px; width:400px;">
 
 ### Responsive Design ###
-* Responsive design has been tested by using the chrome developer tools to emulate viewing the website on a number of devices with varying screen dimensions, 
+* Responsive design has been tested by using the [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools) to emulate viewing the website on a number of devices with varying screen dimensions, 
 including iPhone 5/SE, iPhone 6/7/8, iPhone 6/7/8 plus, iPhone 11, iPad, iPad Pro, Moto G4, Galaxy S5, Surface Duo, Galaxy Fold, Widescreen Laptop and Desktop PC. 
 See [Responsive Design Testing](./assets/testing/responsive-design) screen prints, a selection of which are shown below:  
 
@@ -131,6 +137,7 @@ Input is required in order to submit the form, must be in the correct format (re
 * The [Contact](contact.html) form "Send" buttton was tested by submitting the form. A message is displayed saying that the form was submitted succesfully using [Formspree](https://help.formspree.io/hc/en-us) and an email is sent to nickhopet@hotmail.com. The button works as intended.
 
 See [Contact Form Testing](./assets/testing/contact-form) screen prints, which are also shown below:   
+
 <img src="./assets/testing/contact-form/contact-form-test-name.png" style="margin: 15px; width:250px;">
 <img src="./assets/testing/contact-form/contact-form-test-email.png" style="margin: 15px; width:250px;">
 <img src="./assets/testing/contact-form/contact-form-test-message.png" style="margin: 15px; width:250px;">
