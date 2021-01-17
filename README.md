@@ -276,10 +276,12 @@ see this [Link](https://uk.godaddy.com/tlds/com-domain).
 Note that the deployed [GitHub Pages](https://pages.github.com/) source branch is the [darktheme](https://github.com/richardhenyash/artofnht/tree/darktheme) branch - 
 see [Design Changes During The Phase 1 Development](#design-changes-during-the-phase-1-development) for more details.  
 
-The steps required to deploy the website to a custom domain using [GitHub Pages](https://pages.github.com/) pages are as follows:
-* Open the DNS management page in the [GoDaddy](https://uk.godaddy.com/) Domain Manager for the relevant domain which you have purchased through GoDaddy.
+The steps required to deploy the website to a custom domain using [GitHub Pages](https://pages.github.com/) are as follows:
+* Open the DNS management page in the [GoDaddy](https://uk.godaddy.com/) Domain Manager 
+for the relevant domain which you have purchased through [GoDaddy](https://uk.godaddy.com/).
 * Edit the Type "A" record. The IP address in the "Value" field should be changed to 185.199.108.153.
-* Edit the Type "CNAME" record with the field "Name" set to "www". This should be changed to the relevant [GitHub](https://github.com/) pages web adrress (username.github.io). For my GitHub pages this is (richardhenyash.github.io).
+* Edit the Type "CNAME" record with the field "Name" set to "www". This should be changed to the relevant 
+[GitHub](https://github.com/) pages web adrress (username.github.io). For my [GitHub](https://github.com/) pages this is richardhenyash.github.io.
 * Add 3 further Type "A" records with "Name" set to "@", and "Value" fields set to IP addresses 185.199.109.153, 185.199.110.153, 185.199.111.153.
 * Go to the [Settings](https://github.com/richardhenyash/artofnht/settings) in the [Project Code Repository Location](https://github.com/richardhenyash/artofnht).
 * Scroll to the [GitHub Pages](https://pages.github.com/) section.
