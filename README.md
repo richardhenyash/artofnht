@@ -135,12 +135,22 @@ A [Site Map](./assets/wireframes/sitemap.png) was produced for discussion prior 
 <img src="./assets/wireframes/sitemap.png" style="margin: 15px; width: 400px;">
 
 ### Wireframes ###
-An [Initial Sketch](./assets/wireframes/rev0) was produced for discussion prior to the initial project strategy meeting with the client.
+An [Initial Sketch](./assets/wireframes/rev0) was produced for discussion prior to the initial project strategy meeting with the client and is shown below:  
+
+<img src="./assets/wireframes/rev0/initial-hand-sketch.jpg" style="margin: 15px; width:600px;">
 
 [Initial Wireframes](./assets/wireframes/rev1) showing different options for the Home and Gallery pages were produced using [balsamiq](https://balsamiq.com/index.html) and presented to the client. 
-The base case was selected for the Home and Gallery pages.
+The base case was selected for the Home and Gallery pages and is shown below:  
 
-[Responsive Design Wireframes](./assets/wireframes/rev2) were then developed based on the initial wireframes showing the Home, Gallery and About pages as viewed on desktop, tablet and mobile devices.
+<img src="./assets/wireframes/rev1/home-basecase.png" style="margin: 15px; width:600px;">  
+<img src="./assets/wireframes/rev1/gallery-basecase.png" style="margin: 15px; width:600px;">
+
+[Responsive Design Wireframes](./assets/wireframes/rev2) were then developed based on the initial wireframes showing the Home, Gallery and About pages as viewed on desktop, tablet and mobile devices. 
+The mobile view wireframes are shown below:  
+
+<img src="./assets/wireframes/rev2/home-mobile.png" style="margin: 15px; width:200px;">  
+<img src="./assets/wireframes/rev2/gallery-mobile.png" style="margin: 15px; width:200px;">  
+<img src="./assets/wireframes/rev2/aboutnht-mobile.png" style="margin: 15px; width:200px;">  
 
 The home page features two large bright and colorful illustrations, a navigation menu, the NHT logo provided by the client and 
 a link to the artist's page on [comicartfans](https://www.comicartfans.com/gallerydetail.asp?gcat=682). We decided to use two illustrations for the home page 
@@ -181,11 +191,11 @@ The final colour pallete is shown below:
 <img src="./assets/wireframes/nht-color-dark.png" style="margin: 15px; width:600px;">  
 
 * White, used for highlighting
-* #FAFAFA - slightly off white, used for headings, highlighting, text and carousel indicators
-* #9A9793 - light grey, used for navigation links and about page image outline
-* #404040 - dark grey, used for block dividers, home page and gallery image outlines
-* #222831 - very dark grey, used for background containers
-* #D65A31 - red, used for links on about page
+* #FAFAFA - "Cultured", used for headings, highlighting, text and carousel indicators
+* #9A9793 - "Spanish Grey", used for navigation links and about page image outline
+* #404040 - "Onyx", used for block dividers, home page and gallery image outlines
+* #222831 - "Gunmetal", used for background containers
+* #D65A31 - "Flame", used for links on about page
 
 ## Technologies ##
 ### Languages ###
@@ -196,7 +206,7 @@ The final colour pallete is shown below:
 ### Frameworks Libraries and Tools ###
 * [Bootstrap](https://getbootstrap.com/docs/4.5/getting-started/introduction/)
 * [jQuery](https://jquery.com/) (used internally by [Bootstrap](https://getbootstrap.com/docs/4.5/getting-started/introduction/))
-* [Font Awewsome](https://fontawesome.com/)
+* [Font Awesome](https://fontawesome.com/)
 * [Google Fonts](https://fonts.google.com/)
 * [Form Spree](https://help.formspree.io/hc/en-us)
 
@@ -226,7 +236,9 @@ the user experience. The carousel images pop out into [Modals](./assets/testing/
 <img src="./assets/testing/gallery-page/gallery-page-2.png" style="margin: 15px; width:250px;">  
 <img src="./assets/testing/image-modals/image-modal-gallery-page-4.png" style="margin: 15px; width:250px;">  
 
-* [About](about.html) page including artist biography, profile picture, contact links and large, bright call to action "Contact Nick" button. Profile picture, "Contact Form" link and "Contact Nick" button link to the [Contact Form](contact.html) form. The email link creates an email to Nick in the user's default email application:  
+* [About](about.html) page including artist biography, profile picture, contact links and large, bright call to action "Contact Nick" button. 
+Profile picture, "Contact Form" link and "Contact Nick" button all link to the [Contact Form](contact.html). 
+The email link creates an email to Nick in the user's default email application:  
 <img src="./assets/testing/about-page/about-page.png" style="margin: 15px; width:250px;">  
 
 * [Contact Form](contact.html) containing fields for Name, Email address and Message, and a large Send button. 
@@ -237,7 +249,7 @@ If all fields are entered correctly, an email is sent to nickhopet@hotmail.com. 
 * The [Formspree](https://help.formspree.io/hc/en-us) form submission message can be customised to improve the user experience, however this requires a payed account with [Formspree](https://help.formspree.io/hc/en-us).
 This may be considered for implementation in the future, as the free service provided by [Formspree](https://help.formspree.io/hc/en-us) is limited to 50 contact messages per month.
 Another future development option would be to submit the contact form via [php](https://www.php.net/). It is not possible to deploy [php](https://www.php.net/) on a site hosted by [GitHub](https://github.com/) pages, 
-so the site would need to be moved to another provider that supports [php](https://www.php.net/) in order to implement this.
+so the site would need to be moved to another hosting provider that supports [php](https://www.php.net/) in order to implement this.
 * Subscribe feature on contact form - this may be implemented in the future if the artist decides to
 launch a web marketing campaign.
 * Links to social media (dependant on artist being willing to join social media networks).
@@ -245,21 +257,24 @@ launch a web marketing campaign.
 * Online Sales Capability - (dependant on developer's technical capability).
 
 ### Design Changes During The Phase 1 Development ###
-* Colour scheme - the colour scheme was changed mid-way through the development as described in the [Colours](#colours) section. 
+* [Colour Scheme](#colours) - the colour scheme was changed mid-way through the development as described in the [Colours](#colours) section. 
 The original colour theme is on the [master](https://github.com/richardhenyash/artofnht/tree/master) branch in the [GitHub](https://github.com/) 
 repository. A new [darktheme](https://github.com/richardhenyash/artofnht/tree/darktheme) branch was created for the dark theme option and 
 developed into the final website. This is set as the source for [GitHub](https://github.com/) pages.
-* Gallery carousel controls - these were initially located at the bottom of the images within the image panels, but were moved underneath the carousel elements as we felt this provided a better user experience. 
+* [Gallery](gallery.html) carousel controls - the controls were initially located at the bottom of the images within the image panels, 
+but were moved underneath the carousel elements as the developer felt this provided a better user experience. 
 See [Gallery Testing Screen Prints](./assets/testing/gallery-page) and example below:  
 <img src="./assets/testing/gallery-page/gallery-page-2.png" style="margin: 15px; width:250px;">  
 
-* Gallery carousel images - the images were initially being sized by using specific media queries for a range of device widths to set the 
-height of the image. The gallery images were then resized to 1200px x 1680px, to enable bootstrap to auto size the gallery in 1 panel, 
+* [Gallery](gallery.html) carousel images - the images were initially being sized by using specific media queries for a range of device widths to set the 
+height of the image. The [Gallery](gallery.html) images were then resized to 1200px x 1680px, to enable bootstrap to auto size the gallery in 1 panel, 
 2 panels or 3 panels depending on screen size. This enables the gallery to scale fluidly and without degrading image quality for any 
 screen size up to 3600px wide. [Gallery Testing Screen Prints](./assets/testing/gallery-page), and example below:  
 <img src="./assets/testing/gallery-page/gallery-page-3.png" style="margin: 15px; width:250px;">  
 
-* Contact form - the contact form was initially developed as a modal pop-up form, but this was found not to work with the [Formspree](https://help.formspree.io/hc/en-us) service. The contact form was redesigned as a [web page](contact.html).
+* [Contact Form](contact.html) - the [Contact Form](contact.html) was initially developed as a modal pop-up form, 
+but this was found not to work with the [Formspree](https://help.formspree.io/hc/en-us) service. 
+The contact form was redesigned as a [web page](contact.html).
 
 ## Testing ##
 
@@ -281,7 +296,7 @@ The steps required to deploy the website to a custom domain using [GitHub Pages]
 for the relevant domain which you have purchased through [GoDaddy](https://uk.godaddy.com/).
 * Edit the Type "A" record. The IP address in the "Value" field should be changed to 185.199.108.153.
 * Edit the Type "CNAME" record with the field "Name" set to "www". This should be changed to the relevant 
-[GitHub](https://github.com/) pages web adrress (username.github.io). For my [GitHub](https://github.com/) pages this is richardhenyash.github.io.
+[GitHub](https://github.com/) pages web address (username.github.io). For my [GitHub](https://github.com/) pages this is richardhenyash.github.io.
 * Add 3 further Type "A" records with "Name" set to "@", and "Value" fields set to IP addresses 185.199.109.153, 185.199.110.153 and 185.199.111.153.
 * Go to the [Settings](https://github.com/richardhenyash/artofnht/settings) in the [Project Code Repository Location](https://github.com/richardhenyash/artofnht).
 * Scroll to the [GitHub Pages](https://pages.github.com/) section.
