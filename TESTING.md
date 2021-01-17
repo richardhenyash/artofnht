@@ -70,15 +70,18 @@ Users have said that the site is well designed, looks stylish and is easy to nav
 ## Manual Testing ##
 ### Navigation Links
 Navigation Links and Navigation Links hover styling have been tested on all pages and work correctly.  
+
 <img src="./assets/testing/home-page/navigation-menu.png" style="margin: 15px; width:300px;"> 
 
 ### Logo Link
 Logo link and Logo Link hover styling have been tested on all pages and work correctly (logo links to [Home](index.html) page).  
+
 <img src="./assets/testing/home-page/logo.png" style="margin: 15px; width:100px;"> 
 
 ### Footer Link
 Footer link and Footer Link hover styling have been tested on all pages and work correctly 
 (footer image links to artist's page on [Comic Art Fans](https://www.comicartfans.com/gallerydetail.asp?gcat=682) website).  
+
 <img src="./assets/testing/home-page/footer.png" style="margin: 15px; width:600px;">
 
 ### Home Page Image Modals
