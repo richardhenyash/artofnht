@@ -104,7 +104,7 @@ Footer link and Footer Link hover styling have been tested on all pages and work
 <img src="./assets/testing/gallery-page/gallery-page-carousel-controls.png" style="margin: 15px; width:400px;">
 
 ### Responsive Design ###
-* Responsive design has been tested by using the [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools) to emulate viewing the website on a number of devices with varying screen dimensions, 
+* Responsive design has been tested by using [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools) to emulate viewing the website on a number of devices with varying screen dimensions, 
 including iPhone 5/SE, iPhone 6/7/8, iPhone 6/7/8 plus, iPhone 11, iPad, iPad Pro, Moto G4, Galaxy S5, Surface Duo, Galaxy Fold, Widescreen Laptop and Desktop PC. 
 See [Responsive Design Testing](./assets/testing/responsive-design) screen prints, a selection of which are shown below:  
 
@@ -134,7 +134,7 @@ a 2 panel wide carousel on medium screens and a 3 panel wide carousel on large s
 ### Contact Form ###
 Each input field of the [Contact](contact.html) form was tested in turn. It was found during testing that the "required" attribute had not been added to the "Name", "Email address" and "Message" form inputs. This has now been added, and the form was re-tested.
 * The [Contact](contact.html) form "Name" input was tested by attempting to submit the form with the "Name" input not populated.
-Input is required in order to submit the form and the user's name(s) entered previously into the browser are available for selection. The input works as intended.
+Input is required in order to submit the form, and the user's name(s) entered previously into the browser are available for selection. The input works as intended.
 * The [Contact](contact.html) form "Email address" input was tested by attempting to submit the form with the "Email" input not populated, and then with the "Email" input not populated with a valid email address.
 Input is required in order to submit the form, must be in the correct format (requires an @ symbol) and the user's email addresses entered previously into the browser are available for selection. The input works as intended.
 * The [Contact](contact.html) form "Message" input was tested by attempting to submit the form with the "Message" input not populated. Input is required in order to submit the form. The input works as intended.
