@@ -64,7 +64,7 @@ Link to artist page on [comicartfans.com](https://www.comicartfans.com/)|3|3
 Subscribe|2|1
 Communicate pricing information|2|5
 Increase social media followers|2|3
-Create a blog|5|5
+Create a blog|1|1
 Develop online sales capability|1|1
 
 <img src="./assets/wireframes/initialstrategy.png" style="margin: 15px;">
@@ -121,7 +121,7 @@ Feature|Importance|Difficulty|Development Phase
 -------|----------|----------|-----------------
 Navigation menu | 5 | 2 | 1
 Portfolio images | 5 | 3 | 1
-Contact form | 5 | 1 | 1
+Contact form | 5 | 3 | 1
 Biography | 4 | 2 | 1
 Copyright notices | 5 | 1 | 1
 Link to comicartfans.com | 3 | 1 | 1
@@ -139,29 +139,32 @@ An [Initial Sketch](./assets/wireframes/rev0) was produced for discussion prior 
 
 <img src="./assets/wireframes/rev0/initial-hand-sketch.jpg" style="margin: 15px; width:600px;">
 
-[Initial Wireframes](./assets/wireframes/rev1) showing different options for the Home and Gallery pages were produced using [balsamiq](https://balsamiq.com/index.html) and presented to the client. 
-The base case was selected for the Home and Gallery pages and is shown below:  
+[Initial Wireframes](./assets/wireframes/rev1) showing different options for the [Home]("/assets/wireframes/rev1/home-basecase.png) and [Gallery](./assets/wireframes/rev1/gallery-basecase.png) pages were produced using [balsamiq](https://balsamiq.com/index.html) and presented to the client. 
+The base case was selected for the [Home]("/assets/wireframes/rev1/home-basecase.png) and [Gallery](./assets/wireframes/rev1/gallery-basecase.png) pages and is shown below:  
 
 <img src="./assets/wireframes/rev1/home-basecase.png" style="margin: 15px; width:600px;">  
 <img src="./assets/wireframes/rev1/gallery-basecase.png" style="margin: 15px; width:600px;">
 
-[Responsive Design Wireframes](./assets/wireframes/rev2) were then developed based on the initial wireframes showing the Home, Gallery and About pages as viewed on desktop, tablet and mobile devices. 
+[Responsive Design Wireframes](./assets/wireframes/rev2) were then developed based on the initial wireframes showing the [Home](./assets/wireframes/rev2/home-desktop.png), 
+[Gallery](./assets/wireframes/rev2/gallery-desktop.png) and [About](./assets/wireframes/rev2/aboutnht-desktop.png) pages as viewed on desktop, tablet and mobile devices. 
 The mobile view wireframes are shown below:  
 
 <img src="./assets/wireframes/rev2/home-mobile.png" style="margin: 15px; width:200px;">  
 <img src="./assets/wireframes/rev2/gallery-mobile.png" style="margin: 15px; width:200px;">  
 <img src="./assets/wireframes/rev2/aboutnht-mobile.png" style="margin: 15px; width:200px;">  
 
-The home page features two large bright and colorful illustrations, a navigation menu, the NHT logo provided by the client and 
+The [Home](./assets/wireframes/rev2/home-desktop.png) page features two large bright and colorful illustrations, a navigation menu, the [NHT logo](./assets/images/nht-logo-300x300.png) provided by the client and 
 a link to the artist's page on [comicartfans](https://www.comicartfans.com/gallerydetail.asp?gcat=682). We decided to use two illustrations for the home page 
 as the artist's most colourful illustrations are in portrait orientation and this would allow 2 images to be tiled side by side on a desktop view, 
 with one of the images being removed or the images being tiled vertically on smaller devices. 
 
-The Gallery is presented as a seperate page. The gallery features the artist's favourite work divided into the categories "Illustrations" 
-and "Caricatures". The images are tiled in 2 rows corresponding to the "Illustrations" and "Caricatures" categories, 
+The [Gallery](./assets/wireframes/rev2/gallery-desktop.png) is presented as a seperate page. The [Gallery](./assets/wireframes/rev2/gallery-desktop.png) 
+features the artist's favourite work divided into the categories "Illustrations" and "Caricatures". 
+The images are tiled in 2 rows corresponding to the "Illustrations" and "Caricatures" categories, 
 with 3 columns shown on a desktop view, 2 columns shown on a tablet view and 1 column shown on a mobile view.
 
-The Biography and Contact information is presented on the About NHT page. The about page includes a contact button which will open up a contact form.
+The Biography and Contact information is presented on the [About](./assets/wireframes/rev2/aboutnht-desktop.png) page. 
+The [About](./assets/wireframes/rev2/aboutnht-desktop.png) page includes a contact button which will open up a contact form.
 
 ### Design Choices ###
 
@@ -260,7 +263,7 @@ launch a web marketing campaign.
 * [Colour Scheme](#colours) - the colour scheme was changed mid-way through the development as described in the [Colours](#colours) section. 
 The original colour theme is on the [master](https://github.com/richardhenyash/artofnht/tree/master) branch in the [GitHub](https://github.com/) 
 repository. A new [darktheme](https://github.com/richardhenyash/artofnht/tree/darktheme) branch was created for the dark theme option and 
-developed into the final website. This is set as the source for [GitHub](https://github.com/) pages.
+developed into the final website. This is set as the source for [GitHub Pages](https://pages.github.com/).
 * [Gallery](gallery.html) carousel controls - the controls were initially located at the bottom of the images within the image panels, 
 but were moved underneath the carousel elements as the developer felt this provided a better user experience. 
 See [Gallery Testing Screen Prints](./assets/testing/gallery-page) and example below:  
