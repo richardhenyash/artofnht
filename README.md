@@ -215,13 +215,13 @@ The final colour pallete is shown below:
 
 ## Features ##
 ### Features Implemented in Phase 1 ###
-* Logo (including hover styling, links to home page if selected):  
+* [Logo](./assets/testing/home-page/logo.png) (including hover styling, links to home page if selected):  
 <img src="./assets/testing/home-page/logo.png" style="margin: 15px; width:100px;">  
 
-* Navigation Menu (including hover styling):  
+* [Navigation Menu](./assets/testing/home-page/navigation-menu.png) (including hover styling):  
 <img src="./assets/testing/home-page/navigation-menu.png" style="margin: 15px; width:300px;">  
 
-* Footer with link to artist page on [comicartfans](https://www.comicartfans.com/gallerydetail.asp?gcat=682), (including hover styling):  
+* [Footer](./assets/testing/home-page/footer.png) with link to artist page on [comicartfans](https://www.comicartfans.com/gallerydetail.asp?gcat=682), (including hover styling):  
 <img src="./assets/testing/home-page/footer.png" style="margin: 15px; width:600px;">  
 
 * [Responsive Design](./assets/testing/responsive-design).  
