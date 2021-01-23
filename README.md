@@ -169,11 +169,11 @@ The [About](./assets/wireframes/rev2/aboutnht-desktop.png) page includes a conta
 ### Design Choices ###
 
 #### Fonts ####
-**Varela Round** has been chosen as the font for all text content. The font is clean and modern and has a soft rounded feel which ties in well with comic art.
+**Varela Round** has been chosen as the font for all text content. The font is clean and modern and has a soft, rounded feel which ties in well with comic art.
 * font-family: 'Varela Round', sans-serif;  
 
 #### Colours ####
-The colour pallete was initally chosen based on the red of the Art Of NHT logo supplied by the client (#C93C1C). 
+The colour pallete was initally chosen based on the red of the [Art Of NHT logo](./assets/images/nht-logo-300x300.png) supplied by the client (#C93C1C). 
 The [mycolor](https://mycolor.space) pallete generator tool was used to generate a complementary colour pallete 
 based on the logo red (#C93C1C).
 The initial colour pallete is shown below:  
@@ -226,7 +226,7 @@ The final colour pallete is shown below:
 
 * [Responsive Design](./assets/testing/responsive-design).  
 
-* Large, responsive [Home](index.html) page image(s) which pop out into [Modals](./assets/testing/image-modals) which include image title and medium if selected. 
+* Large, responsive [Home](index.html) page image(s) which pop out into [Modals](./assets/testing/image-modals) including image title and medium if selected. 
 2 images are shown on the [Home](index.html) page on larger devices, and 1 image is shown on the [Home](/index.html) page on smaller devices:  
 <img src="./assets/testing/home-page/home-page.png" style="margin: 15px; width:250px;">  
 <img src="./assets/testing/image-modals/image-modal-home-page-1.png" style="margin: 15px; width:250px;">    
@@ -253,7 +253,7 @@ If all fields are entered correctly, an email is sent to nickhopet@hotmail.com. 
 This may be considered for implementation in the future, as the free service provided by [Formspree](https://help.formspree.io/hc/en-us) is limited to 50 contact messages per month.
 Another future development option would be to submit the contact form via [php](https://www.php.net/). It is not possible to deploy [php](https://www.php.net/) on a site hosted by [GitHub](https://github.com/) pages, 
 so the site would need to be moved to another hosting provider that supports [php](https://www.php.net/) in order to implement this.
-* Subscribe feature on contact form - this may be implemented in the future if the artist decides to
+* Subscribe feature on [Contact Form](contact.html) - this may be implemented in the future if the artist decides to
 launch a web marketing campaign.
 * Links to social media (dependant on artist being willing to join social media networks).
 * Blog - (dependant on artist's time constraints).
@@ -306,7 +306,7 @@ for the relevant domain which you have purchased through [GoDaddy](https://uk.go
 * In the Source section select the [darktheme](https://github.com/richardhenyash/artofnht/tree/darktheme) branch from the dropdown menu.
 * In the Custom domain box, add the custom domain name (artofnht.com).
 * Tick "Enforce HTTPS".
-* This creates a a new file in the root directory called CNAME, which should have one line of text which is the custom domain name (artofnht.com).
+* This creates a a new file in the root directory called CNAME, which should contain one line of text which is the custom domain name (artofnht.com).
 
 In order to make a fork or clone of the project, a [GitHub](https://www.Gitpod.io/) account is required. 
 The [Gitpod Browser Extension](https://www.Gitpod.io/docs/browser-extension/) is also recommended.  
