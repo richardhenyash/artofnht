@@ -320,7 +320,8 @@ img:hover {
 }
 
 /*--Fade-In Animation--*/
-/*--Credit - Fade-In Animation code referenced from the following link: https://stackoverflow.com/questions/11679567/using-css-for-a-fade-in-effect-on-page-load --*/
+/*--Credit - Fade-In Animation code has been referenced from the following link and modified to suit project requirements:
+/*--https://stackoverflow.com/questions/11679567/using-css-for-a-fade-in-effect-on-page-load--*/
 /*--See also Stack Overflow link 4 in README.md credits section--*/
 .fade-in {
     animation: fade-in 2s;
