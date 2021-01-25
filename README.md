@@ -336,9 +336,6 @@ For further information on cloning a [GitHub](https://github.com/) repository, s
 
 ## Credits ##
 
-Code used for fade-in animations was referenced from the following link and modified to suit project requirements:
-* [Stack Overflow link 4](https://stackoverflow.com/questions/11679567/using-css-for-a-fade-in-effect-on-page-load)
-
 I gained additional help and inspiration on dark mode theme colours from the following link:
 * [codeburst link 1](https://codeburst.io/50-shades-of-dark-mode-gray-d3e9907b1194)
 
@@ -357,6 +354,9 @@ Additional help on aria label attributes was found at the following link:
 
 Additional help on progressive .jpg images was found at the following link:
 * [The Webmaster Link 1](https://www.thewebmaster.com/dev/2016/feb/10/how-progressive-jpegs-can-speed-up-your-website/)
+
+Code used for fade-in animations was referenced from the following link and modified to suit project requirements:
+* [Stack Overflow link 4](https://stackoverflow.com/questions/11679567/using-css-for-a-fade-in-effect-on-page-load)
 
 Additional help on deploying the website to a custom [GoDaddy](https://uk.godaddy.com/) domain using [GitHub Pages](https://pages.github.com/) was found at the following links:
 * [Github documentation link 1](https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages/managing-a-custom-domain-for-your-github-pages-site)
