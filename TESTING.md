@@ -36,7 +36,7 @@ The [About](about.html) and [Contact](contact.html) pages both passed validation
 [Custom CSS styling](./assets/css/style.css) was validated using the [W3C CSS validation service](https://jigsaw.w3.org/css-validator/).  
 2 errors were reported on a redundant class. The class was removed and the code was re-validated, and passed with no errors.  
 12 warnings were generated. 4 of the warnings related to the background color being set the same as the border color for images 
-within the .container-image-about class. This is intentional, as the border is removed on hover, making the images appear grow 
+within the .container-image-about class. This is intentional, as the border is removed on hover, making the images appear to grow 
 slightly when hovered over. The remaining 8 warnings are due to the animation rules which have been defined to improve compatibility for legacy browsers. 
 The warnings are generated because vendor specific prefixes are not part of W3C specifications - however, these rules have been left 
 in to improve compatibility for legacy browsers.
