@@ -2,8 +2,8 @@
 
 ## Contents ##
 - [Automated Testing](#automated-testing)
-    - [Custom CSS Styling](#custom-css-styling)
     - [HTML](#html)
+    - [Custom CSS Styling](#custom-css-styling)
 - [User Stories Testing](#user-stories-testing)
 - [Additional UX Testing](#additional-ux-testing)
 - [Manual Testing](#manual-testing)
@@ -22,10 +22,6 @@
 
 ## Automated Testing ##
 
-### Custom CSS Styling ###
-[Custom CSS styling](./assets/css/style.css) was validated using the [W3C CSS validation service](https://jigsaw.w3.org/css-validator/).  
-2 errors were reported on a redundant class. The class was removed and the code was re-validated, and passed with no errors.
-
 ### HTML ###
 All HTML code was validated using the [W3C Markup validation service](https://validator.w3.org/).  
 One warning was generated on the [Home](index.html) page.
@@ -35,6 +31,16 @@ The [Home](index.html) page HTML code was then revalidated and passed with no er
 A number of errors were detected and fixed in the [Gallery](gallery.html) page, including 2 closing 'h3' tags which were incorrectly set to 'p', and duplicate id's on the carousel control elements.
 The [Gallery](gallery.html) page now passes validation without errors or warnings.  
 The [About](about.html) and [Contact](contact.html) pages both passed validation without errors or warnings.
+
+### Custom CSS Styling ###
+[Custom CSS styling](./assets/css/style.css) was validated using the [W3C CSS validation service](https://jigsaw.w3.org/css-validator/).  
+2 errors were reported on a redundant class. The class was removed and the code was re-validated, and passed with no errors.  
+12 warnings were generated. 4 of the warnings related to the background color being set the same as the border color for images 
+within the .container-image-about class. This is intentional, as the border is removed on hover, making the images appear grow 
+slightly when hovered over.  
+The remaining 8 warnings are due to the animation rules which have been defined to improve compatibility for legacy browsers. 
+The warnings are generated because vendor specific prefixes are not part of W3C specifications - however, these rules have been left 
+in to improve compatibility for legacy browsers.
 
 ## User Stories Testing ##
 * ***As a user, I want to browse comic art sites for fun and inspiration.*** The user can browse through the artist's portfolio of work using the [Gallery](gallery.html) page.  
