@@ -37,9 +37,9 @@ The [About](about.html) and [Contact](contact.html) pages both passed validation
 2 errors were reported on a redundant class. The class was removed and the code was re-validated, and passed with no errors.  
 12 warnings were generated. 4 of the warnings related to the background color being set the same as the border color for images 
 within the .container-image-about class. This is intentional, as the border is removed on hover, making the images appear to grow 
-slightly when hovered over. The remaining 8 warnings are due to the animation rules which have been defined to improve compatibility for legacy browsers. 
-The warnings are generated because vendor specific prefixes are not part of W3C specifications - however, these rules have been left 
-in to improve compatibility for legacy browsers.
+slightly when hovered over. The remaining 8 warnings are due to the fade-in animation rules in the .fade-in class which have been
+defined to improve compatibility for legacy browsers. The warnings are generated because vendor specific extensions are not part of
+W3C specifications - however, these rules have been left in place in order to improve compatibility for legacy browsers.
 
 ## User Stories Testing ##
 * ***As a user, I want to browse comic art sites for fun and inspiration.*** The user can browse through the artist's portfolio of work using the [Gallery](gallery.html) page.  
