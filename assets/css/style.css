@@ -159,7 +159,6 @@ body {
 
 /*--Block Dividers--*/
 .blockdivider {
-    text-align: center;
     border-top: 2px solid #404040;
     border-radius: 1px;
     padding-top: 0;
