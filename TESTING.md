@@ -36,11 +36,10 @@ The [About](about.html) and [Contact](contact.html) pages both passed validation
 [Custom CSS styling](./assets/css/style.css) was validated using the [W3C CSS validation service](https://jigsaw.w3.org/css-validator/).  
 2 errors were reported on a redundant class. The class was removed and the code was re-validated, and passed with no errors.  
 12 warnings were generated. 4 of the warnings related to the background color being set the same as the border color for the
-about page image. This issue was rectified. The remaining 8 warnings were due to the vendor specific fade-in animation rules 
-in the .fade-in class, which were defined in the original code to improve compatibility for legacy browsers. The warnings are
-generated because vendor specific extensions are not part of the current W3C specifications. The additional vendor specific
-rules were removed to ensure that the custom CSS code passed validation without errors or warnings. The custom CSS code was
-re-validated and now passes without errors or warnings.
+about page image. This issue was rectified. The remaining 8 warnings are due to the vendor specific fade-in animation rules 
+present in the .fade-in class, which have been defined to improve compatibility for legacy browsers. The warnings are generated because
+legacy vendor specific extensions are not part of the current W3C specifications. The additional vendor specific rules have been left in place,
+as this will provide the site with greater compatibility for legacy browsers.
 
 ## User Stories Testing ##
 * ***As a user, I want to browse comic art sites for fun and inspiration.*** The user can browse through the artist's portfolio of work using the [Gallery](gallery.html) page.  
