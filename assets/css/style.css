@@ -204,7 +204,6 @@ body {
 
 /*--About Page Images--*/
 .container-image-about img {
-    background-color: #9A9793;
     border: 2px solid #9A9793;
     max-width: 220px;
 }
@@ -325,37 +324,9 @@ img:hover {
 /*--See also Stack Overflow link 4 in README.md credits section--*/
 .fade-in {
     animation: fade-in 2s;
-    -webkit-animation: fade-in 2s; /* Safari, Chrome and Opera > 12.1 */
-    -moz-animation: fade-in 2s; /* Firefox < 16 */
-    -ms-animation: fade-in 2s; /* Internet Explorer */
-    -o-animation: fade-in 2s; /* Opera < 12.1 */
 }
 
 @keyframes fade-in {
-    from { opacity: 0; }
-    to   { opacity: 1; }
-}
-
-/*-- Safari, Chrome and Opera > 12.1 --*/
-@-webkit-keyframes fade-in {
-    from { opacity: 0; }
-    to   { opacity: 1; }
-}
-
-/*-- Firefox < 16 --*/
-@-moz-keyframes fade-in {
-    from { opacity: 0; }
-    to   { opacity: 1; }
-}
-
-/*-- Internet Explorer --*/
-@-ms-keyframes fade-in {
-    from { opacity: 0; }
-    to   { opacity: 1; }
-}
-
-/*-- Opera < 12.1 --*/
-@-o-keyframes fade-in {
     from { opacity: 0; }
     to   { opacity: 1; }
 }
