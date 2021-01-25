@@ -191,25 +191,21 @@ body {
     margin-bottom: 3.3rem;    
 }
 
-/*--Home Page and Gallery Page Images--*/
+/*--Home Page Images--*/
 .container-image img {
     background-size: cover;
     border: 2px solid #404040;
 }
-.container-image img:hover {
-    cursor: pointer;
-    border: none;
+
+/*--Gallery Page Images--*/
+.carousel-item img {
+    border: 2px solid #404040;
 }
 
 /*--About Page Images--*/
 .container-image-about img {
     border: 2px solid #9A9793;
     max-width: 220px;
-}
-
-.container-image-about
-img:hover {
-    border: none;
 }
 
 .container-image-about a:active,
@@ -221,15 +217,15 @@ img:hover {
     outline: none;
 }
 
-/*--Gallery Carousel and Controls--*/
-.carousel-item img {
-    border: 2px solid #404040;
-}
-
+/*--Image Hover Styling--*/
+.container-image img:hover,
+.container-image-about img:hover,
 .carousel-item img:hover {
     cursor: pointer;
     border: none;
 }
+
+/*--Gallery Carousel and Controls--*/
 
 .carousel-control-prev {
     align-items: flex-end;
