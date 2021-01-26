@@ -23,7 +23,7 @@
 ## Automated Testing ##
 
 ### HTML ###
-All HTML code was validated using the [W3C Markup validation service](https://validator.w3.org/).  
+All HTML code was validated using the [W3C Markup Validation Service](https://validator.w3.org/).  
 One warning was generated on the [Home](index.html) page.
 This was due to the fact that there is no heading in the main section, which is intentional as this would detract from the overall look and user experience.
 The main image section is visually implied without the need for a heading. An [aria-label](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Techniques/Using_the_aria-label_attribute) attribute was added to the main image section to improve accesibility for visually impaired users.
@@ -33,7 +33,7 @@ The [Gallery](gallery.html) page now passes validation without errors or warning
 The [About](about.html) and [Contact](contact.html) pages both passed validation without errors or warnings.
 
 ### Custom CSS Styling ###
-[Custom CSS styling](./assets/css/style.css) was validated using the [W3C CSS validation service](https://jigsaw.w3.org/css-validator/).  
+[Custom CSS styling](./assets/css/style.css) was validated using the [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/).  
 2 errors were reported on a redundant class. The class was removed and the code was re-validated, and passed with no errors.  
 12 warnings were generated. 4 of the warnings related to the background color being set the same as the border color for the
 about page image. This issue was rectified. The remaining 8 warnings are due to the vendor specific fade-in animation rules 
@@ -169,11 +169,13 @@ and [Microsoft Edge](https://www.microsoft.com/en-us/edge). This issue was recti
 
 ## Bugs Fixed During Testing ##
 See [Custom CSS Styling](#custom-css-styling) and [HTML](#html) sections for bugs fixed during the automated testing process.  
-During the testing process, it was noted that the [Home](index.html) and [Gallery](gallery.html) page images were taking a short while to load in.  
+
+During the manual testing process, it was noted that the [Home](index.html) and [Gallery](gallery.html) page images were taking a short while to load in.  
 To improve performance, the [Riot](https://riot-optimizer.com/) image optimisation software tool was used to optimise the .jpg images, 
-and also to convert the images to progressive .jpg format, which loads in a lower resolution version of the image
+and also to convert the images to [progressive](https://www.thewebmaster.com/dev/2016/feb/10/how-progressive-jpegs-can-speed-up-your-website/) .jpg format, which loads in a lower resolution version of the image
 while the full resolution image loads in. This has improved the page loading time for the [Home](index.html) and [Gallery](gallery.html) pages.  
-Also see [Contact Form](#contact-form) section for further bug fixed during the manual testing process.
+
+Also see [Contact Form](#contact-form) and [Browser Compatibility Testing](#browser-compatibility-testing) sections for further bugs fixed during the manual testing process.
 
 ## Bugs Remaining ##
 There are no known bugs remaining.
