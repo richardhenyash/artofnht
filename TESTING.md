@@ -165,7 +165,7 @@ using a combination of manual testing across various devices and the [Browsersta
 
 The following issue was detected during browser compatibility testing: 
 * The horizontal block divider styling did not display as intended in [Microsoft Internet Explorer 11](https://support.microsoft.com/en-us/topic/internet-explorer-downloads-d49e1f0d-571c-9a7b-d97e-be248806ca70#ID0EBBD=Windows_10) 
-and [Microsoft Edge](https://www.microsoft.com/en-us/edge). This issue was rectified.
+and [Microsoft Edge](https://www.microsoft.com/en-us/edge). This issue was rectified by removing the text-align propterty from the .blockdivider class.
 
 ## Bugs Fixed During Testing ##
 See [Custom CSS Styling](#custom-css-styling) and [HTML](#html) sections for bugs fixed during the automated testing process.  
