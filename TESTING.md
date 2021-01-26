@@ -173,7 +173,7 @@ See [Custom CSS Styling](#custom-css-styling) and [HTML](#html) sections for bug
 During the manual testing process, it was noted that the [Home](index.html) and [Gallery](gallery.html) page images were taking a short while to load in.  
 To improve performance, the [Riot](https://riot-optimizer.com/) image optimisation software tool was used to optimise the .jpg images, 
 and also to convert the images to [progressive](https://www.thewebmaster.com/dev/2016/feb/10/how-progressive-jpegs-can-speed-up-your-website/) .jpg format, which loads in a lower resolution version of the image
-while the full resolution image loads in. This has improved the performance for the [Home](index.html) and [Gallery](gallery.html) pages.  
+while the full resolution image loads in. This has improved performance for the [Home](index.html) and [Gallery](gallery.html) pages.  
 
 Also see [Contact Form](#contact-form) and [Browser Compatibility Testing](#browser-compatibility-testing) sections for further bugs fixed during the manual testing process.
 
