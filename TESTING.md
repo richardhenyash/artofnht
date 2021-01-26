@@ -10,6 +10,7 @@
     - [Navigation Links](#navigation-links)
     - [Logo Link](#logo-link)
     - [Footer Link](#footer-link)
+    - [Image Hover Styling](#image-hover-styling)
     - [Home Page Image Modals](#home-page-image-modals)
     - [Gallery Page Image Modals](#gallery-page-image-modals)
     - [Gallery Page Carousel Controls](#gallery-page-carousel-controls)
@@ -88,6 +89,9 @@ Footer link and Footer Link hover styling have been tested on all pages and work
 (footer image links to artist's page on [Comic Art Fans](https://www.comicartfans.com/gallerydetail.asp?gcat=682) website).  
 
 <img src="./assets/testing/home-page/footer.png" style="margin: 15px; width:600px;">
+
+### Image Hover Styling
+Image hover styling has been tested on [Home](index.html), [Gallery](gallery.html) and [About](about.html) pages and works correctly.  
 
 ### Home Page Image Modals
 [Home](index.html) page pop-up image modals have been tested and work correctly. See [Image Modal Testing](./assets/testing/image-modals) screen prints, also shown below:  
