@@ -163,10 +163,9 @@ using a combination of manual testing across various devices and the [Browsersta
 * [Yandex](https://browser.yandex.com/) ([Windows 10](https://www.microsoft.com/en-us/windows)).
 * [Opera](https://www.opera.com/) ([Windows 10](https://www.microsoft.com/en-us/windows) and [Mac OS Big Sur](https://www.apple.com/uk/macos/big-sur/)).  
 
-The only issue detected was that the fade-ins which are applied to the images on [Home](index.html) and [Gallery](gallery.html) pages
-and the titles on the [Contact](contact.html) and [About](about.html) pages don't work in the [Yandex](https://browser.yandex.com/) browser. All images and titles 
-still display correctly in the [Yandex](https://browser.yandex.com/) browser without the fade-in animation. The [Yandex](https://browser.yandex.com/) browser accounts for approximately 12% of the browser market share in Russia 
-and is not widely used outside of Russia, so this is not seen as a major issue.
+The following issue was detected during browser compatibility testing: 
+* The horizontal block divider styling did not display as intended in [Microsoft Internet Explorer 11](https://support.microsoft.com/en-us/topic/internet-explorer-downloads-d49e1f0d-571c-9a7b-d97e-be248806ca70#ID0EBBD=Windows_10) 
+and [Microsoft Edge](https://www.microsoft.com/en-us/edge). This issue was rectified.
 
 ## Bugs Fixed During Testing ##
 See [Custom CSS Styling](#custom-css-styling) and [HTML](#html) sections for bugs fixed during the automated testing process.  
