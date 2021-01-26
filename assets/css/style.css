@@ -16,10 +16,6 @@ body {
     padding: 0 0 0 0;
 }
 
-.margin-none {
-    margin: 0 0 0 0;
-}
-
 /*--Containers--*/
 .container-logo-nav {
     padding-top: 1.5rem;
@@ -225,8 +221,7 @@ body {
     border: none;
 }
 
-/*--Gallery Carousel and Controls--*/
-
+/*--Gallery Carousel Controls and Indicators--*/
 .carousel-control-prev {
     align-items: flex-end;
     margin-bottom: -3.6rem;
